@@ -1,0 +1,98 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+birthPlace("Udai_Bhan_Tewari","Uttar_Pradesh").
+birthPlace("Ram_Balak_Mishra","Kanpur").
+residence("Kamal_Rani","Kanpur").
+birthPlace("Sriprakash_Jaiswal","Uttar_Pradesh").
+birthPlace("Radhey_Shyam_Kori","Uttar_Pradesh").
+residence("Sriprakash_Jaiswal","Kanpur").
+residence("Rama_Kant_Mishra","Kanpur").
+country("Uttar_Pradesh","India").
+deathPlace("Ram_Balak_Mishra","Kanpur").
+location("Kanpur_Development_Authority","Kanpur").
+residence("Udai_Bhan_Tewari","Kanpur").
+residence("Ram_Balak_Mishra","Kanpur").
+birthPlace("Shyam_Bihari_Misra","Kanpur").
+birthPlace("Ram_Balak_Mishra","Uttar_Pradesh").
+residence("Anupriya_Patel","Kanpur").
+deathPlace("Ram_Balak_Mishra","Uttar_Pradesh").
+country("Kanpur","India").
+residence("Radhey_Shyam_Kori","Kanpur").
+birthPlace("Anupriya_Patel","Kanpur").
+birthPlace("Kamal_Rani","Uttar_Pradesh").
+birthPlace("Raja_Ram_Pal","Kanpur").
+residence("Raja_Ram_Pal","Kanpur").
+residence("Shyam_Bihari_Misra","Kanpur").
+headquarter("Kanpur_Development_Authority","Kanpur").
+birthPlace("Rama_Kant_Mishra","Kanpur").
+birthPlace("Anupriya_Patel","Uttar_Pradesh").
+birthPlace("Shyam_Bihari_Misra","Uttar_Pradesh").
+birthPlace("Sriprakash_Jaiswal","Kanpur").
+birthPlace("Raja_Ram_Pal","Uttar_Pradesh").
+type("Ram_Balak_Mishra","Person").
+type("Ram_Balak_Mishra","Agent").
+type("Ram_Balak_Mishra","OfficeHolder").
+type("Ram_Balak_Mishra","Thing").
+type("Kanpur","Place").
+type("Kanpur","Location").
+type("Kanpur","City").
+type("Kanpur","PopulatedPlace").
+type("Kanpur","Settlement").
+type("Kanpur","Thing").

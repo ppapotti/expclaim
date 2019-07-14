@@ -1,0 +1,258 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+birthPlace("Zhang_Lifan","Beijing").
+location("Ministry_of_National_Defense_of_the_People's_Republic_of_China","Beijing").
+location("Ministry_of_Supervision","Beijing").
+headquarter("National_Audit_Office_(China)","Beijing").
+residence("Cai_Ming_(actress)","Beijing").
+residence("Yu_Xinyuan","Beijing").
+location("Ministry_of_Human_Resources_and_Social_Security","Beijing").
+headquarter("General_Office_of_the_Central_Military_Commission","Beijing").
+residence("Li_Ruiying","Beijing").
+birthPlace("Zhang_Hongmin","Beijing").
+location("China_Insurance_Regulatory_Commission","Beijing").
+location("State_Administration_for_Industry_and_Commerce","Beijing").
+residence("Li_Xiaomeng_(host)","Beijing").
+birthPlace("Chen_Lihua","Beijing").
+location("State_Administration_of_Foreign_Exchange","Beijing").
+birthPlace("Liu_Wanting","Beijing").
+headquarter("Chinese_Academy_of_Geological_Sciences","Beijing").
+headquarter("China_Meteorological_Administration","Beijing").
+location("State_Post_Bureau","Beijing").
+headquarter("State_Ethnic_Affairs_Commission","Beijing").
+location("Ministry_of_Commerce_of_the_People's_Republic_of_China","Beijing").
+location("Ministry_of_Land_and_Resources","Beijing").
+birthPlace("Yu_Xiaoyu","Beijing").
+headquarter("610_Office","Beijing").
+location("Ministry_of_Health_of_the_People's_Republic_of_China","Beijing").
+location("Ministry_of_Agriculture_of_the_People's_Republic_of_China","Beijing").
+location("Ministry_of_Public_Security_(China)","Beijing").
+location("State_Council_of_the_People's_Republic_of_China","Beijing").
+headquarter("Ministry_of_Railways_(China)","Beijing").
+location("China_Banking_Regulatory_Commission","Beijing").
+headquarter("Legislative_Affairs_Office","Beijing").
+location("National_Council_for_Social_Security_Fund","Beijing").
+headquarter("China_Atomic_Energy_Authority","Beijing").
+residence("Li_Jindou","Beijing").
+headquarter("State_Council_of_the_People's_Republic_of_China","Beijing").
+headquarter("National_Population_and_Family_Planning_Commission","Beijing").
+location("Ministry_of_Justice_of_the_People's_Republic_of_China","Beijing").
+residence("Ma_Dehua","Beijing").
+location("China_Food_and_Drug_Administration","Beijing").
+location("Ministry_of_Finance_of_the_People's_Republic_of_China","Beijing").
+headquarter("Ministry_of_Foreign_Affairs_of_the_People's_Republic_of_China","Beijing").
+headquarter("National_Council_for_Social_Security_Fund","Beijing").
+location("Ministry_of_Culture_of_the_People's_Republic_of_China","Beijing").
+location("Ministry_of_Industry_and_Information_Technology","Beijing").
+location("National_Health_and_Family_Planning_Commission","Beijing").
+residence("Zhang_Zixuan","Beijing").
+headquarter("Ministry_of_State_Security_(China)","Beijing").
+location("Ministry_of_Housing_and_Urban-Rural_Development","Beijing").
+headquarter("Ministry_of_Finance_of_the_People's_Republic_of_China","Beijing").
+residence("Zhang_Lifan","Beijing").
+birthPlace("Eric_Xu","Beijing").
+location("China_Securities_Regulatory_Commission","Beijing").
+birthPlace("Zhang_Yishan","Beijing").
+headquarter("Chinese_Academy_of_Sciences","Beijing").
+location("State-owned_Assets_Supervision_and_Administration_Commission_of_the_State_Council","Beijing").
+birthPlace("Zhu_Zhu_(actress)","Beijing").
+residence("Liu_Chunyan","Beijing").
+birthPlace("Ma_Gui_(martial_artist)","Beijing").
+headquarter("China_National_Tourism_Administration","Beijing").
+headquarter("Taiwan_Affairs_Office","Beijing").
+birthPlace("Liu_Tienan","Beijing").
+location("Ministry_of_Science_and_Technology_of_the_People's_Republic_of_China","Beijing").
+residence("Eric_Xu","Beijing").
+headquarter("State_Administration_for_Industry_and_Commerce","Beijing").
+headquarter("Ministry_of_Housing_and_Urban-Rural_Development","Beijing").
+location("China_Atomic_Energy_Authority","Beijing").
+headquarter("Chinese_Basketball_Association_(organisation)","Beijing").
+residence("Zhang_Hongmin","Beijing").
+headquarter("Ministry_of_Industry_and_Information_Technology","Beijing").
+location("Ministry_of_Water_Resources_of_the_People's_Republic_of_China","Beijing").
+residence("Zhang_Lanxin","Beijing").
+birthPlace("Ju_Ping","Beijing").
+residence("Sun_Shengnan","Beijing").
+location("Supreme_People's_Procuratorate","Beijing").
+residence("Yang_Zi_(actress)","Beijing").
+residence("Zhang_Yishan","Beijing").
+birthPlace("Wei_Christianson","Beijing").
+birthPlace("Yang_Zi_(actress)","Beijing").
+residence("Zhang_Tingyan","Beijing").
+headquarter("Central_Military_Commission_(China)","Beijing").
+location("State_Administration_of_Cultural_Heritage","Beijing").
+headquarter("Ministry_of_Water_Resources_of_the_People's_Republic_of_China","Beijing").
+residence("Ju_Ping","Beijing").
+headquarter("State_Tobacco_Monopoly_Administration","Beijing").
+headquarter("State_Electricity_Regulatory_Commission","Beijing").
+location("WEMUN_Expo","Beijing").
+headquarter("National_Development_and_Reform_Commission","Beijing").
+headquarter("WEMUN_Expo","Beijing").
+birthPlace("Li_Jindou","Beijing").
+residence("Liu_Tienan","Beijing").
+birthPlace("Pan_Yueming","Beijing").
+birthPlace("Dong_Hao","Beijing").
+location("General_Office_of_the_Central_Military_Commission","Beijing").
+residence("Zhu_Jin_(astronomer)","Beijing").
+headquarter("State_Administration_of_Cultural_Heritage","Beijing").
+residence("Wang_Jing_(businessman)","Beijing").
+location("China_Meteorological_Administration","Beijing").
+birthPlace("Yu_Xinyuan","Beijing").
+headquarter("Ministry_of_Education_of_the_People's_Republic_of_China","Beijing").
+birthPlace("Zhang_Lanxin","Beijing").
+location("National_Audit_Office_(China)","Beijing").
+headquarter("State_Administration_of_Foreign_Exchange","Beijing").
+headquarter("China_Food_and_Drug_Administration","Beijing").
+residence("Chi_Zhongrui","Beijing").
+headquarter("Ministry_of_Health_of_the_People's_Republic_of_China","Beijing").
+headquarter("Ministry_of_Human_Resources_and_Social_Security","Beijing").
+headquarter("Ministry_of_Public_Security_(China)","Beijing").
+location("State_Ethnic_Affairs_Commission","Beijing").
+location("China_National_Tourism_Administration","Beijing").
+headquarter("Ministry_of_Land_and_Resources","Beijing").
+birthPlace("Chi_Zhongrui","Beijing").
+headquarter("Ministry_of_Culture_of_the_People's_Republic_of_China","Beijing").
+location("Civil_Aviation_Administration_of_China","Beijing").
+headquarter("Chinese_Badminton_Association","Beijing").
+location("Development_Research_Center_of_the_State_Council","Beijing").
+location("National_Security_Commission_of_the_Communist_Party_of_China","Beijing").
+birthPlace("Ariel_Aisin-Gioro","Beijing").
+birthPlace("Xie_Jialin","Harbin").
+headquarter("State_Administration_of_Taxation","Beijing").
+residence("Pan_Yueming","Beijing").
+birthPlace("Zhang_Zixuan","Beijing").
+location("General_Office_of_the_State_Council","Beijing").
+location("General_Administration_of_Customs","Beijing").
+location("Chinese_Academy_of_Geological_Sciences","Beijing").
+location("Legislative_Affairs_Office","Beijing").
+headquarter("General_Administration_of_Customs","Beijing").
+headquarter("Ministry_of_National_Defense_of_the_People's_Republic_of_China","Beijing").
+headquarter("Civil_Aviation_Administration_of_China","Beijing").
+deathPlace("Xie_Jialin","Beijing").
+location("National_Bureau_of_Statistics_of_China","Beijing").
+headquarter("State_Post_Bureau","Beijing").
+location("Central_Military_Commission_(China)","Beijing").
+location("State_Electricity_Regulatory_Commission","Beijing").
+location("610_Office","Beijing").
+headquarter("Ministry_of_Science_and_Technology_of_the_People's_Republic_of_China","Beijing").
+location("Chinese_Badminton_Association","Beijing").
+headquarter("State-owned_Assets_Supervision_and_Administration_Commission_of_the_State_Council","Beijing").
+residence("Ma_Gui_(martial_artist)","Beijing").
+location("Ministry_of_Railways_(China)","Beijing").
+residence("Ariel_Aisin-Gioro","Beijing").
+headquarter("Ministry_of_Agriculture_of_the_People's_Republic_of_China","Beijing").
+headquarter("China_Maritime_Safety_Administration","Beijing").
+birthPlace("Zhu_Jin_(astronomer)","Beijing").
+location("Ministry_of_State_Security_(China)","Beijing").
+headquarter("Ministry_of_Justice_of_the_People's_Republic_of_China","Beijing").
+residence("Du_Xian_(news_anchor)","Beijing").
+headquarter("Ministry_of_Civil_Affairs","Beijing").
+headquarter("National_Security_Commission_of_the_Communist_Party_of_China","Beijing").
+location("State_Administration_of_Taxation","Beijing").
+location("Ministry_of_Education_of_the_People's_Republic_of_China","Beijing").
+headquarter("China_Securities_Regulatory_Commission","Beijing").
+birthPlace("Cai_Ming_(actress)","Beijing").
+birthPlace("Wang_Jing_(businessman)","Beijing").
+headquarter("China_Banking_Regulatory_Commission","Beijing").
+birthPlace("Du_Xian_(news_anchor)","Beijing").
+residence("Yu_Xiaoyu","Beijing").
+headquarter("Ministry_of_Commerce_of_the_People's_Republic_of_China","Beijing").
+birthPlace("Li_Xiaomeng_(host)","Beijing").
+headquarter("China_Insurance_Regulatory_Commission","Beijing").
+location("China_Maritime_Safety_Administration","Beijing").
+birthPlace("Sun_Shengnan","Beijing").
+birthPlace("Li_Ruiying","Beijing").
+birthPlace("Ma_Dehua","Beijing").
+headquarter("General_Office_of_the_State_Council","Beijing").
+residence("Liu_Wanting","Beijing").
+location("National_Development_and_Reform_Commission","Beijing").
+birthPlace("Liu_Chunyan","Beijing").
+location("Ministry_of_Environmental_Protection_of_the_People's_Republic_of_China","Beijing").
+location("Ministry_of_Civil_Affairs","Beijing").
+residence("Zhu_Zhu_(actress)","Beijing").
+birthPlace("Zhang_Tingyan","Beijing").
+headquarter("Ministry_of_Environmental_Protection_of_the_People's_Republic_of_China","Beijing").
+location("National_Population_and_Family_Planning_Commission","Beijing").
+headquarter("National_Bureau_of_Statistics_of_China","Beijing").
+residence("Wei_Christianson","Beijing").
+residence("Dong_Hao","Beijing").
+residence("Chen_Lihua","Beijing").
+headquarter("Ministry_of_Supervision","Beijing").
+location("Chinese_Basketball_Association_(organisation)","Beijing").
+location("Ministry_of_Foreign_Affairs_of_the_People's_Republic_of_China","Beijing").
+location("Chinese_Academy_of_Sciences","Beijing").
+headquarter("Supreme_People's_Procuratorate","Beijing").
+headquarter("National_Health_and_Family_Planning_Commission","Beijing").
+location("State_Tobacco_Monopoly_Administration","Beijing").
+headquarter("Development_Research_Center_of_the_State_Council","Beijing").
+location("Taiwan_Affairs_Office","Beijing").
+type("Xie_Jialin","Person").
+type("Xie_Jialin","Thing").
+type("Beijing","Place").
+type("Beijing","Location").
+type("Beijing","PopulatedPlace").
+type("Beijing","Settlement").
+type("Beijing","Thing").
+ country("Xie_Jialin","Beijing").
+ restingPlace("Xie_Jialin","Beijing").
+ deathplace("Xie_Jialin","Beijing").
+ birthPlace("Xie_Jialin","Beijing").
+ placeOfDeath("Xie_Jialin","Beijing").
+ placeOfBirth("Xie_Jialin","Beijing").

@@ -1,0 +1,31 @@
+python lpmln_infer.py examples/example_1.txt.ptw -q negspouse,spouse -sdd >example_1.txt.ptw.out
+
+]0;IPython: jpang12/lpmln_inferNamespace(Input_File=['examples/example_1.txt.ptw'], all=False, approx=False, e=None, ex=False, hard=False, load=None, map=True, mf=[1000], noexp=False, q=['negspouse,spouse'], samp=[500], save=None, sdd=True, xormode=[2])
+Grounding Done! 
+Completion_1 Done! 
+Completion_2 Done! 
+Name Mapping Done!
+Read CNF: vars=238 clauses=792
+SDD Done! Time For Construct SDD:  7.554080247879028
+[negspouse("Tina_Green","Brett_Palos"), 0.999998222025279]
+[negspouse("Philip_Green","Brett_Palos"), 0.9998123060350751]
+[negspouse("Bonita_Friedericy","John_Billingsley"), 0.4746194357367585]
+[negspouse("John_Billingsley","Bonita_Friedericy"), 0.4746193165210693]
+[negspouse("Tina_Green","Stasha_Palos"), 0.9995890127393808]
+[negspouse("Philip_Green","Stasha_Palos"), 0.9983233555714139]
+[negspouse("Tina_Green","Bonita_Friedericy"), 0.00317461850725512]
+[negspouse("Tina_Green","John_Billingsley"), 0.0031745650793305407]
+[negspouse("Bonita_Friedericy","Tina_Green"), 0.00317461850725512]
+[negspouse("John_Billingsley","Tina_Green"), 0.0031745650793305394]
+[negspouse("Brett_Palos","Tina_Green"), 0.9999929277131647]
+[negspouse("Brett_Palos","Philip_Green"), 0.9997215059418119]
+[negspouse("John_Billingsley","John_Billingsley"), 0.018605370604818504]
+[negspouse("Stasha_Palos","Philip_Green"), 0.9688727821373538]
+[negspouse("Stasha_Palos","Tina_Green"), 0.9780161079937735]
+[negspouse("Bonita_Friedericy","Bonita_Friedericy"), 0.018605368963203774]
+[spouse("Tina_Green","Tina_Green"), 0.9999997521705855]
+[spouse("Philip_Green","Tina_Green"), 0.9976194288255438]
+[spouse("Philip_Green","Philip_Green"), 0.9129371268988136]
+[spouse("Bonita_Friedericy","Bonita_Friedericy"), 0.2129854926882541]
+[spouse("John_Billingsley","John_Billingsley"), 0.21298429213030967]
+[spouse("Tina_Green","Philip_Green"), 1.0]

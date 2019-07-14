@@ -1,0 +1,35 @@
+Claim: Mariana of Austria child Charles II of Spain
+Sun Jul 14 11:54:02 UTC 2019 loading exception data for lemmatiser...
+Sun Jul 14 11:54:02 UTC 2019 loading done
+Firing as query: mariana+austria+child+charles+ii+spain
+Search scope: op_web
+	https://en.wikipedia.org/wiki/Mariana_of_Austria
+Cr:0.6026305103829919	Sr:0.5383916402	Rf:0.7409176815	Ac:0.2590823186
+	https://en.wikipedia.org/wiki/Charles_II_of_Spain
+Cr:0.49721414567409605	Sr:0.5383916402	Rf:0.5368595231	Ac:0.463140477
+	https://www.thefamouspeople.com/profiles/charles-ii-of-spain-32195.php
+Cr:0.513531798773354	Sr:null	Rf:0.5199648408	Ac:0.4800351593
+	http://paolacampo.com/2014/05/ways-to-get-royally-screwed-the-story-of-charles-ii-of-spain/
+Cr:0.4373221068263579	Sr:null	Rf:0.4511228538	Ac:0.5488771463
+	https://en.wikipedia.org/wiki/Margaret_Theresa_of_Spain
+Cr:0.40175363249632373	Sr:0.5383916402	Rf:0.3486788512	Ac:0.6513211489
+	https://www.thevintagenews.com/2017/03/23/when-charles-ii-of-spain-died-the-autopsy-stated-that-his-body-did-not-contain-a-single-drop-of-blood-and-his-head-was-full-of-water/
+Cr:0.4763470230756289	Sr:null	Rf:0.4283775262	Ac:0.5716224739
+	https://www.thevintagenews.com/2018/06/25/charles-ii-of-spain-autopsy/
+Cr:0.5066935440163753	Sr:null	Rf:0.5350988836	Ac:0.4649011165
+	https://www.palaces-of-europe.com/Charles-II-of-Spain.html
+Cr:0.4351452129101584	Sr:null	Rf:0.4238499305	Ac:0.5761500696
+	https://versailles-tv.fandom.com/wiki/Charles_II_of_Spain
+Cr:0.43106630885508024	Sr:null	Rf:0.2590232483	Ac:0.7409767518
+	https://artsandculture.google.com/asset/mariana-de-austria-y-carlos-ii/QQHUwLRovuo2DQ
+Cr:0.5413220568613546	Sr:0.6149425287	Rf:0.5749151401	Ac:0.42508486
+	https://alchetron.com/Maria-Anna-of-Neuburg
+Cr:0.4437738541721991	Sr:null	Rf:0.4764273088	Ac:0.5235726913
+	https://artsandculture.google.com/asset/mariana-of-austria-and-charles-ii/QQHUwLRovuo2DQ
+Cr:0.5413220568613546	Sr:0.6149425287	Rf:0.5749151401	Ac:0.42508486
+	https://biography.yourdictionary.com/charles-ii
+Cr:0.5611271971775025	Sr:null	Rf:0.4703068424	Ac:0.5296931577
+	https://www.historyofroyalwomen.com/the-queen-regent-series/queens-regent-mariana-austria/
+Cr:0.43968892427183753	Sr:null	Rf:0.3960592516	Ac:0.6039407485
+False:0.49	True:0.51
+Message sent

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/clasp.dir/clasp_app.cpp.o CMakeFiles/clasp.dir/main.cpp.o  -o ../../bin/clasp -rdynamic ../../lib/libclasp.a -lpthread ../../lib/libpotassco.a -Wl,-rpath,:::::::::::::: 

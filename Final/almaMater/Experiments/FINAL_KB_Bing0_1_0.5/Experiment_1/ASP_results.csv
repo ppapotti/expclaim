@@ -1,0 +1,201 @@
+Id,Subject,Object,Label,Predicted Label,Execution Time (mins)
+1201,Ronald_F._Miller,Southern_Baptist_Theological_Seminary,1,UNSATISFIABLE,0.03456759452819824
+656,Denis_Haughey,Queen's_University_Belfast,1,UNSATISFIABLE,0.03425478935241699
+1182,James_J._Cooke,Mississippi_College,1,UNSATISFIABLE,0.017733097076416016
+1312,Reynato_Puno,University_of_the_Philippines_Diliman,1,UNSATISFIABLE,0.017518281936645508
+847,Melissa_Perry,University_of_Cambridge,1,UNSATISFIABLE,0.017223358154296875
+848,William_Brinkley,University_of_Oklahoma,1,UNSATISFIABLE,0.01717686653137207
+2465,Hadley_Wickham,University_of_Auckland,1,UNSATISFIABLE,0.017086029052734375
+2420,Brian_Kolb,Roberts_Wesleyan_College,1,UNSATISFIABLE,0.0171658992767334
+2660,Ashok_Agarwal,Banaras_Hindu_University,1,UNSATISFIABLE,0.017682790756225586
+60,Sue_K._Hicks,Hiwassee_College,1,UNSATISFIABLE,0.01869797706604004
+358,David_Brown_(producer),Stanford_University,1,UNSATISFIABLE,0.034902095794677734
+1562,Claude_Allen,Duke_University,1,UNSATISFIABLE,0.034296512603759766
+3,Jusuf_Kalla,University_of_Indonesia,1,UNSATISFIABLE,0.0346217155456543
+144,Bennie_Ward,Princeton_University,1,UNSATISFIABLE,0.01826167106628418
+2320,Charles_E._Erdmann,Montana_State_University,1,UNSATISFIABLE,0.018146514892578125
+2040,Ted_Bishop,Queen's_University,1,UNSATISFIABLE,0.017663240432739258
+1886,Roxie_Collie_Laybourne,George_Washington_University,1,UNSATISFIABLE,0.017395496368408203
+2318,Tom_Keith,University_of_Minnesota,1,UNSATISFIABLE,0.01788949966430664
+783,Liu_Ching-chung,National_Chung_Hsing_University,1,UNSATISFIABLE,0.01738262176513672
+1586,Nick_Lampson,Lamar_University,1,UNSATISFIABLE,0.0171661376953125
+137,Rocco_Landesman,Colby_College,1,UNSATISFIABLE,0.017519235610961914
+1983,Norman_L._Eisen,Brown_University,1,UNSATISFIABLE,0.017283916473388672
+455,Anna_Schwartz,Barnard_College,1,UNSATISFIABLE,0.016971826553344727
+1004,Daniel_Bernoulli,Heidelberg_University,1,1,0.017794370651245117
+681,Jia_Yongsheng,PLA_National_Defence_University,1,UNSATISFIABLE,0.017558574676513672
+930,Vivian_Dawson,University_of_Otago,1,UNSATISFIABLE,0.01779627799987793
+1706,Gloria_De_Piero,University_of_Westminster,1,UNSATISFIABLE,0.01749110221862793
+203,Timo_Hannay,Imperial_College_London,1,UNSATISFIABLE,0.03334689140319824
+183,Patch_Adams,George_Washington_University,1,UNSATISFIABLE,0.017658472061157227
+1193,Bryan_Cutler,Widener_University,1,UNSATISFIABLE,0.017134904861450195
+1628,Mikhail_Gutseriyev,Plekhanov_Russian_University_of_Economics,1,1,0.017567873001098633
+141,Meinolf_Sellmann,University_of_Paderborn,1,UNSATISFIABLE,0.017591476440429688
+2118,Jim_Madden,University_of_Queensland,1,1,0.019604206085205078
+2482,Paul_D._Lowman,Rutgers_University,1,UNSATISFIABLE,0.017047882080078125
+878,A._Teeuw,Utrecht_University,1,UNSATISFIABLE,0.01717233657836914
+601,Drew_Darby,University_of_Virginia,1,UNSATISFIABLE,0.017620325088500977
+2405,Yves_Fortier_(geologist),Queen's_University,1,UNSATISFIABLE,0.017360448837280273
+382,Jogesh_Das,Gauhati_University,1,UNSATISFIABLE,0.017295122146606445
+1214,Reiner_Haseloff,Humboldt_University_of_Berlin,1,UNSATISFIABLE,0.017088890075683594
+272,Martin_Segon,University_of_Padua,1,UNSATISFIABLE,0.01699542999267578
+2598,Jon_Sprunk,Lock_Haven_University_of_Pennsylvania,1,1,0.018816709518432617
+1288,Adnan_Yaakob,International_Islamic_University_Malaysia,1,UNSATISFIABLE,0.017069578170776367
+1541,Kylie_Oversen,University_of_North_Dakota,1,UNSATISFIABLE,0.01730513572692871
+1739,Sean_Wilentz,Yale_University,1,UNSATISFIABLE,0.017544984817504883
+322,Christiane_Linster,Pierre_and_Marie_Curie_University,1,UNSATISFIABLE,0.01768779754638672
+1629,Norman_Isham,Brown_University,1,UNSATISFIABLE,0.017441511154174805
+544,Bill_Bradley,Princeton_University,1,UNSATISFIABLE,0.03427433967590332
+1425,Stephen_Ostroff,Perelman_School_of_Medicine_at_the_University_of_Pennsylvania,1,UNSATISFIABLE,0.018293142318725586
+762,Tommy_Remengesau,Grand_Valley_State_University,1,1,0.03448772430419922
+265,Abraham_Kuyper,Leiden_University,1,UNSATISFIABLE,0.017806291580200195
+2306,Harry_Kroto,University_of_Sheffield,1,UNSATISFIABLE,0.0181882381439209
+1311,Richard_Cotton_(geneticist),University_of_Melbourne,1,UNSATISFIABLE,0.017920494079589844
+1048,Randy_Hopper,Northwestern_University,1,UNSATISFIABLE,0.017558813095092773
+2842,Malcolm_Wrightson_Nance,Excelsior_College,1,1,0.017609357833862305
+2506,Cynthia_Lummis,University_of_Wyoming,1,UNSATISFIABLE,0.017136812210083008
+2406,Javed_Iqbal_(judge),University_of_Cambridge,1,UNSATISFIABLE,0.017194509506225586
+2539,Angoorlata_Deka,Gauhati_University,1,UNSATISFIABLE,0.017730236053466797
+128,Dava_Newman,University_of_Notre_Dame,1,UNSATISFIABLE,0.017826557159423828
+1166,Oscar_Hijuelos,City_College_of_New_York,1,UNSATISFIABLE,0.01747274398803711
+1194,Frances_Perkins,Wharton_School_of_the_University_of_Pennsylvania,1,UNSATISFIABLE,0.017276287078857422
+786,Jim_Letten,Tulane_University_Law_School,1,UNSATISFIABLE,0.01740407943725586
+780,Harshad_Trivedi,Saurashtra_University,1,1,0.018854618072509766
+1858,J._Michael_Durnil,Harvard_University,1,UNSATISFIABLE,0.017402172088623047
+2055,Floyd_McKissick_Jr.,Harvard_University,1,UNSATISFIABLE,0.017037391662597656
+835,Ortwin_Hess,Technical_University_of_Berlin,1,UNSATISFIABLE,0.01735544204711914
+1118,Reta_Jo_Lewis,University_of_Georgia,1,UNSATISFIABLE,0.017619609832763672
+2327,Guo_Da_(actor),Shanghai_Theatre_Academy,1,UNSATISFIABLE,0.01783466339111328
+2038,Doreen_Cronin,Pratt_Institute,1,UNSATISFIABLE,0.017462730407714844
+2623,Moeenuddin_Ahmad_Qureshi,Indiana_University_Bloomington,1,UNSATISFIABLE,0.017180204391479492
+482,Knut_Helle,University_of_Bergen,1,UNSATISFIABLE,0.033802032470703125
+1285,Norman_Fell,Temple_University,1,UNSATISFIABLE,0.017900705337524414
+1550,Kunal_Bahl,Wharton_School_of_the_University_of_Pennsylvania,1,1,0.01795506477355957
+2987,Robert_Steadward,University_of_Oregon,1,UNSATISFIABLE,0.017298221588134766
+968,Wesley_Duncan,Columbia_College_(California),1,1,0.017783403396606445
+1093,Joe_Hoeffel,Boston_University,1,UNSATISFIABLE,0.018305301666259766
+1607,Lawrence_Scanlan,All_Hallows_College,1,1,0.01775503158569336
+538,Marouf_al-Bakhit,University_of_Jordan,1,UNSATISFIABLE,0.01703810691833496
+2254,Paul_Kirchhof,Ludwig_Maximilian_University_of_Munich,1,UNSATISFIABLE,0.01706838607788086
+2812,Stirling_Colgate,Cornell_University,1,UNSATISFIABLE,0.01824641227722168
+2555,Philip_Ruddock,Sydney_Law_School,1,UNSATISFIABLE,0.017002582550048828
+910,Tim_Fox_(politician),University_of_Montana,1,UNSATISFIABLE,0.017046689987182617
+1240,Anton_Crihan,Odessa_University,1,UNSATISFIABLE,0.016929149627685547
+1492,Don_Betz,University_of_San_Francisco,1,UNSATISFIABLE,0.01750802993774414
+667,Tulika_Mehrotra,Istituto_Europeo_di_Design,1,-1,0.018787145614624023
+1753,Luca_Maestri,Libera_Università_Internazionale_degli_Studi_Sociali_Guido_Carli,1,Can't Decide,0.018274784088134766
+34,Susan_Roosevelt_Weld,Harvard_University,1,UNSATISFIABLE,0.017574548721313477
+2533,Harry_Harlow,Reed_College,1,UNSATISFIABLE,0.017621517181396484
+1639,Benigno_Fitial,University_of_Guam,1,UNSATISFIABLE,0.01724076271057129
+1302,Kate_Bohner,University_of_Pennsylvania,1,UNSATISFIABLE,0.017128944396972656
+2359,Sergey_Ivanovich_Vavilov,Moscow_State_University,1,UNSATISFIABLE,0.01711297035217285
+2975,RJ_Kebria,University_of_Dhaka,1,UNSATISFIABLE,0.017027854919433594
+774,John_Bardo,Ohio_State_University,1,UNSATISFIABLE,0.0177462100982666
+2444,Kathy_Manderino,Pennsylvania_State_University,1,UNSATISFIABLE,0.017876625061035156
+2377,Christopher_Paul_Curtis,University_of_Michigan–Flint,1,-1,0.01903533935546875
+1385,Gilbert_F._Casellas,Yale_University,1,UNSATISFIABLE,0.01729750633239746
+2490,Michael_W._Davidson,Georgia_State_University,1,UNSATISFIABLE,0.0173032283782959
+2287,David_Choby,Catholic_University_of_America,1,UNSATISFIABLE,0.01774740219116211
+2347,Kim_Crosbie,University_of_Cambridge,1,UNSATISFIABLE,0.017415285110473633
+1905,William_S._Banowsky,University_of_New_Mexico,1,1,0.017746925354003906
+384,David_Sadleir,University_of_Western_Australia,1,UNSATISFIABLE,0.017275571823120117
+4789,Allan_L._McCutcheon,University_of_Nebraska–Lincoln,0,Can't Decide,0.017235755920410156
+4771,Dani_Rodrik,Institute_for_Advanced_Study,0,Can't Decide,0.017199039459228516
+3907,Gwendolyn_Wright,Columbia_University,0,-1,0.01778125762939453
+5113,Kunihiko_Kodaira,Stanford_University,0,-1,0.018207073211669922
+4186,Harry_Harris_(geneticist),University_College_London,0,-1,0.017658233642578125
+4334,Jane_S._Richardson,Duke_University,0,-1,0.017880916595458984
+4527,Erich_Vogt,University_of_British_Columbia,0,-1,0.017782926559448242
+5302,Michael_T._Benson,Southern_Utah_University,0,UNSATISFIABLE,0.01730060577392578
+5623,Giuseppe_Cocconi,University_of_Catania,0,-1,0.018578052520751953
+6000,Albert_Huffstickler,University_of_North_Carolina_at_Chapel_Hill,0,-1,0.017846107482910156
+5242,Mahzarin_Banaji,Harvard_University,0,Can't Decide,0.017297744750976562
+5390,Aaron_Covington,Master_of_Fine_Arts,0,-1,0.017472505569458008
+5528,Miles_Reid,University_of_Warwick,0,-1,0.017456769943237305
+3010,Dean_Hachamovitch,Bachelor_of_Arts,0,Can't Decide,0.033728837966918945
+5244,José_Zalabardo,University_of_Birmingham,0,-1,0.018531084060668945
+4339,Norman_Greenwood,Newcastle_University,0,-1,0.018988370895385742
+4949,Duane_Nellis,University_of_Idaho,0,-1,0.018911123275756836
+3517,Julian_Hibberd,University_of_Cambridge,0,Can't Decide,0.01776599884033203
+5549,Michael_K._Young,University_of_Washington,0,UNSATISFIABLE,0.017221689224243164
+3502,Richard_J._Evans,Columbia_University,0,-1,0.01768183708190918
+4687,Gordon_McClymont,Honorary_degree,0,-1,0.017516136169433594
+4162,Stanislaw_Ulam,University_of_Florida,0,-1,0.01752471923828125
+4178,Theodosios_Alexander,Saint_Louis_University,0,-1,0.01756143569946289
+3380,Tony_Blankley,Loyola_Marymount_University,0,-1,0.017638206481933594
+4777,Stanley_Reiter,Northwestern_University,0,-1,0.0187990665435791
+3780,Lee_Davenport,Radcliffe_College,0,-1,0.01765751838684082
+3668,Alexander_Watt,University_of_Cambridge,0,Can't Decide,0.01734304428100586
+4697,Burton_Richter,Stanford_University,0,-1,0.017372608184814453
+3015,Carl_Friedrich_Wilhelm_Claus,University_of_Vienna,0,-1,0.018448352813720703
+5250,Denise_Caruso,Carnegie_Mellon_University,0,-1,0.018280744552612305
+3487,L._Michael_White,University_of_Texas_at_Austin,0,-1,0.018062829971313477
+4508,Robert_Andrews_Millikan,University_of_Chicago,0,-1,0.017856121063232422
+5523,Parag_Pathak,Massachusetts_Institute_of_Technology,0,-1,0.01757073402404785
+5036,Hod_Lipson,Brandeis_University,0,-1,0.0177156925201416
+3537,Tom_Flanagan_(political_scientist),University_of_Calgary,0,Can't Decide,0.017438173294067383
+4802,Roger_Blandford,Stanford_University,0,-1,0.01877760887145996
+4555,Randall_Kennedy,Harvard_University,0,UNSATISFIABLE,0.017729759216308594
+5956,Varinder_Aggarwal,University_of_Bristol,0,-1,0.018361568450927734
+5315,Carole_Jordan,University_of_Colorado_Boulder,0,-1,0.018187284469604492
+4858,Claus-Christian_Carbon,University_of_Bamberg,0,Can't Decide,0.017429590225219727
+4734,Andrew_John_Schofield,University_of_Birmingham,0,-1,0.018493175506591797
+5997,Daniel_T._Rodgers,Princeton_University,0,-1,0.01872420310974121
+3030,Paul_Malliavin,Pierre_and_Marie_Curie_University,0,-1,0.018735885620117188
+5213,Ted_Snyder_(economist),Yale_University,0,Can't Decide,0.018217086791992188
+4023,Adolph_Knopf,Yale_University,0,-1,0.01867818832397461
+5261,Christine_Siddoway,Colorado_College,0,-1,0.018716096878051758
+3634,Andrew_Hunt_(historian),University_of_Waterloo,0,-1,0.018149137496948242
+3909,Peter_K_Petrov,London_South_Bank_University,0,Can't Decide,0.017470359802246094
+3470,Hanns_Malissa,Uppsala_University,0,-1,0.01782059669494629
+3888,Erol_Gelenbe,University_of_Liège,0,-1,0.01760268211364746
+3075,Vicki_Bruce,Newcastle_University,0,-1,0.01755809783935547
+4906,Barton_Zwiebach,Harvard_University,0,-1,0.01863718032836914
+3603,Ida_Helen_Ogilvie,Barnard_College,0,UNSATISFIABLE,0.017336606979370117
+4222,Charles_E._Wyman,Dartmouth_College,0,-1,0.01818990707397461
+4500,Aldo_Pontremoli,Cavendish_Laboratory,0,-1,0.018826723098754883
+4954,Donald_Devereux_Woods,University_of_Oxford,0,-1,0.018019437789916992
+4707,Michael_Kimmel,Stony_Brook_University,0,-1,0.01784658432006836
+4837,Andreu_Veà_Baró,Stanford_University,0,-1,0.01773834228515625
+5484,Abul_Hussam,Georgetown_University,0,-1,0.017536163330078125
+4262,George_Chrystal,University_of_Edinburgh,0,-1,0.01769423484802246
+3915,Steven_Strogatz,University_of_Cambridge,0,-1,0.01773548126220703
+3545,Athanassios_S._Fokas,University_of_Patras,0,-1,0.01843571662902832
+5163,Graham_Budd,Uppsala_University,0,-1,0.018115520477294922
+4335,Reuben_Goodstein,University_of_Leicester,0,-1,0.01906299591064453
+5515,Sunara_Begum,Bachelor_of_Fine_Arts,0,Can't Decide,0.01865696907043457
+5685,Harrison_Brown,California_Institute_of_Technology,0,-1,0.01835036277770996
+3771,Robert_Sternberg,University_of_Wyoming,0,-1,0.018256664276123047
+4395,Ronald_Drever,California_Institute_of_Technology,0,-1,0.01779460906982422
+5934,Alexander_Stewart_Herschel,Royal_School_of_Mines,0,Can't Decide,0.017639875411987305
+3911,Sergei_N._Artemov,Cornell_University,0,Can't Decide,0.01748514175415039
+3669,Richard_P._Brent,Australian_National_University,0,-1,0.01764202117919922
+4041,Nicholas_A._Kotov,Swedish_University_of_Agricultural_Sciences,0,-1,0.01782369613647461
+3554,Doreen_Cantrell,University_of_Dundee,0,Can't Decide,0.03534293174743652
+3531,Wayne_Goodman,Icahn_School_of_Medicine_at_Mount_Sinai,0,Can't Decide,0.04198503494262695
+5470,William_Kingdon_Clifford,University_College_London,0,Can't Decide,0.018824338912963867
+5473,Richard_A._Tapia,Rice_University,0,-1,0.01854109764099121
+3605,Leonard_Susskind,Stanford_University,0,-1,0.01827216148376465
+3172,Hermann_Weyl,Institute_for_Advanced_Study,0,Can't Decide,0.017587661743164062
+5297,Otto_Hahn,Humboldt_University_of_Berlin,0,-1,0.018023252487182617
+5257,K._Ullas_Karanth,Master_of_Science,0,-1,0.01799154281616211
+3793,Felix_Klein,Technical_University_of_Munich,0,-1,0.018447160720825195
+5365,Sanjiv_Sam_Gambhir,Stanford_University,0,-1,0.01817798614501953
+4538,Cai_Yuanpei,Peking_University,0,-1,0.017575740814208984
+5917,Mary_Lou_Soffa,University_of_Virginia,0,-1,0.017595529556274414
+4429,Jacob_Fox,Stanford_University,0,-1,0.01759815216064453
+3811,Philip_E._Tetlock,Ohio_State_University,0,-1,0.018798351287841797
+3046,Adam_Marcus_(mathematician),Princeton_University,0,-1,0.017621278762817383
+5701,Hans-Wolfgang_Arndt,University_of_Mannheim,0,-1,0.01875615119934082
+3732,Mundur_Krishnankutty,Master_of_Arts,0,-1,0.0187680721282959
+4692,Stanislas_Leibler,Rockefeller_University,0,Can't Decide,0.017668724060058594
+3581,Radhika_Nagpal,Harvard_University,0,-1,0.018177509307861328
+4013,Kevin_Hoover,Duke_University,0,-1,0.018389463424682617
+3036,John_J._Shea_Jr.,University_of_Mississippi,0,-1,0.017562389373779297
+3762,Gerald_B._Cleaver,Baylor_University,0,-1,0.017590045928955078
+5439,Gideon_Dreyfuss,Northwestern_University,0,-1,0.017468929290771484
+4776,Edward_Witten,Harvard_University,0,UNSATISFIABLE,0.016991853713989258
+3187,Jesselyn_Radack,Bachelor_of_Arts,0,Can't Decide,0.01721501350402832
+4948,Robin_M._Hochstrasser,University_of_British_Columbia,0,Can't Decide,0.017338037490844727
+4904,Carol_J._Greenhouse,Indiana_University,0,-1,0.017476320266723633
+3381,Maria-Carme_Calderer,University_of_Minnesota,0,-1,0.017563343048095703

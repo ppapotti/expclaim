@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,clingo.so -o ../../bin/python/clingo.so CMakeFiles/pyclingo.dir/main.cc.o ../../lib/libpyclingo.a ../../bin/libclingo.so.2.0 -lpython2.7 -Wl,-rpath,/home/ubuntu/LPMLN1.1/lpmln_infer/clingo/bin: 

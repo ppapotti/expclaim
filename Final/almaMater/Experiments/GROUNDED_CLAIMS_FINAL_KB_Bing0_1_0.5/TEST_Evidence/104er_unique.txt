@@ -1,0 +1,69 @@
+-0.453137238654386  almaMater(A,B):-predecessor(C,A),successor(D,C),almaMater(D,B).
+-0.4951335746894171  almaMater(A,B):-successor(C,A),successor(C,D),almaMater(D,B).
+-2.9727973022715006  almaMater(A,B):-successor(C,A),birthPlace(C,D),state(B,D).
+-2.3186768630349035  almaMater(A,B):-almaMater(C,B),predecessor(A,C).
+-3.6511983871462523  almaMater(A,B):-almaMater(C,B),activeYearsEndYear(C,D),deathYear(A,D).
+-2.279063897952696  almaMater(A,B):-predecessor(C,A),birthPlace(C,D),country(B,D).
+-3.7924637703705173  almaMater(A,B):-almaMater(C,B),deathYear(C,D),activeYearsStartYear(A,D).
+-2.9727973022715006  almaMater(A,B):-state(B,C),birthPlace(D,C),successor(D,A).
+-3.0631549498714334  almaMater(A,B):-successor(A,C),birthPlace(C,D),state(B,D).
+-1.5142186458531668  almaMater(A,B):-city(B,C),birthPlace(A,C).
+-3.2025104707819434  almaMater(A,B):-state(B,C),capital(C,D),birthPlace(A,D).
+-0.46403746226723147  almaMater(A,B):-office(A,C),office(D,C),almaMater(D,B).
+-1.933645666235334  almaMater(A,B):-birthPlace(A,C),leaderName(C,D),almaMater(D,B).
+-1.6821161379320848  almaMater(A,B):-birthPlace(A,C),state(B,C).
+-3.438899248846158  almaMater(A,B):-predecessor(C,A),birthPlace(C,D),city(B,D).
+-3.0631549498714334  almaMater(A,B):-almaMater(C,B),office(C,D),orderInOffice(A,D).
+-2.411525239074649  almaMater(A,B):-almaMater(C,B),successor(C,A).
+-3.630610545989961  almaMater(A,B):-predecessor(A,C),deathPlace(C,D),country(B,D).
+-2.724179583032086  almaMater(A,B):-almaMater(C,B),orderInOffice(C,D),office(A,D).
+-2.3015855926609623  almaMater(A,B):-predecessor(A,C),birthPlace(C,D),country(B,D).
+-3.286084574561651  almaMater(A,B):-predecessor(A,C),birthPlace(C,D),city(B,D).
+-2.462284471751714  almaMater(A,B):-birthPlace(A,C),city(D,C),owner(D,B).
+-2.829878909467347  almaMater(A,B):-successor(C,A),nationality(C,D),country(B,D).
+-1.8545714816399292  almaMater(A,B):-almaMater(C,B),otherParty(C,D),party(A,D).
+-4.10076513002499  almaMater(A,B):-birthPlace(A,C),province(B,C).
+-1.3920710138973473  almaMater(A,B):-almaMater(C,B),region(C,D),birthPlace(A,D).
+-2.4238491804870774  almaMater(A,B):-profession(A,C),occupation(D,C),almaMater(D,B).
+
+:-almaMater(A,B),negalmaMater(A,B).
+
+-0.6835162874989849  negalmaMater(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+-1.2572428085660199  negalmaMater(A,B):-residence(A,C),hometown(D,C),hometown(D,B).
+0.3189150921417121  negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),city(B,D).
+0.6114803476912647  negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),country(B,D).
+-2.7011476715394362  negalmaMater(A,B):-residence(A,C),regionServed(D,C),affiliation(B,D).
+-0.4717991796759737  negalmaMater(A,B):-award(A,C),award(D,C),employer(D,B).
+-3.550000068689448  negalmaMater(A,B):-residence(A,C),deathPlace(D,C),occupation(D,B).
+-2.079935490813119  negalmaMater(A,B):-doctoralAdvisor(C,A),doctoralAdvisor(D,C),almaMater(D,B).
+0.6779676166530254  negalmaMater(A,B):-field(A,C),genre(D,C),education(D,B).
+-0.19271600371931774  negalmaMater(A,B):-doctoralAdvisor(A,C),deathPlace(C,D),country(B,D).
+-0.6393869487190024  negalmaMater(A,B):-country(B,C),birthPlace(D,C),doctoralAdvisor(A,D).
+-0.8440190311014107  negalmaMater(A,B):-president(B,C),residence(C,D),nationality(A,D).
+2.404786900935917  negalmaMater(A,B):-almaMater(A,C),B!=C,type(B,"Thing").
+0.7903384966546982  negalmaMater(A,B):-doctoralStudent(A,C),birthPlace(C,D),country(B,D).
+0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).
+-0.4682200967189177  negalmaMater(A,B):-employer(A,B).
+0.36077762752233233  negalmaMater(A,B):-occupation(A,B).
+-0.1201802729321677  negalmaMater(A,B):-award(A,B).
+-1.5477443434287637  negalmaMater(A,B):-almaMater(C,B),education(C,B),employer(A,B).
+-1.3851882537147118  negalmaMater(A,B):-almaMater(C,B),influencedBy(C,A).
+0.6036737198230541  negalmaMater(A,B):-doctoralStudent(C,A),deathPlace(C,D),country(B,D).
+-0.47953325033566707  negalmaMater(A,B):-nationality(A,C),birthPlace(D,C),deathPlace(D,B).
+region("Jacob_Radcliff","New_York_(state)").
+almaMater("Jacob_Radcliff","Princeton_University").
+birthPlace("Barry_Mazur","New_York_(state)").
+type("Barry_Mazur","Person").
+type("Barry_Mazur","Agent").
+type("Barry_Mazur","Scientist").
+type("Barry_Mazur","Thing").
+type("Princeton_University","Agent").
+type("Princeton_University","EducationalInstitution").
+type("Princeton_University","Organisation").
+type("Princeton_University","University").
+type("Princeton_University","Thing").
+0.45572694288905263 employer("Barry_Mazur","Princeton_University").
+0.26962157572526196 award("Barry_Mazur","Princeton_University").
+0.4768340347247418 occupation("Barry_Mazur","Princeton_University").
+0.4768340347247418 knownFor("Barry_Mazur","Princeton_University").
+almaMater("Barry_Mazur","Princeton_University").

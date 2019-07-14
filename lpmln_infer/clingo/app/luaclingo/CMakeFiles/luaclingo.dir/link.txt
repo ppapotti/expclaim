@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,clingo.so -o ../../bin/lua/clingo.so CMakeFiles/luaclingo.dir/main.cc.o ../../lib/libluaclingo.a ../../bin/libclingo.so.2.0 -llua5.1 -lm -Wl,-rpath,/home/ubuntu/LPMLN1.1/lpmln_infer/clingo/bin 

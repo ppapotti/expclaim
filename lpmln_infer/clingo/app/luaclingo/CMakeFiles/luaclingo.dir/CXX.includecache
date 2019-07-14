@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/LPMLN1.1/lpmln_infer/clingo/app/luaclingo/main.cc
+luaclingo.h
+-
+
+libclingo/clingo.h
+stddef.h
+-
+stdint.h
+-
+stdbool.h
+-
+
+libclingo/clingo/script.h
+clingo.h
+-
+
+libluaclingo/luaclingo.h
+clingo/script.h
+-
+

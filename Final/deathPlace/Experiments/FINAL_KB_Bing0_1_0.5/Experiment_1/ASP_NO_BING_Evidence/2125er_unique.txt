@@ -1,0 +1,461 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:-deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+restingPlace("William_Gill_Bailey","Toowong_Cemetery").
+deathPlace("Thomas_Joseph_Byrnes","Queensland").
+deathPlace("George_Watson_(mayor)","Queensland").
+headquarter("Stanthorpe_Border_Post","Queensland").
+restingPlace("Joseph_Capel_Smyth","Toowong_Cemetery").
+country("New_South_Wales","Australia").
+restingPlace("Thomas_Proe","Toowong_Cemetery").
+restingPlace("Arthur_Horatio_Parnell","Toowong_Cemetery").
+deathPlace("Henry_John_Daniels","Queensland").
+deathPlace("Patrick_Leahy_(Australian_politician)","Queensland").
+headquarter("Queensland_Catholic_Schools_&_Colleges_Music_Festival","Queensland").
+birthPlace("John-Patrick_Smith","Queensland").
+deathPlace("Walter_Horatio_Wilson","Queensland").
+deathPlace("Timothy_Joseph_O'Shea","Queensland").
+deathPlace("William_Graham_(Queensland_politician)","Queensland").
+deathPlace("John_Watson_(Queensland_politician)","Queensland").
+restingPlace("John_Lloyd_Bale","Toowong_Cemetery").
+headquarter("Queensland_Urban_Utilities","Queensland").
+deathPlace("Augustus_Charles_Gregory","Queensland").
+deathPlace("Bartley_Fahey","Queensland").
+deathPlace("Thomas_Wilson_(Queensland_politician)","Queensland").
+headquarter("Australian_Counselling_Association","Queensland").
+restingPlace("William_Graham_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Albert_Norton","Toowong_Cemetery").
+restingPlace("John_Killeen_Handy_(politician)","Toowong_Cemetery").
+restingPlace("William_Gillies_(Australian_politician)","Toowong_Cemetery").
+deathPlace("James_Francis_Maxwell","Queensland").
+restingPlace("Jeremiah_Francis_Donovan","Toowong_Cemetery").
+restingPlace("John_Webber_(politician)","Toowong_Cemetery").
+restingPlace("Charles_Pakenham_Buchanan","Toowong_Cemetery").
+restingPlace("Alexander_Raff","Toowong_Cemetery").
+restingPlace("Thomas_Finney_(politician)","Toowong_Cemetery").
+deathPlace("James_Stopford_(Australian_politician)","Queensland").
+deathPlace("Francis_Beattie_(Queensland_politician)","Queensland").
+deathPlace("George_Phillips_(Australian_politician)","Queensland").
+deathPlace("Thomas_Macdonald-Paterson","Queensland").
+restingPlace("Frank_McDonnell_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("Frank_McDonnell_(Queensland_politician)","Queensland").
+deathPlace("Alfred_Compigne","Queensland").
+deathPlace("John_Gordon_Smith_(Queensland_politician)","Queensland").
+headquarter("WaterSecure","Queensland").
+restingPlace("John_Hamilton_(Australian_politician)","Toowong_Cemetery").
+restingPlace("William_Fowles","Toowong_Cemetery").
+residence("John-Patrick_Smith","Queensland").
+restingPlace("William_King_(Australian_politician)","Toowong_Cemetery").
+restingPlace("James_Forsyth_(Australian_politician)","Toowong_Cemetery").
+deathPlace("Thomas_Glassey","Queensland").
+deathPlace("Arthur_Horatio_Parnell","Queensland").
+restingPlace("William_Hamilton_(Australian_politician)","Toowong_Cemetery").
+restingPlace("Robert_Harrison_Smith","Toowong_Cemetery").
+restingPlace("William_Hood_(politician)","Toowong_Cemetery").
+deathPlace("Eyles_Browne","Queensland").
+restingPlace("Henry_Bates_Fitz","Toowong_Cemetery").
+deathPlace("Henry_Turner_(Queensland_politician)","Queensland").
+birthPlace("Bronwen_Knox","Queensland").
+restingPlace("Timothy_Joseph_O'Shea","Toowong_Cemetery").
+restingPlace("William_Grene_Power","Toowong_Cemetery").
+restingPlace("Henry_Turner_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Joshua_Thomas_Bell","Toowong_Cemetery").
+deathPlace("Michael_Gannon_(Australian_politician)","Queensland").
+deathPlace("Samuel_Griffith","Queensland").
+deathPlace("Robert_Funnell","Queensland").
+headquarter("The_Observer_(Gladstone)","Queensland").
+restingPlace("Henry_Llewellyn_(Queensland_politician)","Toowong_Cemetery").
+residence("Bronwen_Knox","Queensland").
+restingPlace("William_Forrest_(Australian_politician)","Toowong_Cemetery").
+deathPlace("Francis_Ivory","Queensland").
+deathPlace("John_Hamilton_(Australian_politician)","Queensland").
+restingPlace("Francis_Ivory","Toowong_Cemetery").
+deathPlace("William_Gill_Bailey","Queensland").
+restingPlace("Alfred_Cowley","Toowong_Cemetery").
+deathPlace("Charles_Lilley","Queensland").
+restingPlace("John_Archibald_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Joshua_Peter_Bell","Toowong_Cemetery").
+deathPlace("John_Joseph_Mullen","Queensland").
+restingPlace("Robert_Fraser_(politician)","Toowong_Cemetery").
+restingPlace("William_Green_(Australian_politician)","Toowong_Cemetery").
+deathPlace("William_Landsborough","Queensland").
+restingPlace("John_Annear_(politician)","Toowong_Cemetery").
+restingPlace("John_Hardgrave","Toowong_Cemetery").
+restingPlace("Boyd_Dunlop_Morehead","Toowong_Cemetery").
+deathPlace("William_Moore_(Queensland_politician)","Queensland").
+deathPlace("Leslie_Corrie","Queensland").
+deathPlace("George_Agnew_(Australian_politician)","Queensland").
+deathPlace("Robert_Bulcock","Queensland").
+birthPlace("Geoff_Masters","Brisbane").
+deathPlace("William_Fowles","Queensland").
+deathPlace("Joseph_Capel_Smyth","Queensland").
+deathPlace("William_Green_(Australian_politician)","Queensland").
+deathPlace("Duncan_Watson_(Queensland_politician)","Queensland").
+restingPlace("Thomas_Wilson_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("William_Hobbs_(politician)","Toowong_Cemetery").
+birthPlace("Ross_Case","Queensland").
+deathPlace("William_Grene_Power","Queensland").
+restingPlace("Maurice_Hynes","Toowong_Cemetery").
+deathPlace("Horace_Tozer","Queensland").
+deathPlace("Pope_Alexander_Cooper","Queensland").
+deathPlace("Thomas_Welsby","Queensland").
+deathPlace("Henry_Buckley","Queensland").
+restingPlace("Andrew_Henry_Barlow","Toowong_Cemetery").
+restingPlace("George_Watson_(mayor)","Toowong_Cemetery").
+deathPlace("Frederick_Lord_(Queensland_politician)","Queensland").
+restingPlace("John_Sinclair_(mayor)","Toowong_Cemetery").
+deathPlace("Samuel_Brassington","Queensland").
+deathPlace("John_Hoolan","Queensland").
+restingPlace("Albert_Whitford_(Australian_politician)","Toowong_Cemetery").
+restingPlace("Edward_Land","Toowong_Cemetery").
+restingPlace("Bartley_Fahey","Toowong_Cemetery").
+restingPlace("James_O'Sullivan_(Australian_politician)","Toowong_Cemetery").
+headquarter("Oceania_Athletics_Association","Queensland").
+restingPlace("William_Dunstan_(politician)","Toowong_Cemetery").
+restingPlace("James_Stopford_(Australian_politician)","Toowong_Cemetery").
+deathPlace("Abram_Robertson_Byram","Queensland").
+restingPlace("Francis_Beattie_(Queensland_politician)","Toowong_Cemetery").
+location("WaterSecure","Queensland").
+deathPlace("William_Lennon","Queensland").
+restingPlace("George_Kerr_(Australian_politician)","Toowong_Cemetery").
+headquarter("West_Wing_Aviation","Queensland").
+deathPlace("Neil_MacGroarty","Queensland").
+deathPlace("John_Gilday","Queensland").
+residence("Ian_Macfarlane_(politician)","Queensland").
+deathPlace("William_Hood_(politician)","Queensland").
+restingPlace("Andrew_Lang_Petrie","Toowong_Cemetery").
+deathPlace("Albert_Norton","Queensland").
+restingPlace("William_Miles_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Robert_Sayers","Toowong_Cemetery").
+birthPlace("Andrew_Bartlett","Queensland").
+deathPlace("Harry_O'Shea","Queensland").
+headquarter("Alliance_Airlines","Queensland").
+restingPlace("Neil_MacGroarty","Toowong_Cemetery").
+deathPlace("John_Archibald_(Queensland_politician)","Queensland").
+restingPlace("William_Barker_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Ernest_Grimstone","Toowong_Cemetery").
+headquarter("Pauline_Hanson's_One_Nation","Queensland").
+restingPlace("Horace_Tozer","Toowong_Cemetery").
+deathPlace("John_Sinclair_(mayor)","Queensland").
+deathPlace("Ernest_Bell","Queensland").
+headquarter("Combined_Independent_Colleges","Queensland").
+birthPlace("Bronwen_Knox","Brisbane").
+restingPlace("James_Fry_(Australian_politician)","Toowong_Cemetery").
+restingPlace("George_Carter_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Thomas_Lodge_Murray-Prior","Toowong_Cemetery").
+headquarter("Eco_Airlines","Queensland").
+headquarter("Australian_Motoring_Enthusiast_Party","Queensland").
+restingPlace("Felix_Clewett","Toowong_Cemetery").
+residence("Joshua_Eagle","Queensland").
+deathPlace("John_Dunmore_Campbell","Queensland").
+headquarter("Blue's_Country_Magazine","Queensland").
+residence("Ross_Case","Queensland").
+headquarter("The_Gympie_Times","Queensland").
+restingPlace("Frank_Forde","Toowong_Cemetery").
+restingPlace("Arthur_Hawthorn","Toowong_Cemetery").
+deathPlace("George_Carter_(Queensland_politician)","Queensland").
+headquarter("The_Associated_Schools","Queensland").
+birthPlace("John_Hogg","Brisbane").
+deathPlace("Theodore_Unmack","Queensland").
+deathPlace("Jeremiah_Francis_Donovan","Queensland").
+birthPlace("Tiki_Tsang","Brisbane").
+deathPlace("Alexander_Raff","Queensland").
+deathPlace("Henry_Edward_King","Queensland").
+restingPlace("Theodore_Unmack","Toowong_Cemetery").
+restingPlace("Edward_Joseph_Baines","Toowong_Cemetery").
+deathPlace("William_Browne_(politician)","Queensland").
+restingPlace("Charles_Lilley","Toowong_Cemetery").
+restingPlace("George_Raff","Toowong_Cemetery").
+deathPlace("Maurice_Hynes","Queensland").
+restingPlace("Harry_Doggett","Toowong_Cemetery").
+deathPlace("Cecil_Jesson","Queensland").
+deathPlace("William_Wilson_(Queensland_politician)","Queensland").
+headquarter("FIBA_Oceania","Queensland").
+deathPlace("William_Forrest_(Australian_politician)","Queensland").
+restingPlace("Duncan_Watson_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("Vince_Creagh","Queensland").
+deathPlace("John_Scott_(Queensland_politician)","Queensland").
+headquarter("Flight_West_Airlines","Queensland").
+restingPlace("Michael_Brosnan","Toowong_Cemetery").
+restingPlace("William_Perry_(Queensland_businessman)","Toowong_Cemetery").
+deathPlace("William_Perry_(Queensland_businessman)","Queensland").
+deathPlace("William_Kellett","Queensland").
+deathPlace("James_Campbell_(Queensland_politician)","Queensland").
+deathPlace("William_Aplin","Queensland").
+restingPlace("Daniel_Foley_Roberts","Toowong_Cemetery").
+deathPlace("Arthur_Whittingham","Queensland").
+deathPlace("Edward_David_Miles","Queensland").
+headquarter("Royal_Society_of_Queensland","Queensland").
+deathPlace("Edward_Land","Queensland").
+deathPlace("James_Forsyth_(Australian_politician)","Queensland").
+deathPlace("Robert_Harrison_Smith","Queensland").
+country("Sydney","Australia").
+deathPlace("John_Sargent_Turner","Queensland").
+deathPlace("William_Villiers_Brown","Queensland").
+restingPlace("Hiram_Wakefield","Toowong_Cemetery").
+deathPlace("Charles_Collins_(Queensland_politician)","Queensland").
+restingPlace("William_Lennon","Toowong_Cemetery").
+deathPlace("John_Lloyd_Bale","Queensland").
+deathPlace("Kerry_Copley","Queensland").
+deathPlace("Albert_Whitford_(Australian_politician)","Queensland").
+restingPlace("Jacob_Low","Toowong_Cemetery").
+headquarter("Football_Queensland","Queensland").
+restingPlace("Benjamin_Harris_Babbidge","Toowong_Cemetery").
+deathPlace("John_Fihelly","Queensland").
+restingPlace("William_Moore_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("William_Miles_(Queensland_politician)","Queensland").
+restingPlace("William_Henley_Rawlings","Toowong_Cemetery").
+restingPlace("George_Edmondstone","Toowong_Cemetery").
+location("Seqwater","Queensland").
+restingPlace("Ratcliffe_Pring","Toowong_Cemetery").
+deathPlace("John_Mullan_(Australian_politician)","Queensland").
+restingPlace("Alfred_John_Raymond","Toowong_Cemetery").
+deathPlace("Kenneth_Grant_(politician)","Queensland").
+birthPlace("Lindsay_Stuart_Smith","Queensland").
+deathPlace("Arthur_Morgan_(Queensland_politician)","Queensland").
+occupation("Michael_Gannon_(Australian_politician)","Auction").
+headquarter("NewsMail","Queensland").
+restingPlace("John_Gilday","Toowong_Cemetery").
+deathPlace("Roger_Sheaffe_(politician)","Queensland").
+restingPlace("Cecil_Jesson","Toowong_Cemetery").
+deathPlace("Daniel_Ryan_(Queensland_politician)","Queensland").
+deathPlace("John_Killeen_Handy_(politician)","Queensland").
+deathPlace("Arthur_Hawthorn","Queensland").
+restingPlace("William_Henry_Walsh","Toowong_Cemetery").
+restingPlace("James_Drake","Toowong_Cemetery").
+restingPlace("William_Browne_(politician)","Toowong_Cemetery").
+restingPlace("William_McNaughton_Galloway","Toowong_Cemetery").
+headquarter("Pacific_Air_Express","Queensland").
+restingPlace("Leonard_Eastment","Toowong_Cemetery").
+restingPlace("Henry_John_Daniels","Toowong_Cemetery").
+restingPlace("Roger_Sheaffe_(politician)","Toowong_Cemetery").
+deathPlace("Alfred_John_Raymond","Queensland").
+restingPlace("Eyles_Browne","Toowong_Cemetery").
+restingPlace("Abram_Robertson_Byram","Toowong_Cemetery").
+headquarter("Palmer_United_Party","Queensland").
+deathPlace("Thomas_Proe","Queensland").
+deathPlace("Edwin_Caine","Queensland").
+deathPlace("Hiram_Wakefield","Queensland").
+restingPlace("Richard_Trout","Toowong_Cemetery").
+deathPlace("Benjamin_Harris_Babbidge","Queensland").
+occupation("Michael_Gannon_(Australian_politician)","Businessman").
+deathPlace("James_Drake","Queensland").
+restingPlace("Samuel_Blackall","Toowong_Cemetery").
+deathPlace("John_Leahy_(politician)","Queensland").
+headquarter("Big_Sky_Express","Queensland").
+birthPlace("Ian_Macfarlane_(politician)","Queensland").
+restingPlace("Vince_Creagh","Toowong_Cemetery").
+birthPlace("Michael_Gannon_(Australian_politician)","Sydney").
+deathPlace("William_Hodgkinson","Queensland").
+headquarter("Sunshine_Express_Airlines","Queensland").
+restingPlace("Edward_Barrow_Forrest","Toowong_Cemetery").
+deathPlace("Michael_Gannon_(Australian_politician)","Brisbane").
+deathPlace("William_Dunstan_(politician)","Queensland").
+restingPlace("Anthony_Musgrave","Toowong_Cemetery").
+restingPlace("William_Hodgkinson","Toowong_Cemetery").
+restingPlace("John_Sargent_Turner","Toowong_Cemetery").
+restingPlace("Edwin_Caine","Toowong_Cemetery").
+restingPlace("Robert_Philp","Toowong_Cemetery").
+restingPlace("Robert_Bulcock","Toowong_Cemetery").
+restingPlace("James_Francis_Maxwell","Toowong_Cemetery").
+deathPlace("Richard_Trout","Queensland").
+restingPlace("Walter_Horatio_Wilson","Toowong_Cemetery").
+restingPlace("Arthur_Morgan_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("Frank_Forde","Queensland").
+headquarter("Fraser_Coast_Chronicle","Queensland").
+deathPlace("Anthony_Musgrave","Queensland").
+deathPlace("John_Webber_(politician)","Queensland").
+deathPlace("Joshua_Peter_Bell","Queensland").
+restingPlace("John_Cameron_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("T._J._Ryan","Toowong_Cemetery").
+deathPlace("Edward_Barrow_Forrest","Queensland").
+headquarter("V_Australia","Queensland").
+deathPlace("Anderson_Dawson","Queensland").
+deathPlace("Robert_Sayers","Queensland").
+deathPlace("David_Bowman_(politician)","Queensland").
+restingPlace("Augustus_Charles_Gregory","Toowong_Cemetery").
+restingPlace("Thomas_Glassey","Toowong_Cemetery").
+deathPlace("Peter_MacPherson","Queensland").
+deathPlace("William_Henley_Rawlings","Queensland").
+restingPlace("Daniel_Ryan_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("James_O'Sullivan_(Australian_politician)","Queensland").
+deathPlace("Arthur_Hunter_Palmer","Queensland").
+deathPlace("George_Kerr_(Australian_politician)","Queensland").
+location("WaterSecure","Brisbane").
+deathPlace("Richard_Warren_(Australian_politician)","Queensland").
+deathPlace("Harry_Doggett","Queensland").
+deathPlace("Robert_Fraser_(politician)","Queensland").
+deathPlace("Henry_Llewellyn_(Queensland_politician)","Queensland").
+deathPlace("Thomas_Lodge_Murray-Prior","Queensland").
+headquarter("Daily_Mercury","Queensland").
+restingPlace("John_Dunmore_Campbell","Toowong_Cemetery").
+residence("Fergus_McMaster","Queensland").
+restingPlace("Robert_Windsor","Toowong_Cemetery").
+country("Queensland","Australia").
+restingPlace("William_Kellett","Toowong_Cemetery").
+deathPlace("Robert_Windsor","Queensland").
+birthPlace("Andrew_Bartlett","Brisbane").
+birthPlace("Michael_Gannon_(Australian_politician)","New_South_Wales").
+deathPlace("James_Cowlishaw","Queensland").
+deathPlace("John_Hardgrave","Queensland").
+restingPlace("John_Watson_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("Alfred_Cowley","Queensland").
+restingPlace("Henry_Edward_King","Toowong_Cemetery").
+deathPlace("Ernest_Grimstone","Queensland").
+restingPlace("Leslie_Corrie","Toowong_Cemetery").
+deathPlace("T._J._Ryan","Queensland").
+deathPlace("Charles_Pakenham_Buchanan","Queensland").
+deathPlace("William_Henry_Walsh","Queensland").
+restingPlace("Isidor_Lissner","Toowong_Cemetery").
+restingPlace("William_Wilson_(Queensland_politician)","Toowong_Cemetery").
+birthPlace("John_Hogg","Queensland").
+headquarter("Seqwater","Queensland").
+deathPlace("William_Barker_(Queensland_politician)","Queensland").
+headquarter("Global_Air_(Australian_airline)","Queensland").
+restingPlace("Thomas_Welsby","Toowong_Cemetery").
+deathPlace("John_Annear_(politician)","Queensland").
+deathPlace("Andrew_Henry_Barlow","Queensland").
+restingPlace("Alfred_Compigne","Toowong_Cemetery").
+deathPlace("Joshua_Thomas_Bell","Queensland").
+residence("Andrew_Bartlett","Queensland").
+restingPlace("John_Leahy_(politician)","Toowong_Cemetery").
+residence("Geoff_Masters","Queensland").
+deathPlace("John_Thorn_(Queensland_politician)","Queensland").
+restingPlace("Kenneth_Grant_(politician)","Toowong_Cemetery").
+deathPlace("William_King_(Australian_politician)","Queensland").
+deathPlace("Daniel_Foley_Roberts","Queensland").
+deathPlace("William_Hamilton_(Australian_politician)","Queensland").
+headquarter("Sunshine_Coast_Daily","Queensland").
+restingPlace("Frederick_Lord_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("Arthur_Whittingham","Toowong_Cemetery").
+restingPlace("James_Campbell_(Queensland_politician)","Toowong_Cemetery").
+location("Ports_North","Queensland").
+headquarter("Associated_Independent_Colleges","Queensland").
+headquarter("Skytrans_Airlines","Queensland").
+headquarter("Queensland_Fire_and_Emergency_Services","Queensland").
+restingPlace("Thomas_O'Sullivan","Toowong_Cemetery").
+headquarter("BackpackersXpress","Queensland").
+restingPlace("Samuel_Wood_Brooks","Toowong_Cemetery").
+restingPlace("Pope_Alexander_Cooper","Toowong_Cemetery").
+restingPlace("Harold_Hartley_(Australian_politician)","Toowong_Cemetery").
+restingPlace("Henry_Scott_Harden","Toowong_Cemetery").
+restingPlace("Richard_Symes_Warry","Toowong_Cemetery").
+deathPlace("Thomas_Finney_(politician)","Queensland").
+deathPlace("Boyd_Dunlop_Morehead","Queensland").
+restingPlace("Richard_Southall","Toowong_Cemetery").
+restingPlace("Harry_Coyne","Toowong_Cemetery").
+deathPlace("Samuel_Wood_Brooks","Queensland").
+restingPlace("William_Landsborough","Toowong_Cemetery").
+deathPlace("Samuel_Blackall","Queensland").
+restingPlace("Michael_Gannon_(Australian_politician)","Toowong_Cemetery").
+restingPlace("William_Rea_(politician)","Toowong_Cemetery").
+deathPlace("Andrew_Lang_Petrie","Queensland").
+restingPlace("Thomas_Joseph_Byrnes","Toowong_Cemetery").
+restingPlace("Robert_Funnell","Toowong_Cemetery").
+residence("Lindsay_Stuart_Smith","Queensland").
+headquarter("Lamington_Party","Queensland").
+restingPlace("John_Heussler","Toowong_Cemetery").
+restingPlace("John_Hoolan","Toowong_Cemetery").
+restingPlace("James_Cowlishaw","Toowong_Cemetery").
+deathPlace("Frederick_Hart_(politician)","Queensland").
+restingPlace("John_Joseph_Mullen","Toowong_Cemetery").
+birthPlace("Fergus_McMaster","Queensland").
+deathPlace("Robert_Philp","Queensland").
+headquarter("Brisbane_Times","Queensland").
+deathPlace("George_Charles_Sim","Queensland").
+headquarter("Ports_North","Queensland").
+headquarter("Air_Australia","Queensland").
+restingPlace("David_Bowman_(politician)","Toowong_Cemetery").
+restingPlace("Harry_O'Shea","Toowong_Cemetery").
+deathPlace("Leonard_Eastment","Queensland").
+restingPlace("John_Thorn_(Queensland_politician)","Toowong_Cemetery").
+deathPlace("Michael_Brosnan","Queensland").
+restingPlace("Patrick_Leahy_(Australian_politician)","Toowong_Cemetery").
+restingPlace("Peter_MacPherson","Toowong_Cemetery").
+restingPlace("John_Mullan_(Australian_politician)","Toowong_Cemetery").
+deathPlace("Edward_Joseph_Baines","Queensland").
+restingPlace("Edward_David_Miles","Toowong_Cemetery").
+deathPlace("Harold_Hartley_(Australian_politician)","Queensland").
+location("Queensland_Urban_Utilities","Queensland").
+residence("Tiki_Tsang","Queensland").
+restingPlace("John_Gordon_Smith_(Queensland_politician)","Toowong_Cemetery").
+restingPlace("George_Charles_Sim","Toowong_Cemetery").
+deathPlace("George_Raff","Queensland").
+restingPlace("Arthur_Hunter_Palmer","Toowong_Cemetery").
+headquarter("Great_Public_Schools_Association_of_Queensland_Inc.","Queensland").
+deathPlace("William_Hobbs_(politician)","Queensland").
+restingPlace("George_Agnew_(Australian_politician)","Toowong_Cemetery").
+type("Michael_Gannon_(Australian_politician)","Person").
+type("Michael_Gannon_(Australian_politician)","Agent").
+type("Michael_Gannon_(Australian_politician)","OfficeHolder").
+type("Michael_Gannon_(Australian_politician)","Thing").
+type("Queensland","Place").
+type("Queensland","Location").
+type("Queensland","AdministrativeRegion").
+type("Queensland","PopulatedPlace").
+type("Queensland","Region").
+type("Queensland","Thing").
+
+
+
+
+
+
+
+

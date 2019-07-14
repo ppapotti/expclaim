@@ -1,0 +1,150 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+birthPlace("Jerrold_Nadler","New_York_(state)").
+deathPlace("Stanley_Milgram","New_York_City").
+location("New_York_City_Housing_Authority","Manhattan").
+birthPlace("Louis_Silberkleit","Manhattan").
+birthPlace("Pamela_Adlon","New_York_City").
+birthPlace("Linda_Rosenthal","New_York_City").
+location("New_York_City_Department_of_Transportation","New_York_City").
+location("Civilian_Complaint_Review_Board","Manhattan").
+birthPlace("Charles_J._O'Byrne","Manhattan").
+location("New_York_City_Board_of_Transportation","New_York_City").
+residence("Andrew_Berman","Manhattan").
+deathPlace("Stanley_Milgram","Manhattan").
+region("North_General_Hospital","New_York_City").
+birthPlace("J._Darius_Bikoff","New_York_City").
+residence("Jerrold_Nadler","Manhattan").
+birthPlace("Marjorie_Gubelmann","New_York_City").
+birthPlace("Marc_Siegel","New_York_(state)").
+headquarter("New_York_City_Department_of_Transportation","Manhattan").
+residence("Caroline_Kennedy","Manhattan").
+location("North_General_Hospital","Manhattan").
+residence("Stanley_Stahl","Manhattan").
+birthPlace("Stanley_Milgram","New_York_City").
+birthPlace("Caroline_Kennedy","New_York_(state)").
+headquarter("Civilian_Complaint_Review_Board","Manhattan").
+birthPlace("Richard_Aldrich_McCurdy","New_York_City").
+birthPlace("Pamela_Adlon","New_York_(state)").
+residence("Oliver_Harriman,_Jr.","Manhattan").
+residence("Miriam_Goldman_Cedarbaum","Manhattan").
+birthPlace("Eliot_Spitzer","New_York_(state)").
+birthPlace("Miriam_Goldman_Cedarbaum","New_York_(state)").
+birthPlace("Alan_Alda","New_York_City").
+headquarter("New_York_City_Housing_Authority","Manhattan").
+residence("Marc_Siegel","Manhattan").
+residence("Eric_Trump","Manhattan").
+residence("Richard_Aldrich_McCurdy","Manhattan").
+birthPlace("Louis_Silberkleit","New_York_City").
+residence("Linda_Rosenthal","Manhattan").
+location("Orchestrette_Classique","Manhattan").
+birthPlace("Saoirse_Ronan","New_York_City").
+birthPlace("Louis_Silberkleit","New_York_(state)").
+residence("J._Darius_Bikoff","Manhattan").
+residence("Charles_J._O'Byrne","Manhattan").
+birthPlace("Andrew_Berman","New_York_City").
+residence("Pamela_Adlon","Manhattan").
+birthPlace("Stanley_Milgram","New_York_(state)").
+birthPlace("Marc_Siegel","New_York_City").
+residence("Saoirse_Ronan","Manhattan").
+birthPlace("Eliot_Spitzer","New_York_City").
+location("New_York_City_Department_of_Transportation","Manhattan").
+birthPlace("Charles_J._O'Byrne","New_York_(state)").
+residence("Donald_Trump","Manhattan").
+birthPlace("Eric_Trump","New_York_City").
+residence("Grenville_Lindall_Winthrop","Manhattan").
+birthPlace("Stanley_Stahl","New_York_City").
+location("Metropolitan_Transportation_Authority","New_York_City").
+birthPlace("Caroline_Kennedy","New_York_City").
+birthPlace("Grenville_Lindall_Winthrop","New_York_City").
+residence("Ivanka_Trump","Manhattan").
+birthPlace("Saoirse_Ronan","New_York_(state)").
+birthPlace("Liz_Krueger","New_York_City").
+birthPlace("Caroline_Kennedy","Manhattan").
+residence("Marjorie_Gubelmann","Manhattan").
+birthPlace("Jerrold_Nadler","New_York_City").
+birthPlace("Eric_Trump","Manhattan").
+headquarter("Metropolitan_Transportation_Authority","Manhattan").
+headquarter("Orchestrette_Classique","Manhattan").
+deathPlace("Stanley_Milgram","New_York_(state)").
+headquarter("New_York_City_Board_of_Transportation","Manhattan").
+birthPlace("Robert_De_Niro","Manhattan").
+birthPlace("Oliver_Harriman,_Jr.","New_York_City").
+birthPlace("Lilly_Hartley","New_York_(state)").
+birthPlace("Donald_Trump","New_York_City").
+residence("Lilly_Hartley","Manhattan").
+residence("Alan_Alda","Manhattan").
+birthPlace("Alan_Alda","New_York_(state)").
+birthPlace("Ivanka_Trump","Manhattan").
+residence("Robert_De_Niro","Manhattan").
+birthPlace("Pamela_Adlon","Manhattan").
+residence("Eliot_Spitzer","Manhattan").
+residence("Liz_Krueger","Manhattan").
+residence("Louis_Silberkleit","Manhattan").
+birthPlace("Ivanka_Trump","New_York_City").
+type("Stanley_Milgram","Person").
+type("Stanley_Milgram","Agent").
+type("Stanley_Milgram","Thing").
+type("Manhattan","Place").
+type("Manhattan","Location").
+type("Manhattan","City").
+type("Manhattan","PopulatedPlace").
+type("Manhattan","Settlement").
+type("Manhattan","Thing").

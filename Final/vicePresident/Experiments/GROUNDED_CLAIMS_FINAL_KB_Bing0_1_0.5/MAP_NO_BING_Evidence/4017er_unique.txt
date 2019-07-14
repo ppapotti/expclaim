@@ -1,0 +1,120 @@
+-7.432189537120456  vicePresident(A,B):-successor(B,A).
+-8.687765441721472  vicePresident(A,B):-commander(C,A),commander(C,B).
+-8.228069793091183  vicePresident(A,B):-after(A,B).
+-8.695853594968096  vicePresident(A,B):-successor(A,C),successor(B,C).
+-3.242898677112036  vicePresident(A,B):-commander(C,B),commander(C,D),vicePresident(A,D).
+-4.318685886712139  vicePresident(A,B):-president(C,A),successor(B,C).
+-6.0979336947643406  vicePresident(A,B):-leaderName(C,A),leaderName(C,B).
+-1.7835458706906668  vicePresident(A,B):-successor(A,B),successor(B,C),predecessor(C,B).
+-6.137647057286107  vicePresident(A,B):-birthPlace(B,C),capital(D,C),birthPlace(A,D).
+-2.226250365980593  vicePresident(A,B):-successor(B,C),vicePresident(A,C).
+-0.42285685082003494  vicePresident(A,B):-vicePresident(A,C),associate(C,B).
+-5.10118632770352  vicePresident(A,B):-activeYearsStartDate(B,C),C>C,activeYearsStartDate(A,C).
+-5.8283822638660405  vicePresident(A,B):-president(B,C), successor(C,A).
+-5.344126902579416  vicePresident(A,B):-leader(C,A),nationality(D,C),successor(D,B).
+-8.818325990359382  vicePresident(A,B):-primeMinister(A,C) ,primeMinister(B,C).
+-8.247247680362719  vicePresident(A,B):-before(B,A).
+-3.900835659787544  vicePresident(A,B):-president(C,A),predecessor(C,B).
+-7.569411322208303  vicePresident(A,B):-primeMinister(A,C),successor(B,C).
+-3.817818751392687  vicePresident(A,B):-activeYearsStartDate(A,C),activeYearsStartDate(D,C),vicePresident(D,B).
+-1.758684217546271  vicePresident(A,B):-successor(A,B).
+-1.8405496333974871  vicePresident(A,B):-successor(A,B),successor(B,A).
+-6.516488643108835  vicePresident(A,B):-president(C,B),successor(A,C).
+-8.51699317141357  vicePresident(A,B):-child(A,C),residence(C,D),birthPlace(B,D).
+0.06317890162153356  vicePresident(A,B):-vicePresident(A,C),associate(D,C),associate(D,B).
+-2.413297112865783  vicePresident(A,B):-successor(C,B),vicePresident(A,C).
+-3.2706140202726144  vicePresident(A,B):-president(A,C),president(D,C),vicePresident(D,B).
+-4.969392262695836  vicePresident(A,B):-president(A,C) ,vicePresident(C,B).
+-2.751535313041949  vicePresident(A,B):-primeMinister(A,C),vicePresident(C,B).
+-0.9537209342536483  vicePresident(A,B):-vicePresident(C,B),successor(C,D),successor(A,D).
+-0.10008345855698265  vicePresident(A,B):-vicePresident(A,B).
+-6.481110868557684  vicePresident(A,B):-president(B,C),successor(A,C).
+-2.306423875306811  vicePresident(A,B):-president(C,A),vicePresident(C,B).
+-5.31046546062108  vicePresident(A,B):-president(C,A),president(B,C).
+-6.2190425144636725  vicePresident(A,B):-leader(C,A),party(B,C).
+-4.884416790419852  vicePresident(A,B):-president(C,A),successor(C,B).
+-7.1958125458373265  vicePresident(A,B):-president(A,C) , successor(C,B).
+-3.149110454308466  vicePresident(A,B):-primeMinister(A,C),primeMinister(D,C),vicePresident(D,B).
+-6.812445099177364  vicePresident(A,B):-birthPlace(A,C),leader(C,B).
+-3.80845562742579  vicePresident(A,B):-vicePresident(A,C),vicePresident(D,C),president(B,D).
+-3.533686564708239  vicePresident(A,B):-successor(C,A),vicePresident(C,B).
+-5.637994734118097  vicePresident(A,B):-successor(C,B),almaMater(C,D),almaMater(A,D).
+-5.280753973942794  vicePresident(A,B):-predecessor(B,A).
+-8.025517050706364  vicePresident(A,B):-successor(C,A),successor(C,B).
+-1.8325814637483069  vicePresident(A,B):-successor(A,B),birthPlace(B,C),residence(B,C).
+-7.058882266828102  vicePresident(A,B):-residence(A,C),birthPlace(D,C),vicePresident(D,B).
+-2.649229238625548  vicePresident(A,B):-president(B,A).
+-3.8340614718760015  vicePresident(A,B):-successor(C,A), vicePresident(C,B).
+-6.129050230104118  vicePresident(A,B):-primeMinister(A,B).
+-8.829547717378485  vicePresident(A,B):-president(A,C),president(B,C).
+-3.56901089368771  vicePresident(A,B):-successor(A,C),vicePresident(C,B).
+-7.36464408039173  vicePresident(A,B):-predecessor(A,B).
+-6.043951455212955  vicePresident(A,B):-president(B,C) ,primeMinister(A,C).
+-5.4712814820771  vicePresident(A,B):-president(C,A), primeMinister(B,C).
+-4.681481271716597  vicePresident(A,B):-president(C,A),president(C,B).
+-1.8466455237068233  vicePresident(A,B):-successor(C,B),vicePresident(D,C),successor(D,A).
+-5.004556248019844  vicePresident(A,B):-activeYearsStartDate(B,C),C=D,deathDate(A,D).
+-7.213546887650898  vicePresident(A,B):-leader(C,B) ,party(A,C).
+-3.877545870323536  vicePresident(A,B):-birthDate(A,C),birthDate(D,C),vicePresident(D,B).
+-2.2454266791540953  vicePresident(A,B):-vicePresident(C,B),child(C,D),predecessor(A,D).
+-0.912775788807852  vicePresident(A,B):-president(B,A) ,successor(A,B).
+-8.704701255494276  vicePresident(A,B):-successor(C,A),successor(B,C).
+-6.907756279982637  vicePresident(A,B):-birthPlace(B,C),country(A,C).
+-5.4712814820771  vicePresident(A,B):-president(C,B) ,primeMinister(A,C).
+-3.877545870323536  vicePresident(A,B):-vicePresident(C,B),birthDate(C,D),birthDate(A,D).
+-4.737559374033888  vicePresident(A,B):-party(A,C),party(B,C).
+
+:- vicePresident(A,B),negvicePresident(A,B).
+
+-0.6931471805599467  negvicePresident(A,B):-secondLeader(C,A),firstLeader(C,D),president(B,D).
+3.0272309406133613  negvicePresident(A,B):-vicePresident(A,C),B!=C,type(B,"Thing").
+-0.3566749439387321  negvicePresident(A,B):-successor(B,C),president(C,B),president(A,B).
+-3.2188758248681864  negvicePresident(A,B):-almaMater(A,C),almaMater(D,C),appointer(D,B).
+-3.2188758248681864  negvicePresident(A,B):-birthPlace(B,C),isPartOf(C,D),region(A,D).
+2.5227527922781188  negvicePresident(A,B):-vicePresident(B,C),activeYearsEndDate(C,D),activeYearsStartDate(A,D).
+1.896119484552295  negvicePresident(A,B):-birthDate(B,C),C>D,activeYearsStartDate(A,D).
+1.896119484552295  negvicePresident(A,B):-activeYearsStartDate(A,C),C<D,birthDate(B,D).
+1.6639260977181696  negvicePresident(A,B):-successor(A,C),primeMinister(C,B).
+1.7917594692280536  negvicePresident(A,B):-spouse(A,C),predecessor(C,D),spouse(B,D).
+2.7997173896280225  negvicePresident(A,B):-birthDate(A,C),C>D,serviceEndYear(B,D).
+-0.05951412753240678  negvicePresident(A,B):-vicePresident(C,B),successor(C,A),president(A,C).
+0.11332868530700406  negvicePresident(A,B):-president(A,B),president(C,B),vicePresident(A,C).
+1.6094379124340983  negvicePresident(A,B):-spouse(B,C),spouse(C,B),predecessor(A,B).
+1.4906543764441311  negvicePresident(A,B):-predecessor(C,B),region(C,D),deathPlace(A,D).
+0.7129498078561235  negvicePresident(A,B):-vicePresident(A,C),successor(A,C),president(A,B).
+-1.1394342831883673  negvicePresident(A,B):-president(B,C),vicePresident(D,C),vicePresident(A,D).
+1.1184149159642887  negvicePresident(A,B):-president(B,C),secondLeader(D,C),firstLeader(D,A).
+2.2060741926132046  negvicePresident(A,B):-deathDate(B,C),C<D,serviceStartYear(A,D).
+1.2809338454620645  negvicePresident(A,B):-vicePresident(B,C),president(D,C),vicePresident(A,D).
+-1.1758019273592382  negvicePresident(A,B):-successor(A,B),vicePresident(C,B),successor(A,C).
+0.8586616190375168  negvicePresident(A,B):-activeYearsStartDate(A,C),deathDate(D,C),vicePresident(D,B).
+0.6729444732424249  negvicePresident(A,B):-primeMinister(A,B),primeMinister(C,B),successor(A,C).
+0.7929925155296609  negvicePresident(A,B):-successor(B,C),vicePresident(C,A).
+1.2697605448639395  negvicePresident(A,B):-predecessor(A,B),successor(C,B),president(A,C).
+1.3962446919730611  negvicePresident(A,B):-president(A,B),successor(B,C),president(A,C).
+0.12160003105767968  negvicePresident(A,B):-successor(B,A).
+-0.2744368457017595  negvicePresident(A,B):-president(A,B),president(C,B),president(A,C).
+vicePresident("Lee_Teng-hui","Lien_Chan").
+successor("Annette_Lu","Vincent_Siew").
+successor("Shirley_Kuo","Vincent_Siew").
+almaMater("Lee_Teng-hui","National_Taiwan_University").
+vicePresident("Lee_Teng-hui","Li_Yuan-tsu").
+almaMater("Shirley_Kuo","National_Taiwan_University").
+president("Vincent_Siew","Lee_Teng-hui").
+successor("Lien_Chan","Vincent_Siew").
+almaMater("Annette_Lu","National_Taiwan_University").
+president("Lien_Chan","Lee_Teng-hui").
+almaMater("Lien_Chan","National_Taiwan_University").
+president("Huang_Kun-huei","Lee_Teng-hui").
+successor("Huang_Kun-huei","Vincent_Siew").
+type("Lee_Teng-hui","Person").
+type("Lee_Teng-hui","Agent").
+type("Lee_Teng-hui","Politician").
+type("Lee_Teng-hui","President").
+type("Lee_Teng-hui","Thing").
+type("Vincent_Siew","Person").
+type("Vincent_Siew","Agent").
+type("Vincent_Siew","OfficeHolder").
+type("Vincent_Siew","Thing").
+vicePresident("Lee_Teng-hui","Li_Yuan-tsu").
+vicePresident("Lee_Teng-hui","Lien_Chan").

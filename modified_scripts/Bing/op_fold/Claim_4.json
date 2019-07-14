@@ -1,0 +1,123 @@
+{
+  "False": 0.524,
+  "True": 0.476,
+  "evidence": [
+    {
+      "snippet": "askscience Why is <mark>light</mark> the <mark>fastest</mark> <mark>thing</mark> in the universe? After reading RobotRollCall's explanation of why we can never travel faster than <mark>light,</mark> this question popped into my head: What properties of <mark>light</mark> ensure that it is the absolute <mark>fastest</mark> <mark>thing</mark> that will ever exist in the universe? How do we know that there <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">isn't</mark> some undiscovered substance (dark matter? something similar?) that <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">isn't</mark> travelling through the universe faster than <mark>light</mark> can? ",
+      "rej_prob": 0.3,
+      "web_source": "reddit.com",
+      "web_source_rel": 0.602,
+      "cred_opinion": 0.496,
+      "url": "https://www.reddit.com/r/askscience/comments/fqimj/why_is_light_the_fastest_thing_in_the_universe/",
+      "no_highlighted": 10
+    },
+    {
+      "snippet": "Since you already know that <mark>light</mark> is the <mark>fastest</mark> <mark>thing</mark> around, we'll look at what other speedy items our universe, and maybe even a <mark style=\"background-color: rgba(255,0,0,0.2400031356)\">fictional</mark> universe or two, has to <mark style=\"background-color: rgba(0,255,0,0.3661650972)\">offer</mark> -- from animals to superheroes and planets to toilets. Because, yes, it stands to reason that if toilets can move, then there must be one that moves <mark>fastest.</mark> And <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">don't</mark> tell me you're <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">not</mark> curious to know which one holds that honor. So leash your cheetah, tell Usain Bolt to <mark style=\"background-color: rgba(0,255,0,0.0399060888)\">take</mark> a knee and buckle your seat belt as we power through our list of <mark>fastest</mark> things. ",
+      "rej_prob": 0.368,
+      "web_source": "howstuffworks.com",
+      "web_source_rel": 0.576,
+      "cred_opinion": 0.716,
+      "url": "https://science.howstuffworks.com/10-fastest-things-in-universe.htm",
+      "no_highlighted": 10
+    },
+    {
+      "snippet": "What is the <mark>fastest</mark> <mark>thing</mark> man has built? Is <mark>light</mark> the <mark>fastest</mark> speed in the world? What type of <mark>light</mark> travels the fastest? If the universe is infinite then surely there can be <mark style=\"background-color: rgba(255,0,0,0.38541531)\">no</mark> such <mark>thing</mark> as the speed of <mark>light</mark> as there is <mark style=\"background-color: rgba(255,0,0,0.38541531)\">no</mark> start point and <mark style=\"background-color: rgba(255,0,0,0.38541531)\">no</mark> end point? ",
+      "rej_prob": 0.743,
+      "web_source": "answers.com",
+      "web_source_rel": 0.614,
+      "cred_opinion": 0.155,
+      "url": "https://www.answers.com/Q/Is_light_the_fastest_thing_in_the_universe",
+      "no_highlighted": 10
+    },
+    {
+      "snippet": "Mashable Advertisement From cheetahs to airplanes: 11 of the <mark>fastest</mark> <mark>things</mark> out there People have long had an obsession with fast <mark>things.</mark> From cars to cheetahs, airplanes to boats, our interest in speed is rivalled only by our fascination with waterfalls. And, while <mark>light</mark> is still by far the <mark>fastest</mark> <mark>thing</mark> in the universe, moving at a staggering speed of 299791.82 km/h, the <mark style=\"background-color: rgba(0,255,0,0.3183254997)\">following</mark> list contains some of the other closest <mark>things</mark> to reach that title of World s <mark>Fastest.</mark> ",
+      "rej_prob": 0.689,
+      "web_source": "mashable.com",
+      "web_source_rel": 0.435,
+      "cred_opinion": 0.449,
+      "url": "https://mashable.com/2015/07/07/worlds-fastest-things-brandspeak/",
+      "no_highlighted": 9
+    },
+    {
+      "snippet": "What medium does <mark>light</mark> travel <mark>fastest</mark> in? What is the <mark>fastest</mark> <mark>thing</mark> in the human body? What is the 3 <mark>fastest</mark> <mark>thing</mark> in the universe? Is <mark>light</mark> the <mark>fastest</mark> <mark>thing</mark> ever? ",
+      "rej_prob": 0.378,
+      "web_source": "answers.com",
+      "web_source_rel": 0.614,
+      "cred_opinion": 0.249,
+      "url": "https://www.answers.com/Q/What_is_the_fastest_thing_besides_light",
+      "no_highlighted": 9
+    },
+    {
+      "snippet": "No? Now let't find out some of the <mark>fastest</mark> <mark>thing</mark> in the world together. <mark>Fastest</mark> <mark>Thing</mark> in the Universe The <mark>Fastest</mark> Man The list of <mark>fastest</mark> <mark>thing</mark> in the universe <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">wouldn't</mark> be complete without mentioning the <mark>fastest</mark> man ever recorded to date. ",
+      "rej_prob": 0.516,
+      "web_source": "enkivillage.org",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.509,
+      "url": "https://www.enkivillage.org/the-fastest-thing-in-the-universe.html",
+      "no_highlighted": 9
+    },
+    {
+      "snippet": "<mark style=\"background-color: rgba(0,255,0,0.2834043784)\">According</mark> to NASA, New Horizons was expected to fly by Pluto in 2015. 7 <mark>Light</mark> The <mark>Fastest</mark> <mark>Thing</mark> Recorded <mark>Light</mark> is undoubtedly the <mark>fastest</mark> <mark>thing</mark> in the universe. ",
+      "rej_prob": 0.694,
+      "web_source": "quora.com",
+      "web_source_rel": 0.518,
+      "cred_opinion": 0.42,
+      "url": "https://www.quora.com/What-is-the-fastest-thing-on-Earth-other-than-light",
+      "no_highlighted": 7
+    },
+    {
+      "snippet": "In modern physics, <mark>light</mark> is regarded as the <mark>fastest</mark> <mark>thing</mark> in the universe, and its velocity in empty space as a fundamental constant of nature. The speed of <mark>light</mark> in a vacuum is presently defined to be exactly 299,792,458 m/s (about 186,282.397 miles per second). That s basically the <mark>fastest</mark> <mark>thing</mark> the human species has ever experienced today. If you travel around the earth s equator at the speed of <mark>light</mark> you will travel around the entire planet earth 7.4 times in approximately one second. ",
+      "rej_prob": 0.524,
+      "web_source": "listverse.com",
+      "web_source_rel": 0.679,
+      "cred_opinion": 0.475,
+      "url": "https://listverse.com/2009/08/16/15-fastest-things-in-the-universe/",
+      "no_highlighted": 7
+    },
+    {
+      "snippet": "Is <mark>light</mark> really the <mark>fastest</mark> <mark>thing</mark> in the universe? aGaNodW wETmbIgfyuxA UzETWlvvlTtNegVnkqbDkauCUerfO Answer Wiki The speed of <mark>light</mark> is approximately 3 x 10^8 meters per second. But there are two <mark>things</mark> that I know of that are faster then <mark>light.</mark> ",
+      "rej_prob": 0.6,
+      "web_source": "quora.com",
+      "web_source_rel": 0.518,
+      "cred_opinion": 0.412,
+      "url": "https://www.quora.com/Is-light-really-the-fastest-thing-in-the-universe",
+      "no_highlighted": 6
+    },
+    {
+      "snippet": "unpopularopinion The speed of <mark>light</mark> is only the <mark>fastest</mark> <mark>thing</mark> we currently know about. Speed of <mark>light</mark> is said to be basically the speed limit of the universe. I call lies. It s the <mark>fastest</mark> <mark>thing</mark> we know about or can observe. ",
+      "rej_prob": 0.46,
+      "web_source": "reddit.com",
+      "web_source_rel": 0.602,
+      "cred_opinion": 0.534,
+      "url": "https://www.reddit.com/r/unpopularopinion/comments/bbxtvi/the_speed_of_light_is_only_the_fastest_thing_we/",
+      "no_highlighted": 6
+    },
+    {
+      "snippet": "www.therichest.com The Top 10 <mark>Fastest</mark> <mark>Things</mark> In The World Up until midcentury, the <mark>fastest</mark> <mark>thing</mark> in the world, apart from <mark>light,</mark> was sound. Travelling at 343 meters per second (1230 kph or 767 mph), sound was faster than even the most devastating craft of war. But then, in 1947, Air Force Captain Charles Chuck Yeager broke the sound barrier in Glamorous Glennis, his Bell X-1 aircraft. ",
+      "rej_prob": 0.698,
+      "web_source": "therichest.com",
+      "web_source_rel": 0.65,
+      "cred_opinion": 0.476,
+      "url": "https://www.therichest.com/rich-list/the-biggest/the-top-10-fastest-things-in-the-world/",
+      "no_highlighted": 5
+    },
+    {
+      "snippet": "<mark>Light</mark> is <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">not</mark> the <mark>fastest</mark> <mark>thing</mark> in the universe! ",
+      "rej_prob": 0.453,
+      "web_source": "brainly.com",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.776,
+      "url": "https://brainly.com/question/3687366",
+      "no_highlighted": 4
+    },
+    {
+      "snippet": "Blazing Speed: The <mark>Fastest</mark> Stuff in the Universe By Robert Roy Britt 2005-01-18T11:29:00Z Science & Astronomy SAN DIEGO -- If you're <mark>light,</mark> it's fairly easy to travel at your own speed -- that is to say 186,282 miles per second or 299,800 kilometers per second. ",
+      "rej_prob": 0.292,
+      "web_source": "space.com",
+      "web_source_rel": 0.458,
+      "cred_opinion": 0.609,
+      "url": "https://www.space.com/694-blazing-speed-fastest-stuff-universe.html",
+      "no_highlighted": 2
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+ vicePresident(A,B):-successor(B,A).
+ vicePresident(A,B):-commander(C,A),commander(C,B).
+ vicePresident(A,B):-after(A,B).
+ vicePresident(A,B):-successor(A,C),successor(B,C).
+ vicePresident(A,B):-commander(C,B),commander(C,D),vicePresident(A,D).
+ vicePresident(A,B):-president(C,A),successor(B,C).
+ vicePresident(A,B):-leaderName(C,A),leaderName(C,B).
+ vicePresident(A,B):-successor(A,B),successor(B,C),predecessor(C,B).
+ vicePresident(A,B):-birthPlace(B,C),capital(D,C),birthPlace(A,D).
+ vicePresident(A,B):-successor(B,C),vicePresident(A,C).
+ vicePresident(A,B):-vicePresident(A,C),associate(C,B).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C>C,activeYearsStartDate(A,C).
+ vicePresident(A,B):-president(B,C), successor(C,A).
+ vicePresident(A,B):-leader(C,A),nationality(D,C),successor(D,B).
+ vicePresident(A,B):-primeMinister(A,C) ,primeMinister(B,C).
+ vicePresident(A,B):-before(B,A).
+ vicePresident(A,B):-president(C,A),predecessor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),successor(B,C).
+ vicePresident(A,B):-activeYearsStartDate(A,C),activeYearsStartDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-successor(A,B).
+ vicePresident(A,B):-successor(A,B),successor(B,A).
+ vicePresident(A,B):-president(C,B),successor(A,C).
+ vicePresident(A,B):-child(A,C),residence(C,D),birthPlace(B,D).
+ vicePresident(A,B):-vicePresident(A,C),associate(D,C),associate(D,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(A,C).
+ vicePresident(A,B):-president(A,C),president(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(A,C) ,vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,C),vicePresident(C,B).
+ vicePresident(A,B):-vicePresident(C,B),successor(C,D),successor(A,D).
+ vicePresident(A,B):-vicePresident(A,B).
+ vicePresident(A,B):-president(B,C),successor(A,C).
+ vicePresident(A,B):-president(C,A),vicePresident(C,B).
+ vicePresident(A,B):-president(C,A),president(B,C).
+ vicePresident(A,B):-leader(C,A),party(B,C).
+ vicePresident(A,B):-president(C,A),successor(C,B).
+ vicePresident(A,B):-president(A,C) , successor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),primeMinister(D,C),vicePresident(D,B).
+ vicePresident(A,B):-birthPlace(A,C),leader(C,B).
+ vicePresident(A,B):-vicePresident(A,C),vicePresident(D,C),president(B,D).
+ vicePresident(A,B):-successor(C,A),vicePresident(C,B).
+ vicePresident(A,B):-successor(C,B),almaMater(C,D),almaMater(A,D).
+ vicePresident(A,B):-predecessor(B,A).
+ vicePresident(A,B):-successor(C,A),successor(C,B).
+ vicePresident(A,B):-successor(A,B),birthPlace(B,C),residence(B,C).
+ vicePresident(A,B):-residence(A,C),birthPlace(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(B,A).
+ vicePresident(A,B):-successor(C,A), vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,B).
+ vicePresident(A,B):-president(A,C),president(B,C).
+ vicePresident(A,B):-successor(A,C),vicePresident(C,B).
+ vicePresident(A,B):-predecessor(A,B).
+ vicePresident(A,B):-president(B,C) ,primeMinister(A,C).
+ vicePresident(A,B):-president(C,A), primeMinister(B,C).
+ vicePresident(A,B):-president(C,A),president(C,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(D,C),successor(D,A).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C=D,deathDate(A,D).
+ vicePresident(A,B):-leader(C,B) ,party(A,C).
+ vicePresident(A,B):-birthDate(A,C),birthDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-vicePresident(C,B),child(C,D),predecessor(A,D).
+ vicePresident(A,B):-president(B,A) ,successor(A,B).
+ vicePresident(A,B):-successor(C,A),successor(B,C).
+ vicePresident(A,B):-birthPlace(B,C),country(A,C).
+ vicePresident(A,B):-president(C,B) ,primeMinister(A,C).
+ vicePresident(A,B):-vicePresident(C,B),birthDate(C,D),birthDate(A,D).
+ vicePresident(A,B):-party(A,C),party(B,C).
+
+:- vicePresident(A,B),negvicePresident(A,B).
+
+ negvicePresident(A,B):-secondLeader(C,A),firstLeader(C,D),president(B,D).
+ negvicePresident(A,B):-vicePresident(A,C),B!=C,type(B,"Thing").
+ negvicePresident(A,B):-successor(B,C),president(C,B),president(A,B).
+ negvicePresident(A,B):-almaMater(A,C),almaMater(D,C),appointer(D,B).
+ negvicePresident(A,B):-birthPlace(B,C),isPartOf(C,D),region(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),activeYearsEndDate(C,D),activeYearsStartDate(A,D).
+ negvicePresident(A,B):-birthDate(B,C),C>D,activeYearsStartDate(A,D).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),C<D,birthDate(B,D).
+ negvicePresident(A,B):-successor(A,C),primeMinister(C,B).
+ negvicePresident(A,B):-spouse(A,C),predecessor(C,D),spouse(B,D).
+ negvicePresident(A,B):-birthDate(A,C),C>D,serviceEndYear(B,D).
+ negvicePresident(A,B):-vicePresident(C,B),successor(C,A),president(A,C).
+ negvicePresident(A,B):-president(A,B),president(C,B),vicePresident(A,C).
+ negvicePresident(A,B):-spouse(B,C),spouse(C,B),predecessor(A,B).
+ negvicePresident(A,B):-predecessor(C,B),region(C,D),deathPlace(A,D).
+ negvicePresident(A,B):-vicePresident(A,C),successor(A,C),president(A,B).
+ negvicePresident(A,B):-president(B,C),vicePresident(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-president(B,C),secondLeader(D,C),firstLeader(D,A).
+ negvicePresident(A,B):-deathDate(B,C),C<D,serviceStartYear(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),president(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-successor(A,B),vicePresident(C,B),successor(A,C).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),deathDate(D,C),vicePresident(D,B).
+ negvicePresident(A,B):-primeMinister(A,B),primeMinister(C,B),successor(A,C).
+ negvicePresident(A,B):-successor(B,C),vicePresident(C,A).
+ negvicePresident(A,B):-predecessor(A,B),successor(C,B),president(A,C).
+ negvicePresident(A,B):-president(A,B),successor(B,C),president(A,C).
+ negvicePresident(A,B):-successor(B,A).
+ negvicePresident(A,B):-president(A,B),president(C,B),president(A,C).
+president("Johnnie_Carson","Bill_Clinton").
+president("Bernard_W._Aronson","Bill_Clinton").
+president("Joseph_Edward_Lake","George_H._W._Bush").
+president("James_R._Clapper","Bill_Clinton").
+president("James_R._Clapper","George_H._W._Bush").
+president("Antonia_Novello","Bill_Clinton").
+president("David_C._Fields","George_H._W._Bush").
+president("Johnny_Young_(diplomat)","George_H._W._Bush").
+president("Alvin_P._Adams_Jr.","Bill_Clinton").
+president("Tom_Foley","George_H._W._Bush").
+president("Mel_Sembler","George_H._W._Bush").
+spouse("George_H._W._Bush","Barbara_Bush").
+president("Michael_Chertoff","Bill_Clinton").
+president("William_J._Crowe","Bill_Clinton").
+president("Walter_Mondale","Bill_Clinton").
+predecessor("Bill_Clinton","George_H._W._Bush").
+president("Antonia_Novello","George_H._W._Bush").
+appointer("Raymond_C._Clevenger","George_H._W._Bush").
+president("Adrian_A._Basora","George_H._W._Bush").
+president("Adrian_A._Basora","Bill_Clinton").
+president("Richard_Miles_(diplomat)","Bill_Clinton").
+president("William_J._Crowe","George_H._W._Bush").
+president("Robert_Finn_(diplomat)","Bill_Clinton").
+president("Jon_Huntsman_Jr.","Bill_Clinton").
+president("Alan_Greenspan","George_H._W._Bush").
+successor("George_H._W._Bush","Bill_Clinton").
+president("Johnny_Young_(diplomat)","Bill_Clinton").
+president("John_Negroponte","Bill_Clinton").
+commander("Unified_Task_Force","George_H._W._Bush").
+president("William_Milam","Bill_Clinton").
+president("John_Michael_McConnell","Bill_Clinton").
+almaMater("Raymond_C._Clevenger","Yale_University").
+president("Edward_P._Brynn","George_H._W._Bush").
+president("Michael_Chertoff","George_H._W._Bush").
+commander("Iraqi_no-fly_zones","Bill_Clinton").
+president("Robert_Finn_(diplomat)","George_H._W._Bush").
+president("Mel_Sembler","Bill_Clinton").
+almaMater("Bill_Clinton","Yale_University").
+president("Ryan_Crocker","Bill_Clinton").
+president("Colin_Powell","George_H._W._Bush").
+president("Alvin_P._Adams_Jr.","George_H._W._Bush").
+president("Ryan_Crocker","George_H._W._Bush").
+president("James_H._Billington","George_H._W._Bush").
+president("Joseph_Edward_Lake","Bill_Clinton").
+president("Edward_Gnehm","George_H._W._Bush").
+successor("Walter_Mondale","George_H._W._Bush").
+president("David_C._Fields","Bill_Clinton").
+president("William_S._Sessions","Bill_Clinton").
+president("Stanley_Tuemler_Escudero","Bill_Clinton").
+president("John_Negroponte","George_H._W._Bush").
+predecessor("Hillary_Clinton","Barbara_Bush").
+president("William_S._Sessions","George_H._W._Bush").
+president("Jon_Huntsman_Jr.","George_H._W._Bush").
+president("Jeffrey_Davidow","George_H._W._Bush").
+president("Bernard_W._Aronson","George_H._W._Bush").
+president("Richard_Miles_(diplomat)","George_H._W._Bush").
+commander("Unified_Task_Force","Bill_Clinton").
+president("Alan_Greenspan","Bill_Clinton").
+president("James_H._Billington","Bill_Clinton").
+spouse("Bill_Clinton","Hillary_Clinton").
+president("Colin_Powell","Bill_Clinton").
+president("Tom_Foley","Bill_Clinton").
+commander("Iraqi_no-fly_zones","George_H._W._Bush").
+president("John_Michael_McConnell","George_H._W._Bush").
+president("Stanley_Tuemler_Escudero","George_H._W._Bush").
+president("Edward_Gnehm","Bill_Clinton").
+president("Johnnie_Carson","George_H._W._Bush").
+president("Jeffrey_Davidow","Bill_Clinton").
+president("William_Milam","George_H._W._Bush").
+president("Edward_P._Brynn","Bill_Clinton").
+type("Bill_Clinton","Person").
+type("Bill_Clinton","Agent").
+type("Bill_Clinton","Politician").
+type("Bill_Clinton","President").
+type("Bill_Clinton","Thing").
+type("George_H._W._Bush","Person").
+type("George_H._W._Bush","Agent").
+type("George_H._W._Bush","OfficeHolder").
+type("George_H._W._Bush","Thing").
+ primeMinister("Bill_Clinton","George_H._W._Bush").
+ successor("Bill_Clinton","George_H._W._Bush").
+ vicePresident("Bill_Clinton","George_H._W._Bush").
+ predecessor("George_H._W._Bush","Bill_Clinton").
+ before("George_H._W._Bush","Bill_Clinton").
+ president("George_H._W._Bush","Bill_Clinton").
+ after("Bill_Clinton","George_H._W._Bush").
+vicePresident("Bill_Clinton","Al_Gore").

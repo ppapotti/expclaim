@@ -1,0 +1,182 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:-deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+birthPlace("Farman_Basha","Bangalore").
+residence("Deepa_Sashindran","Bangalore").
+headquarter("Bangalore_Mirror","Bangalore").
+birthPlace("Prashant_Raj","Bangalore").
+headquarter("Quikjet_Airlines","Bangalore").
+headquarter("Deccan_360","Bangalore").
+birthPlace("Bangalore_Puttaiya_Radhakrishna","Bangalore").
+location("Namma_Metro","Bangalore").
+residence("Shihabuddin_Nadvi","Bangalore").
+birthPlace("C._K._Jaffer_Sharief","Bangalore").
+headquarter("Go_Heritage_Run","Bangalore").
+birthPlace("Rakesh_Manpat","Bangalore").
+headquarter("Bible_Society_of_India_Telangana_Auxiliary","Bangalore").
+residence("Manoranjan_Ravichandran","Bangalore").
+birthPlace("Ravi_Varma_(Stunt_Director)","Bangalore").
+residence("Ganesh_(actor)","Bangalore").
+residence("Harish_Raj","Bangalore").
+birthPlace("Pranitha_Subhash","Bangalore").
+headquarter("Bharatiya_Gorkhali_Welfare_Association","Bangalore").
+location("All_India_Federation_of_Women_Lawyers","Bangalore").
+birthPlace("Meghana_Raj","Bangalore").
+birthPlace("Harish_Raj","Bangalore").
+residence("Santhosh_Ananddram","Bangalore").
+location("Bangalore_Metropolitan_Transport_Corporation","Bangalore").
+residence("Farman_Basha","Bangalore").
+birthPlace("Shashank_ND","Bangalore").
+headquarter("Bible_Society_of_India","Bangalore").
+location("Concern_(organisation)","Bangalore").
+birthPlace("Rohan_Bopanna","Bangalore").
+residence("C.N._Ashwath_Narayan","Bangalore").
+headquarter("Usha_Kirana","Bangalore").
+residence("Ramesh_Aravind","Bangalore").
+headquarter("Institute_for_Stem_Cell_Biology_and_Regenerative_Medicine","Bangalore").
+residence("Pranay_Vivek_Patil","Bangalore").
+residence("Chetan_Maini","Bangalore").
+residence("Nandan_Nilekani","Bangalore").
+birthPlace("Ganesh_(actor)","Bangalore").
+headquarter("GoUNESCO","Bangalore").
+birthPlace("H._Boniface_Prabhu","Bangalore").
+residence("H._Boniface_Prabhu","Bangalore").
+birthPlace("Deepa_Sashindran","Bangalore").
+residence("Rajesh_(Kannada_actor)","Bangalore").
+residence("V._Ravichandran","Bangalore").
+headquarter("Namma_Metro","Bangalore").
+headquarter("Children's_LoveCastles_Trust","Bangalore").
+headquarter("New_Socialist_Alternative_(India)","Bangalore").
+headquarter("The_Takshashila_Institution","Bangalore").
+birthPlace("Santhosh_Ananddram","Bangalore").
+birthPlace("Krishna_Byre_Gowda","Bangalore").
+headquarter("Vijayavani","Bangalore").
+headquarter("Samarthanam_Trust_for_the_Disabled","Bangalore").
+birthPlace("Shihabuddin_Nadvi","Bangalore").
+occupation("Sethu_Lakshmi_Bayi","Regent").
+residence("Ravi_Varma_(Stunt_Director)","Bangalore").
+headquarter("Centre_for_Cellular_and_Molecular_Platforms","Bangalore").
+headquarter("Dinasudar","Bangalore").
+residence("Kengal_Shreepada_Renu","Bangalore").
+location("National_Assessment_and_Accreditation_Council","Bangalore").
+birthPlace("Pranay_Vivek_Patil","Bangalore").
+residence("Pranitha_Subhash","Bangalore").
+residence("Shashank_ND","Bangalore").
+headquarter("Bangalore_Development_Authority","Bangalore").
+birthPlace("Rajesh_(Kannada_actor)","Bangalore").
+residence("Rakesh_Manpat","Bangalore").
+headquarter("Sadbhavana_Times","Bangalore").
+birthPlace("Nandan_Nilekani","Bangalore").
+birthPlace("Shoaib_Ahmed_(businessman)","Bangalore").
+residence("Sumanth_Shailendra","Bangalore").
+deathPlace("Sethu_Lakshmi_Bayi","Bangalore").
+birthPlace("Ramesh_Aravind","Bangalore").
+location("Bangalore_Development_Authority","Bangalore").
+residence("Sharath_(actor)","Bangalore").
+birthPlace("Kiran_Mazumdar-Shaw","Bangalore").
+birthPlace("Chetan_Maini","Bangalore").
+country("Bangalore","India").
+headquarter("Society_of_EMC_Engineers_(India)","Bangalore").
+birthPlace("Sumanth_Shailendra","Bangalore").
+residence("Srujan_Lokesh","Bangalore").
+headquarter("Amateur_Radio_Society_of_India","Bangalore").
+residence("Rohan_Bopanna","Bangalore").
+headquarter("Suvarna_Plus","Bangalore").
+headquarter("National_Assessment_and_Accreditation_Council","Bangalore").
+headquarter("Concern_(organisation)","Bangalore").
+birthPlace("Sakina_Khatun","Bangalore").
+headquarter("Bangalore_Metropolitan_Transport_Corporation","Bangalore").
+country("Mavelikkara","India").
+location("Centre_for_Internet_and_Society_(India)","Bangalore").
+residence("Sakina_Khatun","Bangalore").
+birthPlace("Sharath_(actor)","Bangalore").
+headquarter("Simplifly_Deccan","Bangalore").
+residence("Meghana_Raj","Bangalore").
+birthPlace("Sethu_Lakshmi_Bayi","Mavelikkara").
+headquarter("Bible_Society_of_India_Andhra_Pradesh_Auxiliary","Bangalore").
+headquarter("Department_of_Space","Bangalore").
+headquarter("Air_Pegasus","Bangalore").
+location("Department_of_Space","Bangalore").
+residence("Prashant_Raj","Bangalore").
+birthPlace("C.N._Ashwath_Narayan","Bangalore").
+headquarter("Bangalore_Gayana_Samaja","Bangalore").
+residence("C._K._Jaffer_Sharief","Bangalore").
+residence("Krishna_Byre_Gowda","Bangalore").
+residence("Kiran_Mazumdar-Shaw","Bangalore").
+headquarter("Centre_for_Internet_and_Society_(India)","Bangalore").
+headquarter("All_India_Federation_of_Women_Lawyers","Bangalore").
+headquarter("Center_for_Study_of_Science,_Technology_and_Policy_(CSTEP)","Bangalore").
+birthPlace("V._Ravichandran","Bangalore").
+birthPlace("Manoranjan_Ravichandran","Bangalore").
+residence("Shoaib_Ahmed_(businessman)","Bangalore").
+birthPlace("Kengal_Shreepada_Renu","Bangalore").
+headquarter("Prajavani","Bangalore").
+residence("Bangalore_Puttaiya_Radhakrishna","Bangalore").
+headquarter("Sanjevani","Bangalore").
+birthPlace("Srujan_Lokesh","Bangalore").
+type("Sethu_Lakshmi_Bayi","Person").
+type("Sethu_Lakshmi_Bayi","Agent").
+type("Sethu_Lakshmi_Bayi","Royalty").
+type("Sethu_Lakshmi_Bayi","Thing").
+type("Bangalore","Place").
+type("Bangalore","Location").
+type("Bangalore","City").
+type("Bangalore","PopulatedPlace").
+type("Bangalore","Settlement").
+type("Bangalore","Thing").

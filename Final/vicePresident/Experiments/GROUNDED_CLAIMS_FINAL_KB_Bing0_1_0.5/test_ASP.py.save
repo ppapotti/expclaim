@@ -1,0 +1,178 @@
+import subprocess
+import time,csv
+TP=TN=FP=FN=CDP=CDN=KilledP=KilledN=UNSATP=UNSATN=0
+UDP=[]
+UDN=[]
+KP=[]
+KN=[]
+fp_list=[]
+fn_list=[]
+unsatp_list=[]
+unsatn_list=[]
+
+relation='vicePresident'
+
+dir='/home/ubuntu/LPMLN1.1/Final/'+relation+'/Experiments/GROUNDED_CLAIMS_FINAL_KB_Bing0_1_0.5/'
+claims_file=dir+'claims.txt'
+
+
+with open(claims_file,'r') as f:
+    lines=f.readlines()
+
+s=time.time()
+
+
+
+with open(dir+'ASP_results.csv','w') as csvFile:
+    writer=csv.writer(csvFile)
+    writer.writerow(['Id','Subject','Object','Label','Predicted Label','Execution Time (mins)'])
+csvFile.close()
+
+
+for line in lines[:]:
+
+    subprocess.run('killall -9 clingo',shell=True)
+#    subprocess.run('killall -9 python',shell=True)
+
+    claim=[]
+    print(line)
+    id,subject,object,label=line.strip().split(',')
+    pos_claim=relation+'('+'"'+subject+'"'+','+'"'+object+'"'+')'
+    neg_claim='neg'+pos_claim
+    claim.extend([id,subject,object,label])
+    start=time.time()
+    cmd='clingo '+dir+'ASP_NO_BING_Evidence/'+id+'er_unique.txt >ASP.txt'
+    print(cmd)
+
+    try:
+        subprocess.run(cmd, timeout=300,shell=True)
+
+        with open('ASP.txt','r') as f:
+            temp=f.readlines()
+
+        p=n=0
+        ind=-1
+        print(temp)
+        if('UNSATISFIABLE\n' in temp):
+            if(label=='1'):
+                UNSATP+=1
+                unsatp_list.append(id)
+            if(label=='0'):
+                UNSATN+=1
+                unsatn_list.append(id)
+
+            claim.append('UNSATISFIABLE')
+
+
+        else:
+            for i  in range(len(temp[::-1])):
+
+                if(pos_claim in temp[::-1][i] or neg_claim in temp[::-1][i]):
+                    print(temp[::-1][i])
+                    ind=i
+                    break
+
+            opt=temp[::-1][ind]
+            #print("################")
+            #print(opt,neg_claim)
+            #print(neg_claim in opt)
+            print("###############",temp)
+            if(neg_claim in opt):
+                claim.append('-1')
+                if(label=='0'):
+                    TN+=1
+                if(label=='1'):
+                    FN+=1
+                    fn_list.append(id)
+
+
+            elif(pos_claim in opt):
+                claim.append('1')
+                if(label=='0'):
+                    FP+=1
+                    fp_list.append(label)
+                if(label=='1'):
+                    TP+=1
+
+            else:
+                claim.append('Can\'t Decide')
+                if(label=='0'):
+                    CDN+=1
+                    UDN.append(id)
+                if(label=='1'):
+                    CDP+=1
+                    UDP.append(id)
+
+    except subprocess.TimeoutExpired:
+        claim.append('Killed')
+        if(label=='1'):
+             KilledP+=1
+             KP.append(id)
+        else:
+             KilledN+=1
+             KN.append(id)
+    claim.append(str(time.time()-start))
+    with open(dir+'ASP_results.csv','a') as csvFile:
+        writer=csv.writer(csvFile)
+        writer.writerow(claim)
+    csvFile.close()
+
+print(time.time()-s)
+
+
+
+
+g=open(dir+'ASP_stats.txt','w')
+
+n_killed=KilledP+KilledN
+
+totalP=TP+FN+CDP+KilledP
+totalN=TN+FP+CDN+KilledN
+
+total=totalP+totalN
+
+g.write("True Positives: "+str(TP)+'/'+str(totalP)+'\n')
+g.write("True Negatives: "+str(TN)+'/'+str(totalN)+'\n')
+g.write("KilledP: "+str(KilledP)+'/'+str(totalP)+'\n')
+g.write("KilledN: "+str(KilledN)+'/'+str(totalN)+'\n')
+g.write("Can't Decide Positives: "+str(CDP)+'\n')
+g.write("Non Covered Positives: ")
+for elem in UDP:
+    g.write(" %s," %elem)
+g.write('\n')
+g.write("Can't Decide Negatives: "+str(CDN)+'\n')
+g.write("Non Covered Negatives: ")
+
+for elem in UDN:
+    g.write(" %s," %elem)
+g.write('\n')
+
+g.write("False Positive")
+for elem in fp_list:
+    g.write("%s," %elem)
+g.write('\n')
+g.write("False Negative")
+for elem in fn_list:
+    g.write("%s," %elem)
+g.write('\n')
+g.write("Total: "+str(total)+'\n')
+g.write("Please remove: ")
+
+precision=float((0.0001+TP+TN)/(TP+TN+FP+FN+0.0001))
+recall=float((0.00001+TP+TN)/(TP+TN+FP+FN+CDN+CDP+0.0001))
+g.write("Precision :"+str(precision)+'\n')
+g.write("Recall :"+str(recall)+'\n')
+g.write("F_score :"+str(float(2/((0.001+float(1/precision))+(float(1/recall)))))+'\n')
+
+
+
+
+
+
+print(TP,TN,FP,FN,CDP,CDN,UNSATP,UNSATN)
+print(UDP)
+print(UDN)
+print(KilledP,KilledN)
+print(KP)
+print(KN)
+print("Time: "+str((end-start)/60)+' mins')

@@ -1,0 +1,214 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+residence("Kevin_Mileham","South_Africa").
+birthPlace("Zak_Yacoob","South_Africa").
+birthPlace("Bongani_Christopher_Majola","South_Africa").
+headquarter("South_African_Revenue_Service","South_Africa").
+residence("Junita_Kloppers-Lourens","South_Africa").
+birthPlace("Thato_Sikwane","South_Africa").
+residence("Tenille_Swartz","South_Africa").
+residence("Robbie_Koenig","South_Africa").
+birthPlace("Braam_Jordaan","Johannesburg").
+birthPlace("Shado_Twala","South_Africa").
+residence("Lloyd_Harris_(tennis)","South_Africa").
+residence("Chris_Hunsinger","South_Africa").
+birthPlace("Jonathan_Oppenheimer","South_Africa").
+birthPlace("George_F._R._Ellis","Johannesburg").
+birthPlace("Ian_Ollis","South_Africa").
+deathPlace("Jackie_Gibbons","Johannesburg").
+residence("Khanyi_Mbau","South_Africa").
+residence("Johann_Kriegler","South_Africa").
+birthPlace("Junita_Kloppers-Lourens","South_Africa").
+residence("Mariaan_de_Swardt","South_Africa").
+birthPlace("Ilze_Hattingh","South_Africa").
+residence("Ilze_Hattingh","South_Africa").
+residence("Bokang_Montjane","South_Africa").
+birthPlace("Danie_Voges","South_Africa").
+birthPlace("Nicolaas_Scholtz_(tennis)","South_Africa").
+residence("Graeme_Pope-Ellis","South_Africa").
+residence("Wim_Richter","South_Africa").
+residence("Piet_Norval","South_Africa").
+residence("Gray_Hofmeyr","South_Africa").
+birthPlace("Kevin_Anderson_(tennis)","South_Africa").
+residence("Willem_van_Biljon","South_Africa").
+birthPlace("Tats_Nkonzo","South_Africa").
+residence("Francois_Willie_Cloete","South_Africa").
+birthPlace("Ian_Ollis","Johannesburg").
+residence("Leon_Schuster","South_Africa").
+residence("Stephan_Swanson","South_Africa").
+birthPlace("Matthew_Buckland","South_Africa").
+residence("Andrew_Anderson_(tennis)","South_Africa").
+residence("Natalie_Grandin","South_Africa").
+residence("Gail_Nkoane_Mabalane","South_Africa").
+country("Johannesburg","South_Africa").
+residence("Sheena_Duncan","South_Africa").
+residence("John-Laffnie_de_Jager","South_Africa").
+location("Xaveri_South_Africa","South_Africa").
+deathPlace("Jackie_Gibbons","South_Africa").
+location("Western_Cape_Education_Department","South_Africa").
+birthPlace("Kevin_Anderson_(tennis)","Johannesburg").
+birthPlace("Amanda_Coetzer","South_Africa").
+birthPlace("Bokang_Montjane","South_Africa").
+birthPlace("Raven_Klaasen","South_Africa").
+birthPlace("Andrew_Anderson_(tennis)","South_Africa").
+residence("Milnay_Louw","South_Africa").
+residence("Thato_Sikwane","South_Africa").
+residence("Maps_Maponyane","South_Africa").
+birthPlace("Izak_van_der_Merwe","Johannesburg").
+birthPlace("Tenille_Swartz","South_Africa").
+birthPlace("Natasha_Mazzone","South_Africa").
+residence("Ashraf_Garda","South_Africa").
+birthPlace("Jan_Nortje","South_Africa").
+residence("George_F._R._Ellis","South_Africa").
+residence("Basetsana_Kumalo","South_Africa").
+headquarter("Xaveri_South_Africa","South_Africa").
+residence("Shahrina_Ramphaul","South_Africa").
+birthPlace("Izak_van_der_Merwe","South_Africa").
+birthPlace("Irene_Charnley","South_Africa").
+birthPlace("Stephan_Swanson","South_Africa").
+birthPlace("Khanyi_Mbau","South_Africa").
+birthPlace("Braam_Jordaan","South_Africa").
+birthPlace("Kevin_Mileham","South_Africa").
+birthPlace("Mariaan_de_Swardt","South_Africa").
+residence("Nicky_Oppenheimer","South_Africa").
+birthPlace("Lloyd_Harris_(tennis)","South_Africa").
+residence("Tucker_Vorster","South_Africa").
+birthPlace("Johann_Kriegler","South_Africa").
+birthPlace("Cheyna_Tucker","Johannesburg").
+birthPlace("Sheena_Duncan","Johannesburg").
+residence("Izak_van_der_Merwe","South_Africa").
+birthPlace("Cheyna_Tucker","South_Africa").
+residence("Ian_Ollis","South_Africa").
+residence("Sheila_Camerer","South_Africa").
+birthPlace("Desmond_Sacco","Johannesburg").
+residence("Bongani_Christopher_Majola","South_Africa").
+birthPlace("Ashraf_Garda","South_Africa").
+birthPlace("Mariaan_de_Swardt","Johannesburg").
+birthPlace("Tucker_Vorster","South_Africa").
+residence("Desmond_Sacco","South_Africa").
+birthPlace("John-Laffnie_de_Jager","Johannesburg").
+birthPlace("Michelle_Sammons","South_Africa").
+birthPlace("Leon_Schuster","South_Africa").
+birthPlace("Chris_Hunsinger","South_Africa").
+birthPlace("Bokang_Montjane","Johannesburg").
+birthPlace("Graeme_Pope-Ellis","South_Africa").
+residence("Nicolaas_Scholtz_(tennis)","South_Africa").
+birthPlace("Willem_van_Biljon","South_Africa").
+birthPlace("Maps_Maponyane","South_Africa").
+residence("Zak_Yacoob","South_Africa").
+residence("Tats_Nkonzo","South_Africa").
+residence("Matthew_Buckland","South_Africa").
+residence("Braam_Jordaan","South_Africa").
+birthPlace("Nicky_Oppenheimer","South_Africa").
+residence("Jan_Nortje","South_Africa").
+birthPlace("Natalie_Grandin","South_Africa").
+location("Financial_Services_Board_(South_Africa)","South_Africa").
+residence("Amanda_Coetzer","South_Africa").
+birthPlace("Jackie_Gibbons","Fulham").
+birthPlace("Henri_Schoeman","South_Africa").
+birthPlace("Danie_Voges","Johannesburg").
+birthPlace("Shahrina_Ramphaul","South_Africa").
+residence("Danie_Voges","South_Africa").
+residence("Wayne_Price","South_Africa").
+birthPlace("Basetsana_Kumalo","South_Africa").
+residence("Kevin_Anderson_(tennis)","South_Africa").
+residence("Raven_Klaasen","South_Africa").
+birthPlace("Shaun_Koen","South_Africa").
+birthPlace("Bridgette_Radebe","South_Africa").
+residence("Fritz_Wolmarans","South_Africa").
+birthPlace("John-Laffnie_de_Jager","South_Africa").
+residence("Shaun_Koen","South_Africa").
+birthPlace("Andrew_Anderson_(tennis)","Johannesburg").
+birthPlace("Victor_Ntoni","South_Africa").
+residence("Michelle_Sammons","South_Africa").
+birthPlace("George_F._R._Ellis","South_Africa").
+birthPlace("Francois_Willie_Cloete","South_Africa").
+birthPlace("Wayne_Price","South_Africa").
+location("South_African_Revenue_Service","South_Africa").
+residence("Jonathan_Oppenheimer","South_Africa").
+residence("Henri_Schoeman","South_Africa").
+birthPlace("Wim_Richter","South_Africa").
+birthPlace("Piet_Norval","South_Africa").
+residence("Irene_Charnley","South_Africa").
+headquarter("Financial_Services_Board_(South_Africa)","South_Africa").
+residence("Natasha_Mazzone","South_Africa").
+headquarter("Western_Cape_Education_Department","South_Africa").
+birthPlace("Fritz_Wolmarans","South_Africa").
+birthPlace("Sheila_Camerer","South_Africa").
+birthPlace("Desmond_Sacco","South_Africa").
+residence("Bridgette_Radebe","South_Africa").
+birthPlace("Gray_Hofmeyr","South_Africa").
+birthPlace("Robbie_Koenig","South_Africa").
+residence("Cheyna_Tucker","South_Africa").
+birthPlace("Gail_Nkoane_Mabalane","South_Africa").
+birthPlace("Milnay_Louw","South_Africa").
+residence("Victor_Ntoni","South_Africa").
+residence("Shado_Twala","South_Africa").
+type("Jackie_Gibbons","Person").
+type("Jackie_Gibbons","Agent").
+type("Jackie_Gibbons","SoccerManager").
+type("Jackie_Gibbons","SoccerPlayer").
+type("Jackie_Gibbons","SportsManager").
+type("Jackie_Gibbons","Thing").
+type("South_Africa","Place").
+type("South_Africa","Location").
+type("South_Africa","Country").
+type("South_Africa","PopulatedPlace").
+type("South_Africa","Thing").

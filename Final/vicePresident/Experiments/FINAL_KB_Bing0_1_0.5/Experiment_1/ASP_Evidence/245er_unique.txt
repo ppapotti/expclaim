@@ -1,0 +1,180 @@
+ vicePresident(A,B):-successor(B,A).
+ vicePresident(A,B):-commander(C,A),commander(C,B).
+ vicePresident(A,B):-after(A,B).
+ vicePresident(A,B):-successor(A,C),successor(B,C).
+ vicePresident(A,B):-commander(C,B),commander(C,D),vicePresident(A,D).
+ vicePresident(A,B):-president(C,A),successor(B,C).
+ vicePresident(A,B):-leaderName(C,A),leaderName(C,B).
+ vicePresident(A,B):-successor(A,B),successor(B,C),predecessor(C,B).
+ vicePresident(A,B):-birthPlace(B,C),capital(D,C),birthPlace(A,D).
+ vicePresident(A,B):-successor(B,C),vicePresident(A,C).
+ vicePresident(A,B):-vicePresident(A,C),associate(C,B).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C>C,activeYearsStartDate(A,C).
+ vicePresident(A,B):-president(B,C), successor(C,A).
+ vicePresident(A,B):-leader(C,A),nationality(D,C),successor(D,B).
+ vicePresident(A,B):-primeMinister(A,C) ,primeMinister(B,C).
+ vicePresident(A,B):-before(B,A).
+ vicePresident(A,B):-president(C,A),predecessor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),successor(B,C).
+ vicePresident(A,B):-activeYearsStartDate(A,C),activeYearsStartDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-successor(A,B).
+ vicePresident(A,B):-successor(A,B),successor(B,A).
+ vicePresident(A,B):-president(C,B),successor(A,C).
+ vicePresident(A,B):-child(A,C),residence(C,D),birthPlace(B,D).
+ vicePresident(A,B):-vicePresident(A,C),associate(D,C),associate(D,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(A,C).
+ vicePresident(A,B):-president(A,C),president(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(A,C) ,vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,C),vicePresident(C,B).
+ vicePresident(A,B):-vicePresident(C,B),successor(C,D),successor(A,D).
+ vicePresident(A,B):-vicePresident(A,B).
+ vicePresident(A,B):-president(B,C),successor(A,C).
+ vicePresident(A,B):-president(C,A),vicePresident(C,B).
+ vicePresident(A,B):-president(C,A),president(B,C).
+ vicePresident(A,B):-leader(C,A),party(B,C).
+ vicePresident(A,B):-president(C,A),successor(C,B).
+ vicePresident(A,B):-president(A,C) , successor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),primeMinister(D,C),vicePresident(D,B).
+ vicePresident(A,B):-birthPlace(A,C),leader(C,B).
+ vicePresident(A,B):-vicePresident(A,C),vicePresident(D,C),president(B,D).
+ vicePresident(A,B):-successor(C,A),vicePresident(C,B).
+ vicePresident(A,B):-successor(C,B),almaMater(C,D),almaMater(A,D).
+ vicePresident(A,B):-predecessor(B,A).
+ vicePresident(A,B):-successor(C,A),successor(C,B).
+ vicePresident(A,B):-successor(A,B),birthPlace(B,C),residence(B,C).
+ vicePresident(A,B):-residence(A,C),birthPlace(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(B,A).
+ vicePresident(A,B):-successor(C,A), vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,B).
+ vicePresident(A,B):-president(A,C),president(B,C).
+ vicePresident(A,B):-successor(A,C),vicePresident(C,B).
+ vicePresident(A,B):-predecessor(A,B).
+ vicePresident(A,B):-president(B,C) ,primeMinister(A,C).
+ vicePresident(A,B):-president(C,A), primeMinister(B,C).
+ vicePresident(A,B):-president(C,A),president(C,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(D,C),successor(D,A).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C=D,deathDate(A,D).
+ vicePresident(A,B):-leader(C,B) ,party(A,C).
+ vicePresident(A,B):-birthDate(A,C),birthDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-vicePresident(C,B),child(C,D),predecessor(A,D).
+ vicePresident(A,B):-president(B,A) ,successor(A,B).
+ vicePresident(A,B):-successor(C,A),successor(B,C).
+ vicePresident(A,B):-birthPlace(B,C),country(A,C).
+ vicePresident(A,B):-president(C,B) ,primeMinister(A,C).
+ vicePresident(A,B):-vicePresident(C,B),birthDate(C,D),birthDate(A,D).
+ vicePresident(A,B):-party(A,C),party(B,C).
+
+:- vicePresident(A,B),negvicePresident(A,B).
+
+ negvicePresident(A,B):-secondLeader(C,A),firstLeader(C,D),president(B,D).
+ negvicePresident(A,B):-vicePresident(A,C),B!=C,type(B,"Thing").
+ negvicePresident(A,B):-successor(B,C),president(C,B),president(A,B).
+ negvicePresident(A,B):-almaMater(A,C),almaMater(D,C),appointer(D,B).
+ negvicePresident(A,B):-birthPlace(B,C),isPartOf(C,D),region(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),activeYearsEndDate(C,D),activeYearsStartDate(A,D).
+ negvicePresident(A,B):-birthDate(B,C),C>D,activeYearsStartDate(A,D).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),C<D,birthDate(B,D).
+ negvicePresident(A,B):-successor(A,C),primeMinister(C,B).
+ negvicePresident(A,B):-spouse(A,C),predecessor(C,D),spouse(B,D).
+ negvicePresident(A,B):-birthDate(A,C),C>D,serviceEndYear(B,D).
+ negvicePresident(A,B):-vicePresident(C,B),successor(C,A),president(A,C).
+ negvicePresident(A,B):-president(A,B),president(C,B),vicePresident(A,C).
+ negvicePresident(A,B):-spouse(B,C),spouse(C,B),predecessor(A,B).
+ negvicePresident(A,B):-predecessor(C,B),region(C,D),deathPlace(A,D).
+ negvicePresident(A,B):-vicePresident(A,C),successor(A,C),president(A,B).
+ negvicePresident(A,B):-president(B,C),vicePresident(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-president(B,C),secondLeader(D,C),firstLeader(D,A).
+ negvicePresident(A,B):-deathDate(B,C),C<D,serviceStartYear(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),president(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-successor(A,B),vicePresident(C,B),successor(A,C).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),deathDate(D,C),vicePresident(D,B).
+ negvicePresident(A,B):-primeMinister(A,B),primeMinister(C,B),successor(A,C).
+ negvicePresident(A,B):-successor(B,C),vicePresident(C,A).
+ negvicePresident(A,B):-predecessor(A,B),successor(C,B),president(A,C).
+ negvicePresident(A,B):-president(A,B),successor(B,C),president(A,C).
+ negvicePresident(A,B):-successor(B,A).
+ negvicePresident(A,B):-president(A,B),president(C,B),president(A,C).
+president("Presidency_of_Warren_G._Harding","Warren G. Harding").
+president("Daniel_Richard_Crissinger","Warren_G._Harding").
+president("Charles_H._Burke","Warren_G._Harding").
+successor("Warren_G._Harding","Calvin_Coolidge").
+successor("Calvin_Coolidge","Charles_G._Dawes").
+president("Theodore_Roosevelt_Jr.","Calvin_Coolidge").
+president("Mabel_Walker_Willebrandt","Warren_G._Harding").
+successor("Woodrow_Wilson","Warren_G._Harding").
+president("Daniel_Richard_Crissinger","Calvin_Coolidge").
+president("Herbert_Putnam","Calvin_Coolidge").
+president("Hubert_Work","Warren_G._Harding").
+party("Warren_G._Harding","Republican_Party_(United_States)").
+predecessor("Herbert_Hoover","Calvin_Coolidge").
+president("John_J._Tigert","Calvin_Coolidge").
+president("Charles_Evans_Hughes","Calvin_Coolidge").
+president("William_Phillips_(diplomat)","Warren_G._Harding").
+successor("Thomas_R._Marshall","Calvin_Coolidge").
+president("Harry_Stewart_New","Warren_G._Harding").
+president("John_W._Weeks","Warren_G._Harding").
+president("William_H._Moran","Calvin_Coolidge").
+president("Grace_Coolidge","Calvin_Coolidge").
+president("Henry_Cantwell_Wallace","Warren_G._Harding").
+president("Henry_Cantwell_Wallace","Calvin_Coolidge").
+president("John_W._Weeks","Calvin_Coolidge").
+president("Hubert_Work","Calvin_Coolidge").
+vicePresident("Woodrow_Wilson","Thomas_R._Marshall").
+president("Bryant_B._Newcomb","Warren_G._Harding").
+successor("Calvin_Coolidge","Herbert_Hoover").
+president("John_R._McCarl","Warren_G._Harding").
+president("John_R._McCarl","Calvin_Coolidge").
+almaMater("Warren_G._Harding","Ohio_Central_College").
+president("Edwin_Denby_(politician)","Calvin_Coolidge").
+president("Edwin_Denby_(politician)","Warren_G._Harding").
+president("Cyrus_Woods","Calvin_Coolidge").
+president("Herbert_Hoover","Warren_G._Harding").
+president("Calvin_Coolidge","Warren_G._Harding").
+president("Andrew_Mellon","Warren_G._Harding").
+president("William_H._Moran","Warren_G._Harding").
+president("Herbert_Putnam","Warren_G._Harding").
+president("Frank_T._Hines","Warren_G._Harding").
+president("Herbert_Lord","Warren_G._Harding").
+president("Bryant_B._Newcomb","Calvin_Coolidge").
+president("Warren_G._Harding","Warren G. Harding").
+president("James_J._Davis","Warren_G._Harding").
+president("Harry_M._Daugherty","Calvin_Coolidge").
+president("Herbert_Lord","Calvin_Coolidge").
+predecessor("Calvin_Coolidge","Warren_G._Harding").
+president("Herbert_Hoover","Calvin_Coolidge").
+president("Harry_Stewart_New","Calvin_Coolidge").
+president("Theodore_Roosevelt_Jr.","Warren_G._Harding").
+president("Harry_M._Daugherty","Warren_G._Harding").
+president("Grace_Coolidge","Warren_G._Harding").
+president("Frank_T._Hines","Calvin_Coolidge").
+president("Andrew_Mellon","Calvin_Coolidge").
+predecessor("Charles_G._Dawes","Calvin_Coolidge").
+president("James_J._Davis","Calvin_Coolidge").
+vicePresident("Warren_G._Harding","Calvin_Coolidge").
+president("William_Phillips_(diplomat)","Calvin_Coolidge").
+president("Charles_G._Dawes","Calvin_Coolidge").
+president("John_J._Tigert","Warren_G._Harding").
+president("Charles_Evans_Hughes","Warren_G._Harding").
+president("Teodoro_Sandiko","Warren_G._Harding").
+successor("Warren_G._Harding","Frank_B._Willis").
+president("Cyrus_Woods","Warren_G._Harding").
+president("Mabel_Walker_Willebrandt","Calvin_Coolidge").
+party("Calvin_Coolidge","Republican_Party_(United_States)").
+successor("Warren_G._Harding","Andrew_L._Harris").
+president("Charles_G._Dawes","Warren_G._Harding").
+vicePresident("Presidency_of_Warren_G._Harding","Calvin_Coolidge").
+president("Teodoro_Sandiko","Calvin_Coolidge").
+president("Charles_H._Burke","Calvin_Coolidge").
+type("Warren_G._Harding","Person").
+type("Warren_G._Harding","Agent").
+type("Warren_G._Harding","Politician").
+type("Warren_G._Harding","President").
+type("Warren_G._Harding","Thing").
+type("Calvin_Coolidge","Person").
+type("Calvin_Coolidge","Agent").
+type("Calvin_Coolidge","OfficeHolder").
+type("Calvin_Coolidge","Thing").
+ before("Calvin_Coolidge","Warren_G._Harding").
+ primeMinister("Warren_G._Harding","Calvin_Coolidge").
+ after("Warren_G._Harding","Calvin_Coolidge").
+vicePresident("Warren_G._Harding","Calvin_Coolidge").

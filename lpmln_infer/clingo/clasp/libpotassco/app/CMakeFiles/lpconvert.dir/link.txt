@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/lpconvert.dir/lpconvert.cpp.o  -o ../../../bin/lpconvert -rdynamic ../../../lib/libpotassco.a -Wl,-rpath,:::::::::::::: 

@@ -1,0 +1,51 @@
+{
+  "False": 0.466,
+  "True": 0.534,
+  "evidence": [
+    {
+      "snippet": "<mark>Steve</mark> <mark>Brodie</mark> <mark>Steve</mark> <mark>Brodie</mark> American Actor <mark style=\"background-color: rgba(0,255,0,0.2834043784)\">According</mark> to our records, <mark>Steve</mark> <mark>Brodie</mark> is possibly single. <mark>Steve</mark> <mark>Brodie</mark> was previously married to <mark>Lois</mark> <mark>Andrews</mark> (1946 - 1950). <mark>Steve</mark> <mark>Brodie</mark> was in a relationship with Claire James (1948). ",
+      "rej_prob": 0.447,
+      "web_source": "whosdatedwho.com",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.545,
+      "url": "https://www.whosdatedwho.com/dating/steve-brodie",
+      "no_highlighted": 13
+    },
+    {
+      "snippet": "A hard-living, hard-drinking actor, <mark>Brodie</mark> married \"B\" actress <mark>Lois</mark> <mark>Andrews</mark> in 1946 but the couple divorced four years later, <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">not</mark> long after appearing together in the western programmer Rustlers (1949). He married Barbara Savitt--the widow of bandleader Jan Savitt--in September of 1950 and the union produced son Kevin <mark>Brodie</mark> two years later (Kevin later became a producer/director). <mark>Steve's</mark> second marriage lasted until 1966. Interest in <mark>Brodie</mark> eventually waned at the <mark style=\"background-color: rgba(0,255,0,0.0218521106)\">studio</mark> and his contract was <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">not</mark> renewed. ",
+      "rej_prob": 0.284,
+      "web_source": "imdb.com",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.605,
+      "url": "https://www.imdb.com/name/nm0110917/bio",
+      "no_highlighted": 9
+    },
+    {
+      "snippet": "A hard-living, hard-drinking acting professional, <mark>Brodie</mark> married B celebrity <mark>Lois</mark> <mark>Andrews</mark> in 1946 <mark style=\"background-color: rgba(255,0,0,0.41013902352000003)\">however</mark> the few divorced 4 years later, shortly after appearing collectively in the western programmer Rustlers (1949). He wedded Barbara Savitt the widow of bandleader Jan Savitt in Sept of 1950 as well as the union created child Kevin <mark>Brodie</mark> 2 yrs later (Kevin later on became a maker/movie director). <mark>Steve</mark> s second relationship lasted until 1966. Desire for <mark>Brodie</mark> eventually waned in the <mark style=\"background-color: rgba(0,255,0,0.0218521106)\">studio</mark> room and his agreement had <mark style=\"background-color: rgba(255,0,0,0.20829318584)\">not</mark> been renewed. ",
+      "rej_prob": 0.509,
+      "web_source": "biographynetworth.com",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.54,
+      "url": "https://biographynetworth.com/steve-brodie-net-worth/",
+      "no_highlighted": 9
+    },
+    {
+      "snippet": "Executive summary: The Life and <mark style=\"background-color: rgba(255,0,0,0.26217323136)\">Legend</mark> of Wyatt Earp <mark style=\"background-color: rgba(0,255,0,0.0399060888)\">Took</mark> his name after <mark>Steve</mark> <mark>Brodie,</mark> who famously <mark style=\"background-color: rgba(0,255,0,0.2833417033)\">survived</mark> a jump from the Brooklyn Bridge in the 19th century. Wife: <mark>Lois</mark> <mark>Andrews</mark> (actress, m. 1946, d. ",
+      "rej_prob": 0.607,
+      "web_source": "nndb.com",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.461,
+      "url": "https://www.nndb.com/people/760/000092484/",
+      "no_highlighted": 7
+    },
+    {
+      "snippet": "Sign in <mark>Lois</mark> <mark>Andrews</mark> Biography <mark>Lois</mark> <mark>Andrews</mark> was born on March 24, 1924 in Huntington Park, California, USA as Kathleen Lorraine Gourley. She was an actress, known for Dixie Dugan (1943), L'aigle du d sert (1950) and Roger Touhy, Gangster (1944). She was married to Leonard Klecker, <mark>Steve</mark> <mark>Brodie,</mark> David Street and George Jessel. ",
+      "rej_prob": 0.466,
+      "web_source": "imdb.com",
+      "web_source_rel": 0.5,
+      "cred_opinion": 0.521,
+      "url": "https://www.imdb.com/name/nm0028749/bio",
+      "no_highlighted": 6
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/clingo.dir/main.cc.o  -o ../../bin/clingo -rdynamic ../../lib/libpyclingo.a ../../lib/libluaclingo.a -lpython2.7 ../../bin/libclingo.so.2.0 -llua5.1 -lm -Wl,-rpath,/home/ubuntu/LPMLN1.1/lpmln_infer/clingo/bin: 

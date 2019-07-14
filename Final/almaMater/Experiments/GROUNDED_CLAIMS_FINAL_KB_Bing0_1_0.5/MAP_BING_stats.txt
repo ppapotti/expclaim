@@ -1,0 +1,14 @@
+True Positives: 100/100
+True Negatives: 88/100
+KilledP: 0/100
+KilledN: 0/100
+Can't Decide Positives: 0
+Non Covered Positives: 
+Can't Decide Negatives: 9
+Non Covered Negatives:  3105, 3110, 3190, 3223, 3309, 3391, 3414, 3433, 3455,
+False Positive0,0,0,
+False Negative
+Total: 200
+Please remove: Precision :0.984293201940732
+Recall :0.93999958000021
+F_score :0.9611744625131825

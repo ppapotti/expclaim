@@ -1,0 +1,217 @@
+2019-07-14T09:33:44 INFO    Search scope: op_web
+2019-07-14T09:33:44 INFO    CLAIM: Pablo Longueira predecessor Ena von Baer
+2019-07-14T09:33:45 INFO    https://en.wikipedia.org/wiki/Ena_von_Baer	Cr:0.7831640452564194	Sr:0.5383916402	Rf:0.7073917879	Ac:0.2926082122
+2019-07-14T09:33:45 INFO    http://dbpedia.org/page/Ena_von_Baer	Cr:0.8606430360126416	Sr:null	Rf:0.6680833906	Ac:0.3319166095
+2019-07-14T09:33:45 INFO    https://howlingpixel.com/i-en/Ena_von_Baer	Cr:0.6993466201696372	Sr:null	Rf:0.680177511	Ac:0.3198224891
+2019-07-14T09:33:45 INFO    https://upclosed.com/people/ena-von-baer/	Cr:0.8052219253608651	Sr:null	Rf:0.680177511	Ac:0.3198224891
+2019-07-14T09:33:45 INFO    https://everything.explained.today/Ena_von_Baer/	Cr:0.7834541273271526	Sr:0.6428571429	Rf:0.680177511	Ac:0.3198224891
+2019-07-14T09:33:45 INFO    http://www.poderopedia.org/cl/personas/Ena_Von_Baer	Cr:0.521185889635006	Sr:null	Rf:0.5363459183	Ac:0.4636540818
+2019-07-14T09:33:45 INFO    https://www.wikipedia.org/wiki/es:Pablo_Longueira	Cr:0.5414889156111398	Sr:0.5383916402	Rf:0.5661984319	Ac:0.4338015682
+2019-07-14T09:33:45 INFO    https://wiki2.org/en/Ena_von_Baer	Cr:0.7798075146411261	Sr:null	Rf:0.680177511	Ac:0.3198224891
+2019-07-14T09:33:45 INFO    https://howlingpixel.com/i-en/Pablo_Longueira	Cr:0.6057026086590139	Sr:null	Rf:0.6680833906	Ac:0.3319166095
+2019-07-14T09:33:45 INFO    FALSE:0.71	TRUE:0.29000000000000004
+2019-07-14T11:46:14 INFO    Search scope: op_web
+2019-07-14T11:46:14 INFO    CLAIM: Vani Ganapathy successor Kamal Haasan
+2019-07-14T11:46:14 INFO    https://www.filmibeat.com/tamil/news/2018/when-vani-ganapathy-lashed-out-at-kamal-haasan-for-talking-about-the-divorce-and-alimony-274625.html	Cr:0.5165995051200397	Sr:null	Rf:0.4901910502	Ac:0.5098089499
+2019-07-14T11:46:14 INFO    https://en.wikipedia.org/wiki/Kamal_Haasan	Cr:0.46202477533667197	Sr:0.5383916402	Rf:0.3302493474	Ac:0.6697506527
+2019-07-14T11:46:14 INFO    https://www.thebridalbox.com/articles/kamal-hassan-marriage_0049323/	Cr:0.4469593675262934	Sr:null	Rf:0.2867911117	Ac:0.7132088884
+2019-07-14T11:46:14 INFO    https://economictimes.indiatimes.com/magazines/panache/kamal-was-trying-to-get-sympathy-of-his-daughter-says-ex-wife-vani-ganapathy/articleshow/47890659.cms	Cr:0.1259550405392743	Sr:0.3846153846	Rf:0.1822700794	Ac:0.8177299207
+2019-07-14T11:46:14 INFO    https://en.wikipedia.org/wiki/Vani_Ganapathy	Cr:0.41628221825909767	Sr:0.5383916402	Rf:0.5346124317	Ac:0.4653875684
+2019-07-14T11:46:15 INFO    https://www.postoast.com/kamal-haasan-love-life/	Cr:0.45741944555269215	Sr:null	Rf:0.2925783629	Ac:0.7074216372
+2019-07-14T11:46:15 INFO    https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/Vani-Ganapathy-hits-back-at-Kamal-Haasan/articleshow/47920895.cms	Cr:0.6516253338934385	Sr:0.3846153846	Rf:0.8917629003	Ac:0.1082370998
+2019-07-14T11:46:15 INFO    https://wikibio.in/kamal-haasan/	Cr:0.5771134955500384	Sr:null	Rf:0.4760971546	Ac:0.5239028455
+2019-07-14T11:46:15 INFO    http://www.sify.com/movies/vani-ganapathy-slams-kamal-s-pity-party-news-kollywood-phclQpdbghhfc.html	Cr:0.44514887008907583	Sr:null	Rf:0.1993650165	Ac:0.8006349836
+2019-07-14T11:46:15 INFO    https://www.thequint.com/entertainment/2015/07/01/kamal-haasans-ex-wife-rubbishes-the-actors-bankruptcy-story	Cr:0.5870845188543394	Sr:null	Rf:0.6708713983	Ac:0.3291286018
+2019-07-14T11:46:15 INFO    https://alchetron.com/Vani-Ganapathy	Cr:0.5774787737539588	Sr:null	Rf:0.5704070254	Ac:0.4295929747
+2019-07-14T11:46:15 INFO    FALSE:0.482	TRUE:0.518
+2019-07-14T11:46:58 INFO    Search scope: op_web
+2019-07-14T11:46:58 INFO    CLAIM: Vani Ganapathy child Kamal Haasan
+2019-07-14T11:46:58 INFO    https://en.wikipedia.org/wiki/Kamal_Haasan	Cr:0.4630253888068995	Sr:0.5383916402	Rf:0.3325774921	Ac:0.667422508
+2019-07-14T11:46:58 INFO    https://economictimes.indiatimes.com/magazines/panache/kamal-was-trying-to-get-sympathy-of-his-daughter-says-ex-wife-vani-ganapathy/articleshow/47890659.cms	Cr:0.1259550405392743	Sr:0.3846153846	Rf:0.1822700794	Ac:0.8177299207
+2019-07-14T11:46:58 INFO    https://www.filmibeat.com/tamil/news/2018/when-vani-ganapathy-lashed-out-at-kamal-haasan-for-talking-about-the-divorce-and-alimony-274625.html	Cr:0.5165995051200397	Sr:null	Rf:0.4901910502	Ac:0.5098089499
+2019-07-14T11:46:58 INFO    https://www.thebridalbox.com/articles/kamal-hassan-marriage_0049323/	Cr:0.4469593675262934	Sr:null	Rf:0.2867911117	Ac:0.7132088884
+2019-07-14T11:46:58 INFO    https://wikibio.in/kamal-haasan/	Cr:0.5771134955500384	Sr:null	Rf:0.4760971546	Ac:0.5239028455
+2019-07-14T11:46:58 INFO    https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/Vani-Ganapathy-hits-back-at-Kamal-Haasan/articleshow/47920895.cms	Cr:0.6483084629669125	Sr:0.3846153846	Rf:0.8917629003	Ac:0.1082370998
+2019-07-14T11:46:58 INFO    https://www.celebritiesdetails.com/kamal-haasan-biography-wiki-wife-family-age-net-worth/	Cr:0.4406425136721981	Sr:null	Rf:0.3813778181	Ac:0.618622182
+2019-07-14T11:46:59 INFO    https://alchetron.com/Kamal-Haasan	Cr:0.4873692401930235	Sr:null	Rf:0.3901873511	Ac:0.609812649
+2019-07-14T11:46:59 INFO    https://hamarigossip.com/kamal-hassan-family-wedding-pics-age-biography-height-wiki-scandal-wife-daughter-son/	Cr:0.4850758961023542	Sr:null	Rf:0.4121760299	Ac:0.5878239702
+2019-07-14T11:46:59 INFO    http://www.sify.com/movies/vani-ganapathy-slams-kamal-s-pity-party-news-kollywood-phclQpdbghhfc.html	Cr:0.44514887008907583	Sr:null	Rf:0.1993650165	Ac:0.8006349836
+2019-07-14T11:46:59 INFO    FALSE:0.467	TRUE:0.5329999999999999
+2019-07-14T11:47:27 INFO    Search scope: op_web
+2019-07-14T11:47:27 INFO    CLAIM: Kamal Haasan parent Vani Ganapathy
+2019-07-14T11:47:27 INFO    https://www.filmibeat.com/tamil/news/2018/when-vani-ganapathy-lashed-out-at-kamal-haasan-for-talking-about-the-divorce-and-alimony-274625.html	Cr:0.5165995051200397	Sr:null	Rf:0.4901910502	Ac:0.5098089499
+2019-07-14T11:47:27 INFO    https://economictimes.indiatimes.com/magazines/panache/kamal-was-trying-to-get-sympathy-of-his-daughter-says-ex-wife-vani-ganapathy/articleshow/47890659.cms	Cr:0.1259550405392743	Sr:0.3846153846	Rf:0.1822700794	Ac:0.8177299207
+2019-07-14T11:47:27 INFO    https://en.wikipedia.org/wiki/Kamal_Haasan	Cr:0.46202477533667197	Sr:0.5383916402	Rf:0.3302493474	Ac:0.6697506527
+2019-07-14T11:47:27 INFO    https://www.thebridalbox.com/articles/kamal-hassan-marriage_0049323/	Cr:0.4469593675262934	Sr:null	Rf:0.2867911117	Ac:0.7132088884
+2019-07-14T11:47:28 INFO    https://wikibio.in/kamal-haasan/	Cr:0.5771134955500384	Sr:null	Rf:0.4760971546	Ac:0.5239028455
+2019-07-14T11:47:28 INFO    https://en.wikipedia.org/wiki/Vani_Ganapathy	Cr:0.41628221825909767	Sr:0.5383916402	Rf:0.5346124317	Ac:0.4653875684
+2019-07-14T11:47:28 INFO    https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/Vani-Ganapathy-hits-back-at-Kamal-Haasan/articleshow/47920895.cms	Cr:0.6489713790145835	Sr:0.3846153846	Rf:0.8917629003	Ac:0.1082370998
+2019-07-14T11:47:28 INFO    http://www.sify.com/movies/vani-ganapathy-slams-kamal-s-pity-party-news-kollywood-phclQpdbghhfc.html	Cr:0.44514887008907583	Sr:null	Rf:0.1993650165	Ac:0.8006349836
+2019-07-14T11:47:28 INFO    https://www.postoast.com/kamal-haasan-love-life/	Cr:0.45741944555269215	Sr:null	Rf:0.2925783629	Ac:0.7074216372
+2019-07-14T11:47:28 INFO    FALSE:0.458	TRUE:0.542
+2019-07-14T11:47:53 INFO    Search scope: op_web
+2019-07-14T11:47:53 INFO    CLAIM: Vani Ganapathy parent Kamal Haasan
+2019-07-14T11:47:53 INFO    https://www.filmibeat.com/tamil/news/2018/when-vani-ganapathy-lashed-out-at-kamal-haasan-for-talking-about-the-divorce-and-alimony-274625.html	Cr:0.5165995051200397	Sr:null	Rf:0.4901910502	Ac:0.5098089499
+2019-07-14T11:47:53 INFO    https://en.wikipedia.org/wiki/Kamal_Haasan	Cr:0.46202477533667197	Sr:0.5383916402	Rf:0.3302493474	Ac:0.6697506527
+2019-07-14T11:47:53 INFO    https://economictimes.indiatimes.com/magazines/panache/kamal-was-trying-to-get-sympathy-of-his-daughter-says-ex-wife-vani-ganapathy/articleshow/47890659.cms	Cr:0.1259550405392743	Sr:0.3846153846	Rf:0.1822700794	Ac:0.8177299207
+2019-07-14T11:47:54 INFO    https://www.thebridalbox.com/articles/kamal-hassan-marriage_0049323/	Cr:0.4469593675262934	Sr:null	Rf:0.2867911117	Ac:0.7132088884
+2019-07-14T11:47:54 INFO    https://en.wikipedia.org/wiki/Vani_Ganapathy	Cr:0.41628221825909767	Sr:0.5383916402	Rf:0.5346124317	Ac:0.4653875684
+2019-07-14T11:47:54 INFO    https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/Vani-Ganapathy-hits-back-at-Kamal-Haasan/articleshow/47920895.cms	Cr:0.6479047671830568	Sr:0.3846153846	Rf:0.8917629003	Ac:0.1082370998
+2019-07-14T11:47:54 INFO    https://wikibio.in/kamal-haasan/	Cr:0.5771134955500384	Sr:null	Rf:0.4760971546	Ac:0.5239028455
+2019-07-14T11:47:54 INFO    https://www.postoast.com/kamal-haasan-love-life/	Cr:0.45741944555269215	Sr:null	Rf:0.2925783629	Ac:0.7074216372
+2019-07-14T11:47:54 INFO    http://www.sify.com/movies/vani-ganapathy-slams-kamal-s-pity-party-news-kollywood-phclQpdbghhfc.html	Cr:0.44514887008907583	Sr:null	Rf:0.1993650165	Ac:0.8006349836
+2019-07-14T11:47:54 INFO    FALSE:0.458	TRUE:0.542
+2019-07-14T11:48:17 INFO    Search scope: op_web
+2019-07-14T11:48:17 INFO    CLAIM: BillyBoy* parent Jean Pierre Lestrade
+2019-07-14T11:48:17 INFO    http://www.mdvanii.ch/en/article/biography-en	Cr:0.5570061943491004	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:48:17 INFO    https://en.wikipedia.org/wiki/BillyBoy*	Cr:0.5746813177805515	Sr:0.5383916402	Rf:0.8256517415	Ac:0.1743482586
+2019-07-14T11:48:17 INFO    https://upclosed.com/people/billyboy/	Cr:0.5753302573591361	Sr:null	Rf:0.7917678997	Ac:0.2082321004
+2019-07-14T11:48:17 INFO    https://en.wikipedia.org/wiki/Mdvanii	Cr:0.42092704856079666	Sr:0.5383916402	Rf:0.4016996943	Ac:0.5983003058
+2019-07-14T11:48:17 INFO    https://georgetfacetoface.wordpress.com/2012/04/17/les-artistes-billyboy-lala-jean-pierre/	Cr:0.35850560600055853	Sr:0.5593625498	Rf:0.148590656	Ac:0.8514093441
+2019-07-14T11:48:17 INFO    https://mudac.ch/boutique/catalogue-billy-boy-lala/	Cr:0.4698512893480888	Sr:null	Rf:0.4453191999	Ac:0.5546808002
+2019-07-14T11:48:18 INFO    FALSE:0.49	TRUE:0.51
+2019-07-14T11:48:42 INFO    Search scope: op_web
+2019-07-14T11:48:42 INFO    CLAIM: BillyBoy* child Jean Pierre Lestrade
+2019-07-14T11:48:42 INFO    http://www.mdvanii.ch/en/article/biography-en	Cr:0.5570061943491004	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:48:42 INFO    https://en.wikipedia.org/wiki/BillyBoy*	Cr:0.5746813177805515	Sr:0.5383916402	Rf:0.8256517415	Ac:0.1743482586
+2019-07-14T11:48:42 INFO    https://georgetfacetoface.wordpress.com/2012/04/17/les-artistes-billyboy-lala-jean-pierre/	Cr:0.35850560600055853	Sr:0.5593625498	Rf:0.148590656	Ac:0.8514093441
+2019-07-14T11:48:42 INFO    https://upclosed.com/people/billyboy/	Cr:0.5753302573591361	Sr:null	Rf:0.7917678997	Ac:0.2082321004
+2019-07-14T11:48:42 INFO    https://m.facebook.com/groups/283463461935/	Cr:0.35850432689115097	Sr:0.6507713885	Rf:0.2349796705	Ac:0.7650203296
+2019-07-14T11:48:43 INFO    https://en.wikipedia.org/wiki/Mdvanii	Cr:0.42092704856079666	Sr:0.5383916402	Rf:0.4016996943	Ac:0.5983003058
+2019-07-14T11:48:43 INFO    http://www.gallery24jewelry.com/blogazine/2017/9/14/billyboy	Cr:0.5534616040558373	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:48:43 INFO    https://sararacouture.com/jewelry-according-to-billyboy-an-interview-with-the-avid-collector-of-haute-couture-accessories-and-creator-of-surreal-bijoux/	Cr:0.47433583328219814	Sr:null	Rf:0.4773631077	Ac:0.5226368924
+2019-07-14T11:48:43 INFO    http://www.55bellechasse.com/artist-profil/150/BillyBoy*-&-Lala.html	Cr:0.410623005345811	Sr:null	Rf:0.3955585281	Ac:0.604441472
+2019-07-14T11:48:43 INFO    https://www.arbuturian.com/lifestyle/fashion/billyboy-mdvanii	Cr:0.33844759013312914	Sr:null	Rf:0.1637481921	Ac:0.836251808
+2019-07-14T11:48:43 INFO    FALSE:0.459	TRUE:0.5409999999999999
+2019-07-14T11:49:05 INFO    Search scope: op_web
+2019-07-14T11:49:05 INFO    CLAIM: BillyBoy* successor Jean Pierre Lestrade
+2019-07-14T11:49:05 INFO    https://en.wikipedia.org/wiki/BillyBoy*	Cr:0.5746813177805515	Sr:0.5383916402	Rf:0.8256517415	Ac:0.1743482586
+2019-07-14T11:49:05 INFO    http://www.mdvanii.ch/en/article/biography-en	Cr:0.5570061943491004	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:49:06 INFO    https://en.wikipedia.org/wiki/Mdvanii	Cr:0.42092704856079666	Sr:0.5383916402	Rf:0.4016996943	Ac:0.5983003058
+2019-07-14T11:49:06 INFO    https://upclosed.com/people/billyboy/	Cr:0.5753302573591361	Sr:null	Rf:0.7917678997	Ac:0.2082321004
+2019-07-14T11:49:06 INFO    https://georgetfacetoface.wordpress.com/2012/04/17/les-artistes-billyboy-lala-jean-pierre/	Cr:0.35850560600055853	Sr:0.5593625498	Rf:0.148590656	Ac:0.8514093441
+2019-07-14T11:49:06 INFO    https://m.facebook.com/groups/283463461935/	Cr:0.35850432689115097	Sr:0.6507713885	Rf:0.2349796705	Ac:0.7650203296
+2019-07-14T11:49:06 INFO    http://www.fondationtanagra.com/en/article/about-the-founders-en	Cr:0.5507452986299641	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:49:06 INFO    http://www.gallery24jewelry.com/blogazine/2017/9/14/billyboy	Cr:0.5534616040558373	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:49:06 INFO    https://www.arbuturian.com/lifestyle/fashion/billyboy-mdvanii	Cr:0.33844759013312914	Sr:null	Rf:0.1637481921	Ac:0.836251808
+2019-07-14T11:49:06 INFO    FALSE:0.472	TRUE:0.528
+2019-07-14T11:49:30 INFO    Search scope: op_web
+2019-07-14T11:49:30 INFO    CLAIM: Jean Pierre Lestrade spouse BillyBoy*
+2019-07-14T11:49:30 INFO    https://en.wikipedia.org/wiki/BillyBoy*	Cr:0.5746813177805515	Sr:0.5383916402	Rf:0.8256517415	Ac:0.1743482586
+2019-07-14T11:49:30 INFO    https://upclosed.com/people/billyboy/	Cr:0.5753302573591361	Sr:null	Rf:0.7917678997	Ac:0.2082321004
+2019-07-14T11:49:31 INFO    http://www.mdvanii.ch/en/article/biography-en	Cr:0.5570061943491004	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:49:31 INFO    https://en.wikipedia.org/wiki/Mdvanii	Cr:0.42092704856079666	Sr:0.5383916402	Rf:0.4016996943	Ac:0.5983003058
+2019-07-14T11:49:31 INFO    https://m.facebook.com/groups/283463461935/	Cr:0.35850432689115097	Sr:0.6507713885	Rf:0.2349796705	Ac:0.7650203296
+2019-07-14T11:49:31 INFO    https://georgetfacetoface.wordpress.com/2012/04/17/les-artistes-billyboy-lala-jean-pierre/	Cr:0.35850560600055853	Sr:0.5593625498	Rf:0.148590656	Ac:0.8514093441
+2019-07-14T11:49:31 INFO    https://wiki2.org/en/BillyBoy*	Cr:0.5984052597938598	Sr:null	Rf:0.8256517415	Ac:0.1743482586
+2019-07-14T11:49:31 INFO    https://what-we-wore.com/post/65667982817/billyboy-in-london	Cr:0.5172137985330362	Sr:null	Rf:0.6329273129	Ac:0.3670726872
+2019-07-14T11:49:31 INFO    FALSE:0.488	TRUE:0.512
+2019-07-14T11:49:58 INFO    Search scope: op_web
+2019-07-14T11:49:58 INFO    CLAIM: Jean Pierre Lestrade parent BillyBoy*
+2019-07-14T11:49:59 INFO    http://www.mdvanii.ch/en/article/biography-en	Cr:0.5570061943491004	Sr:null	Rf:0.7031795986	Ac:0.2968204015
+2019-07-14T11:49:59 INFO    https://en.wikipedia.org/wiki/BillyBoy*	Cr:0.5746813177805515	Sr:0.5383916402	Rf:0.8256517415	Ac:0.1743482586
+2019-07-14T11:49:59 INFO    https://m.facebook.com/groups/283463461935/	Cr:0.35850432689115097	Sr:0.6507713885	Rf:0.2349796705	Ac:0.7650203296
+2019-07-14T11:49:59 INFO    https://georgetfacetoface.wordpress.com/2012/04/17/les-artistes-billyboy-lala-jean-pierre/	Cr:0.35850560600055853	Sr:0.5593625498	Rf:0.148590656	Ac:0.8514093441
+2019-07-14T11:49:59 INFO    https://en.wikipedia.org/wiki/Mdvanii	Cr:0.42092704856079666	Sr:0.5383916402	Rf:0.4016996943	Ac:0.5983003058
+2019-07-14T11:49:59 INFO    https://upclosed.com/people/billyboy/	Cr:0.5753302573591361	Sr:null	Rf:0.7917678997	Ac:0.2082321004
+2019-07-14T11:49:59 INFO    FALSE:0.467	TRUE:0.5329999999999999
+2019-07-14T11:50:42 INFO    Search scope: op_web
+2019-07-14T11:50:42 INFO    CLAIM: H. Wesley Kenney child Betty Corday
+2019-07-14T11:50:42 INFO    https://interviews.televisionacademy.com/people/betty-corday	Cr:0.5071811735517542	Sr:null	Rf:0.4335141502	Ac:0.5664858499
+2019-07-14T11:50:42 INFO    https://boards.soapoperanetwork.com/topic/56438-history-of-executive-producers-and-head-writers/	Cr:0.5165229958588152	Sr:null	Rf:0.4917887793	Ac:0.5082112208
+2019-07-14T11:50:43 INFO    http://www.jason47.com/days/staffdatabase.html	Cr:0.48004687743780716	Sr:null	Rf:0.4321141963	Ac:0.5678858038
+2019-07-14T11:50:43 INFO    http://www.omnilexica.com/?q=Betty Corday	Cr:0.5578564808566977	Sr:null	Rf:0.6519992294	Ac:0.3480007707
+2019-07-14T11:50:43 INFO    FALSE:0.515	TRUE:0.485
+2019-07-14T11:51:02 INFO    Search scope: op_web
+2019-07-14T11:51:02 INFO    CLAIM: Betty Corday parent H. Wesley Kenney
+2019-07-14T11:51:03 INFO    https://interviews.televisionacademy.com/people/betty-corday	Cr:0.5071811735517542	Sr:null	Rf:0.4335141502	Ac:0.5664858499
+2019-07-14T11:51:03 INFO    https://boards.soapoperanetwork.com/topic/56438-history-of-executive-producers-and-head-writers/	Cr:0.5165229958588152	Sr:null	Rf:0.4917887793	Ac:0.5082112208
+2019-07-14T11:51:03 INFO    http://www.jason47.com/days/staffdatabase.html	Cr:0.48004687743780716	Sr:null	Rf:0.4321141963	Ac:0.5678858038
+2019-07-14T11:51:03 INFO    FALSE:0.501	TRUE:0.499
+2019-07-14T11:51:26 INFO    Search scope: op_web
+2019-07-14T11:51:27 INFO    CLAIM: H. Wesley Kenney successor Betty Corday
+2019-07-14T11:51:27 INFO    https://interviews.televisionacademy.com/people/betty-corday	Cr:0.5071811735517542	Sr:null	Rf:0.4335141502	Ac:0.5664858499
+2019-07-14T11:51:28 INFO    http://www.jason47.com/days/staffdatabase.html	Cr:0.48004687743780716	Sr:null	Rf:0.4321141963	Ac:0.5678858038
+2019-07-14T11:51:28 INFO    https://boards.soapoperanetwork.com/topic/56438-history-of-executive-producers-and-head-writers/	Cr:0.5165229958588152	Sr:null	Rf:0.4917887793	Ac:0.5082112208
+2019-07-14T11:51:28 INFO    http://www.omnilexica.com/?q=Betty Corday	Cr:0.5578564808566977	Sr:null	Rf:0.6519992294	Ac:0.3480007707
+2019-07-14T11:51:28 INFO    https://boards.soapoperanetwork.com/topic/52486-daysyrgh-producer-h-wesley-kenney-passes-away-at-89/	Cr:0.37649002658193903	Sr:null	Rf:0.2810099931	Ac:0.718990007
+2019-07-14T11:51:28 INFO    FALSE:0.488	TRUE:0.512
+2019-07-14T11:51:58 INFO    Search scope: op_web
+2019-07-14T11:51:58 INFO    CLAIM: H. Wesley Kenney parent Betty Corday
+2019-07-14T11:51:58 INFO    https://interviews.televisionacademy.com/people/betty-corday	Cr:0.5071811735517542	Sr:null	Rf:0.4335141502	Ac:0.5664858499
+2019-07-14T11:51:59 INFO    http://www.jason47.com/days/staffdatabase.html	Cr:0.48004687743780716	Sr:null	Rf:0.4321141963	Ac:0.5678858038
+2019-07-14T11:51:59 INFO    https://boards.soapoperanetwork.com/topic/56438-history-of-executive-producers-and-head-writers/	Cr:0.5165229958588152	Sr:null	Rf:0.4917887793	Ac:0.5082112208
+2019-07-14T11:51:59 INFO    http://www.omnilexica.com/?q=Betty Corday	Cr:0.5578564808566977	Sr:null	Rf:0.6519992294	Ac:0.3480007707
+2019-07-14T11:51:59 INFO    FALSE:0.515	TRUE:0.485
+2019-07-14T11:52:31 INFO    Search scope: op_web
+2019-07-14T11:52:31 INFO    CLAIM: Betty Corday spouse H. Wesley Kenney
+2019-07-14T11:52:32 INFO    https://interviews.televisionacademy.com/people/betty-corday	Cr:0.5071811735517542	Sr:null	Rf:0.4335141502	Ac:0.5664858499
+2019-07-14T11:52:32 INFO    http://www.omnilexica.com/?q=Betty Corday	Cr:0.5578564808566977	Sr:null	Rf:0.6519992294	Ac:0.3480007707
+2019-07-14T11:52:32 INFO    http://www.jason47.com/days/staffdatabase.html	Cr:0.48004687743780716	Sr:null	Rf:0.4321141963	Ac:0.5678858038
+2019-07-14T11:52:32 INFO    https://boards.soapoperanetwork.com/topic/56438-history-of-executive-producers-and-head-writers/	Cr:0.5165229958588152	Sr:null	Rf:0.4917887793	Ac:0.5082112208
+2019-07-14T11:52:32 INFO    FALSE:0.515	TRUE:0.485
+2019-07-14T11:53:05 INFO    Search scope: op_web
+2019-07-14T11:53:05 INFO    CLAIM: Mariana of Austria successor Charles II of Spain
+2019-07-14T11:53:06 INFO    https://en.wikipedia.org/wiki/Charles_II,_King_of_Spain	Cr:0.49721414567409605	Sr:0.5383916402	Rf:0.5368595231	Ac:0.463140477
+2019-07-14T11:53:06 INFO    https://en.wikipedia.org/wiki/Mariana_of_Austria	Cr:0.564163365834802	Sr:0.5383916402	Rf:0.6493196629	Ac:0.3506803372
+2019-07-14T11:53:06 INFO    https://versailles-tv.fandom.com/wiki/Charles_II_of_Spain	Cr:0.43106630885508024	Sr:null	Rf:0.2590232483	Ac:0.7409767518
+2019-07-14T11:53:06 INFO    https://infogalactic.com/info/Charles_II_of_Spain	Cr:0.6322312370793504	Sr:null	Rf:0.8718675632	Ac:0.1281324369
+2019-07-14T11:53:06 INFO    https://www.pepysdiary.com/encyclopedia/10146/	Cr:0.5137732073721827	Sr:null	Rf:0.5588658097	Ac:0.4411341904
+2019-07-14T11:53:06 INFO    https://www.thefamouspeople.com/profiles/charles-ii-of-spain-32195.php	Cr:0.513531798773354	Sr:null	Rf:0.5199648408	Ac:0.4800351593
+2019-07-14T11:53:06 INFO    https://www.factinate.com/people/facts-charles-ii-spain/	Cr:0.4949848872442112	Sr:null	Rf:0.5380600652	Ac:0.4619399349
+2019-07-14T11:53:06 INFO    https://www.thevintagenews.com/2017/03/23/when-charles-ii-of-spain-died-the-autopsy-stated-that-his-body-did-not-contain-a-single-drop-of-blood-and-his-head-was-full-of-water/	Cr:0.4763470230756289	Sr:null	Rf:0.4283775262	Ac:0.5716224739
+2019-07-14T11:53:06 INFO    https://www.thevintagenews.com/2018/06/25/charles-ii-of-spain-autopsy/	Cr:0.5066935440163753	Sr:null	Rf:0.5350988836	Ac:0.4649011165
+2019-07-14T11:53:06 INFO    http://voleum.com/mysterious-death-charles-ii-spain-bloodless-body-head-water/	Cr:0.5251993081465134	Sr:null	Rf:0.7429623164	Ac:0.2570376837
+2019-07-14T11:53:06 INFO    http://www.princemichaelschronicles.com/succession-of-charles-ii/	Cr:0.4605077949702349	Sr:null	Rf:0.4408836317	Ac:0.5591163684
+2019-07-14T11:53:06 INFO    https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/charles-ii-spain	Cr:0.5386040142093131	Sr:null	Rf:0.591874292	Ac:0.4081257081
+2019-07-14T11:53:06 INFO    https://www.palaces-of-europe.com/Charles-II-of-Spain.html	Cr:0.4351452129101584	Sr:null	Rf:0.4238499305	Ac:0.5761500696
+2019-07-14T11:53:06 INFO    FALSE:0.507	TRUE:0.493
+2019-07-14T11:53:29 INFO    Search scope: op_web
+2019-07-14T11:53:29 INFO    CLAIM: Charles II of Spain spouse Mariana of Austria
+2019-07-14T11:53:29 INFO    https://en.wikipedia.org/wiki/Charles_II,_King_of_Spain	Cr:0.49721414567409605	Sr:0.5383916402	Rf:0.5368595231	Ac:0.463140477
+2019-07-14T11:53:29 INFO    https://en.wikipedia.org/wiki/Mariana_of_Austria	Cr:0.564163365834802	Sr:0.5383916402	Rf:0.6493196629	Ac:0.3506803372
+2019-07-14T11:53:29 INFO    https://versailles-tv.fandom.com/wiki/Charles_II_of_Spain	Cr:0.43106630885508024	Sr:null	Rf:0.2590232483	Ac:0.7409767518
+2019-07-14T11:53:29 INFO    https://www.thefamouspeople.com/profiles/charles-ii-of-spain-32195.php	Cr:0.513531798773354	Sr:null	Rf:0.5199648408	Ac:0.4800351593
+2019-07-14T11:53:29 INFO    https://infogalactic.com/info/Charles_II_of_Spain	Cr:0.6322312370793504	Sr:null	Rf:0.8718675632	Ac:0.1281324369
+2019-07-14T11:53:29 INFO    https://familypedia.wikia.org/wiki/Charles_II_of_Spain_(1661-1700)	Cr:0.6637263635678863	Sr:null	Rf:0.5669232415	Ac:0.4330767586
+2019-07-14T11:53:29 INFO    https://alchetron.com/Margaret-of-Austria,-Queen-of-Spain	Cr:0.40167914038060964	Sr:null	Rf:0.355292022	Ac:0.6447079781
+2019-07-14T11:53:29 INFO    https://www.thevintagenews.com/2017/03/23/when-charles-ii-of-spain-died-the-autopsy-stated-that-his-body-did-not-contain-a-single-drop-of-blood-and-his-head-was-full-of-water/	Cr:0.4763470230756289	Sr:null	Rf:0.4283775262	Ac:0.5716224739
+2019-07-14T11:53:29 INFO    https://alchetron.com/Mariana-of-Austria	Cr:0.5992723552340086	Sr:null	Rf:0.7289619637	Ac:0.2710380364
+2019-07-14T11:53:29 INFO    https://www.thefullwiki.org/Charles_II_of_Spain	Cr:0.5730450158827434	Sr:null	Rf:0.6502643499	Ac:0.3497356502
+2019-07-14T11:53:30 INFO    http://paolacampo.com/2014/05/ways-to-get-royally-screwed-the-story-of-charles-ii-of-spain/	Cr:0.4697221990118031	Sr:null	Rf:0.5267662226	Ac:0.4732337775
+2019-07-14T11:53:30 INFO    FALSE:0.529	TRUE:0.471
+2019-07-14T11:53:54 INFO    Search scope: op_web
+2019-07-14T11:53:54 INFO    CLAIM: Mariana of Austria parent Charles II of Spain
+2019-07-14T11:53:55 INFO    https://en.wikipedia.org/wiki/Charles_II_of_Spain	Cr:0.49721414567409605	Sr:0.5383916402	Rf:0.5368595231	Ac:0.463140477
+2019-07-14T11:53:55 INFO    https://en.wikipedia.org/wiki/Marie-Anne_of_Austria	Cr:0.564163365834802	Sr:0.5383916402	Rf:0.6493196629	Ac:0.3506803372
+2019-07-14T11:53:55 INFO    https://www.thevintagenews.com/2018/06/25/charles-ii-of-spain-autopsy/	Cr:0.5066935440163753	Sr:null	Rf:0.5350988836	Ac:0.4649011165
+2019-07-14T11:53:55 INFO    http://paolacampo.com/2014/05/ways-to-get-royally-screwed-the-story-of-charles-ii-of-spain/	Cr:0.4465900029605281	Sr:null	Rf:0.4728590692	Ac:0.5271409309
+2019-07-14T11:53:55 INFO    https://versailles-tv.fandom.com/wiki/Charles_II_of_Spain	Cr:0.43106630885508024	Sr:null	Rf:0.2590232483	Ac:0.7409767518
+2019-07-14T11:53:55 INFO    https://www.thefamouspeople.com/profiles/charles-ii-of-spain-32195.php	Cr:0.513531798773354	Sr:null	Rf:0.5199648408	Ac:0.4800351593
+2019-07-14T11:53:55 INFO    https://www.palaces-of-europe.com/Charles-II-of-Spain.html	Cr:0.4351452129101584	Sr:null	Rf:0.4238499305	Ac:0.5761500696
+2019-07-14T11:53:55 INFO    https://www.historyofroyalwomen.com/the-queen-regent-series/queens-regent-mariana-austria/	Cr:0.43968892427183753	Sr:null	Rf:0.3960592516	Ac:0.6039407485
+2019-07-14T11:53:55 INFO    https://www.pepysdiary.com/encyclopedia/10146/	Cr:0.4863732351103815	Sr:null	Rf:0.4954560936	Ac:0.5045439065
+2019-07-14T11:53:55 INFO    https://www.thevintagenews.com/2017/03/23/when-charles-ii-of-spain-died-the-autopsy-stated-that-his-body-did-not-contain-a-single-drop-of-blood-and-his-head-was-full-of-water/	Cr:0.4763470230756289	Sr:null	Rf:0.4283775262	Ac:0.5716224739
+2019-07-14T11:53:55 INFO    https://alchetron.com/Maria-Anna-of-Neuburg	Cr:0.4437738541721991	Sr:null	Rf:0.4764273088	Ac:0.5235726913
+2019-07-14T11:53:55 INFO    https://artsandculture.google.com/asset/mariana-de-austria-y-carlos-ii/QQHUwLRovuo2DQ	Cr:0.5413220568613546	Sr:0.6149425287	Rf:0.5749151401	Ac:0.42508486
+2019-07-14T11:53:56 INFO    https://www.britannica.com/biography/Charles-II-king-of-Spain	Cr:0.6733447437547838	Sr:0.3043478261	Rf:0.7330910852	Ac:0.2669089149
+2019-07-14T11:53:56 INFO    https://artsandculture.google.com/asset/mariana-of-austria-and-charles-ii/QQHUwLRovuo2DQ	Cr:0.5413220568613546	Sr:0.6149425287	Rf:0.5749151401	Ac:0.42508486
+2019-07-14T11:53:56 INFO    https://biography.yourdictionary.com/charles-ii	Cr:0.5611271971775025	Sr:null	Rf:0.4703068424	Ac:0.5296931577
+2019-07-14T11:53:56 INFO    FALSE:0.501	TRUE:0.499
+2019-07-14T11:54:15 INFO    Search scope: op_web
+2019-07-14T11:54:15 INFO    CLAIM: Mariana of Austria child Charles II of Spain
+2019-07-14T11:54:15 INFO    https://en.wikipedia.org/wiki/Mariana_of_Austria	Cr:0.6026305103829919	Sr:0.5383916402	Rf:0.7409176815	Ac:0.2590823186
+2019-07-14T11:54:16 INFO    https://en.wikipedia.org/wiki/Charles_II_of_Spain	Cr:0.49721414567409605	Sr:0.5383916402	Rf:0.5368595231	Ac:0.463140477
+2019-07-14T11:54:16 INFO    https://www.thefamouspeople.com/profiles/charles-ii-of-spain-32195.php	Cr:0.513531798773354	Sr:null	Rf:0.5199648408	Ac:0.4800351593
+2019-07-14T11:54:16 INFO    http://paolacampo.com/2014/05/ways-to-get-royally-screwed-the-story-of-charles-ii-of-spain/	Cr:0.4373221068263579	Sr:null	Rf:0.4511228538	Ac:0.5488771463
+2019-07-14T11:54:16 INFO    https://en.wikipedia.org/wiki/Margaret_Theresa_of_Spain	Cr:0.40175363249632373	Sr:0.5383916402	Rf:0.3486788512	Ac:0.6513211489
+2019-07-14T11:54:16 INFO    https://www.thevintagenews.com/2017/03/23/when-charles-ii-of-spain-died-the-autopsy-stated-that-his-body-did-not-contain-a-single-drop-of-blood-and-his-head-was-full-of-water/	Cr:0.4763470230756289	Sr:null	Rf:0.4283775262	Ac:0.5716224739
+2019-07-14T11:54:16 INFO    https://www.thevintagenews.com/2018/06/25/charles-ii-of-spain-autopsy/	Cr:0.5066935440163753	Sr:null	Rf:0.5350988836	Ac:0.4649011165
+2019-07-14T11:54:16 INFO    https://www.palaces-of-europe.com/Charles-II-of-Spain.html	Cr:0.4351452129101584	Sr:null	Rf:0.4238499305	Ac:0.5761500696
+2019-07-14T11:54:16 INFO    https://versailles-tv.fandom.com/wiki/Charles_II_of_Spain	Cr:0.43106630885508024	Sr:null	Rf:0.2590232483	Ac:0.7409767518
+2019-07-14T11:54:16 INFO    https://artsandculture.google.com/asset/mariana-de-austria-y-carlos-ii/QQHUwLRovuo2DQ	Cr:0.5413220568613546	Sr:0.6149425287	Rf:0.5749151401	Ac:0.42508486
+2019-07-14T11:54:16 INFO    https://alchetron.com/Maria-Anna-of-Neuburg	Cr:0.4437738541721991	Sr:null	Rf:0.4764273088	Ac:0.5235726913
+2019-07-14T11:54:16 INFO    https://artsandculture.google.com/asset/mariana-of-austria-and-charles-ii/QQHUwLRovuo2DQ	Cr:0.5413220568613546	Sr:0.6149425287	Rf:0.5749151401	Ac:0.42508486
+2019-07-14T11:54:16 INFO    https://biography.yourdictionary.com/charles-ii	Cr:0.5611271971775025	Sr:null	Rf:0.4703068424	Ac:0.5296931577
+2019-07-14T11:54:16 INFO    https://www.historyofroyalwomen.com/the-queen-regent-series/queens-regent-mariana-austria/	Cr:0.43968892427183753	Sr:null	Rf:0.3960592516	Ac:0.6039407485
+2019-07-14T11:54:16 INFO    FALSE:0.49	TRUE:0.51

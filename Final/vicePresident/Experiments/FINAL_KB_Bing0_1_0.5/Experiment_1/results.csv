@@ -1,0 +1,201 @@
+Id,Subject,Object,Label,Predicted Label,Execution Time (mins)
+829,Ernest_Bai_Koroma,Victor_Bockarie_Foh,1,Killed,300.0078797340393
+597,Pierre_Nkurunziza,Gervais_Rufyikiri,1,1,2.4776830673217773
+907,Hugo_Banzer,Jorge_Quiroga,1,-1,2.2714357376098633
+937,Júlio_Prestes,Vital_Soares,1,-1,2.272801399230957
+562,Julio_Argentino_Roca,Norberto_Quirno_Costa,1,Can't Decide,2.3245718479156494
+763,Teburoro_Tito,Beniamina_Tinga,1,1,2.3240365982055664
+622,John_Magufuli,Samia_Suluhu,1,Killed,300.0068733692169
+201,Trương_Tấn_Sang,Nguyễn_Thị_Doan,1,Can't Decide,2.6294021606445312
+394,Emílio_Garrastazu_Médici,Augusto_Rademaker,1,-1,2.27480411529541
+957,Rosalyn_Nandwa,William_Ruto,1,1,2.224093198776245
+961,Carlos_Felipe_Morales,Ramón_Cáceres,1,Can't Decide,2.6734719276428223
+554,Antonio_Guzmán_Fernández,Jacobo_Majluta_Azar,1,Can't Decide,2.3722355365753174
+269,Joshua_Nkomo,Simon_Muzenda,1,1,45.58473491668701
+835,Arturo_Umberto_Illia,Carlos_Humberto_Perette,1,Can't Decide,2.3722023963928223
+111,Rutherford_B._Hayes,William_A._Wheeler,1,Killed,300.00608944892883
+527,William_Kristol,Dan_Quayle,1,1,2.425107479095459
+496,Frankfurt_University_of_Music_and_Performing_Arts,Hubert_Buchberger,1,1,2.2734532356262207
+350,Trần_Đức_Lương,Nguyễn_Thị_Bình,1,Can't Decide,2.322106122970581
+329,Pedro_Pablo_Ramírez,Edelmiro_Julián_Farrell,1,Can't Decide,2.222580909729004
+700,Philippe_Germain,Jean-Louis_d'Angleberme,1,1,2.273088216781616
+324,Ollanta_Humala,Omar_Chehade,1,Can't Decide,2.2251906394958496
+616,José_Manuel_Barroso,Margot_Wallström,1,-1,2.275179386138916
+157,Malik_Amin_Aslam,Hamid_Khan_(lawyer),1,Killed,300.01121616363525
+811,Anil_Bachoo,Angidi_Chettiar,1,Killed,300.00756096839905
+570,Nguyễn_Minh_Triết,Trương_Mỹ_Hoa,1,-1,2.5269737243652344
+709,Joyce_Bamford-Addo,John_Dramani_Mahama,1,Killed,300.00753021240234
+471,Ali_Abdullah_Saleh,Abd_Rabbuh_Mansur_Hadi,1,Can't Decide,2.382983684539795
+115,Tabarak_Husain,Abdus_Sattar_(president),1,Killed,300.00307607650757
+441,Early_life_and_career_of_Suharto,Adam_Malik,1,Killed,300.00658202171326
+285,Zakir_Husain_(politician),V._V._Giri,1,Killed,300.007520198822
+901,Arnold_Nordmeyer,James_Roberts_(trade_unionist),1,Killed,300.0087070465088
+639,Fidel_Castro,Raúl_Castro,1,Can't Decide,2.4742746353149414
+851,Jesús_de_Cárdenas,José_María_Jesús_Carbajal,1,Can't Decide,2.274775981903076
+428,Milton_Bluehouse_Sr.,Frank_Chee_Willeto,1,1,2.1748507022857666
+470,Pedro_Aguirre_Cerda,Jerónimo_Méndez,1,Can't Decide,2.1724469661712646
+110,Peter_M._Christian,Yosiwo_George,1,1,2.274691343307495
+727,Liao_Feng-teh,Lien_Chan,1,Killed,300.00720381736755
+911,Goethe_University_Frankfurt,Enrico_Schleiff,1,1,2.4309239387512207
+944,Central_South_University,Zhou_Kechao,1,1,2.22566556930542
+208,Nkululeko_Sibanda,Itayi_Zimunya,1,1,2.222810983657837
+207,Didier_Burkhalter,Simonetta_Sommaruga,1,Can't Decide,2.2208526134490967
+151,Sukarno,Mohammad_Hatta,1,Killed,300.01417422294617
+798,Julius_Nyerere,Ali_Hassan_Mwinyi,1,Killed,300.00849771499634
+589,Ronald_Venetiaan,Jules_Ajodhia,1,Can't Decide,2.423640012741089
+671,Jerónimo_Carrión,Pedro_José_de_Arteta,1,1,2.274864435195923
+419,John_Quincy_Adams,John_C._Calhoun,1,Killed,300.00449991226196
+758,Antonio_Saca,Ana_Vilma_de_Escobar,1,1,2.5302488803863525
+765,Joseph_Sung,Benjamin_Wah,1,1,2.323943614959717
+172,Jalal_Talabani,Khodair_al-Khozaei,1,Killed,300.0080955028534
+847,Koç_University,İrşadi_Aksun,1,Can't Decide,2.43062686920166
+868,Álvaro_Uribe,Francisco_Santos_Calderón,1,Can't Decide,2.2235631942749023
+641,René_Barrientos,Luis_Adolfo_Siles_Salinas,1,-1,2.224686861038208
+378,Juan_José_Arévalo,Mario_Monteforte_Toledo,1,-1,2.322511911392212
+359,Sahabzada_Yaqub_Khan,Nurul_Amin,1,Killed,300.00340390205383
+267,Dina_Nath_Sharma,Paramananda_Jha,1,Killed,300.00635719299316
+556,Government_of_Mahmoud_Ahmadinejad_(2005–13),Mohammad_Reza_Rahimi,1,Can't Decide,2.6254727840423584
+82,Enrique_Bolaños,Alfredo_Gómez_Urcuyo,1,Can't Decide,2.2757952213287354
+275,Tabaré_Vázquez,Raúl_Fernando_Sendic_Rodríguez,1,Can't Decide,2.223222494125366
+227,Juan_Perón,Isabel_Martínez_de_Perón,1,-1,2.222551107406616
+955,Pascal_Couchepin,Ruth_Metzler-Arnold,1,Killed,300.00832509994507
+102,Óscar_Arias,Laura_Chinchilla_Miranda,1,Can't Decide,2.3250577449798584
+248,Manuel_A._Odría,Héctor_Boza,1,Can't Decide,2.271850109100342
+261,Víctor_M._Marroquín,María_Teresa_Quiñones,1,Can't Decide,2.2206873893737793
+458,Julio_Argentino_Roca,Francisco_Bernabé_Madero,1,-1,2.220982789993286
+241,Presidency_of_Corazon_Aquino,Salvador_Laurel,1,1,2.3233249187469482
+10,Shehbaz_Sharif,Ghaus_Ali_Shah,1,Killed,300.0076243877411
+684,Bartolomé_Mitre,Marcos_Paz,1,1,2.527198076248169
+20,Eligio_Ayala,Golem,1,1,2.2230050563812256
+972,Azam_Khan_Swati,Ejaz_Chaudhary,1,Killed,300.0032708644867
+168,Joaquín_Balaguer,Carlos_Morales_Troncoso,1,1,2.374887228012085
+182,James_McCombs,Andrew_Walker_(politician),1,1,27.141284227371216
+187,Narayan_Prakash_Saud,Paramananda_Jha,1,Killed,300.00431656837463
+147,Sam_Houston,Mirabeau_B._Lamar,1,Killed,300.00557684898376
+577,Mohammad_Daud_Sultanzoy,Ahmad_Zia_Massoud,1,1,2.4260215759277344
+263,Jerry_Rawlings,John_Atta_Mills,1,Killed,300.0063796043396
+661,Joaquín_Balaguer,Jacinto_Peynado_y_Garrigosa,1,-1,2.477293014526367
+245,Warren_G._Harding,Calvin_Coolidge,1,Killed,300.00598526000977
+334,William_R._Tolbert_Jr.,Bennie_Dee_Warner,1,1,10.362216472625732
+137,Hernán_Siles_Zuazo,Ñuflo_Chávez_Ortiz,1,Can't Decide,2.324390411376953
+549,Vicente_Ramón_Roca,Pablo_Merino,1,Can't Decide,2.2243430614471436
+197,Raúl_Cubas_Grau,Luis_María_Argaña,1,-1,2.2748446464538574
+921,Ollanta_Humala,Marisol_Espinoza,1,Can't Decide,2.2255911827087402
+607,Michelle_Wu,Frank_Baker_(politician),1,1,2.2236533164978027
+204,Bashar_al-Assad,Najah_al-Attar,1,Can't Decide,2.2227683067321777
+819,Lyndon_B._Johnson,Hubert_Humphrey,1,Killed,300.0064287185669
+544,José_Miguel_Gómez,Alfredo_Zayas,1,1,2.474393129348755
+44,Andrés_Pastrana_Arango,Gustavo_Bell_Lemus,1,-1,2.3242580890655518
+823,Gabriel_Terra,César_Charlone_(politician),1,-1,2.2234270572662354
+254,Joaquín_Samuel_de_Anchorena,Victorino_de_la_Plaza,1,Can't Decide,2.3228650093078613
+669,John_Paul_II_Institute,Carl_A._Anderson,1,1,2.2755014896392822
+781,Macario_Sakay,Francisco_Carreón,1,-1,2.3244786262512207
+796,Abdul_Karim_Abdullah_al-Arashi,Ali_Abdullah_Saleh,1,-1,2.3214495182037354
+236,C._Odumegwu_Ojukwu,Philip_Effiong,1,1,2.3220345973968506
+643,France-Albert_René,James_Michel,1,-1,2.2210519313812256
+685,Benigno_Aquino_III,Jejomar_Binay,1,Killed,300.00381875038147
+948,Mohammed_Waheed_Hassan,Mohammed_Waheed_Dean,1,1,2.4777965545654297
+290,José_Tomás_Ovalle,Fernando_Errázuriz,1,-1,2.274137258529663
+278,Abdalá_Bucaram,Rosalía_Arteaga,1,Can't Decide,2.2232329845428467
+670,Tek_Bahadur_Gurung,Paramananda_Jha,1,Killed,300.0036084651947
+762,Guillermo_Endara,Guillermo_Ford,1,-1,2.7787458896636963
+3925,Minou_Tavárez_Mirabal,John_Archer_(politician),0,-1,2.375535249710083
+3268,Bhim_Acharya,Enrique_José_Varona,0,Can't Decide,2.173426389694214
+1167,Pranab_Mukherjee,Jacinto_Peynado_y_Garrigosa,0,Can't Decide,2.2226483821868896
+2637,Jerry_Rawlings,Guillermo_Ford,0,Can't Decide,2.221560478210449
+3897,José_Antonio_Ardanza,Paramananda_Jha,0,Can't Decide,2.223940849304199
+2268,Mustafa_Abdul_Jalil,Marina_Kolaković,0,-1,2.3790154457092285
+1361,Borjana_Krišto,Wu_Den-yih,0,Can't Decide,2.2729036808013916
+1769,Kaspar_Villiger,Alberto_Guani,0,Can't Decide,2.173189401626587
+1091,Óscar_Arias,Julio_Garrett_Ayllón,0,Can't Decide,2.222127914428711
+3663,Mario_García_Menocal,Gennady_Yanayev,0,Can't Decide,2.222865581512451
+3884,Koç_University,Li_Yuanhong,0,Can't Decide,2.2229723930358887
+3603,George_Weah,Joseph_Chinotimba,0,-1,2.2236883640289307
+1716,Daniel_arap_Moi,Jope_Seniloli,0,1,2.272029399871826
+999,Presidency_of_Boris_Yeltsin,Tewareka_Tentoa,0,Can't Decide,2.223269462585449
+1781,Joe_Shirley_Jr.,Juan_Alfonso_Fuentes_Soria,0,Can't Decide,2.2723701000213623
+1183,Teburoro_Tito,Jorge_Arreaza,0,1,2.1731975078582764
+2881,Jerónimo_Carrión,Hu_Jintao,0,Can't Decide,2.273650884628296
+2351,Nguyễn_Minh_Triết,Elisabeta_Gjoni,0,Can't Decide,2.223423480987549
+1550,Abdalá_Bucaram,Mario_Fernandez,0,Can't Decide,2.277193784713745
+1671,Andrés_Martínez_Trueba,Schuyler_Colfax,0,Can't Decide,2.2207117080688477
+1899,Jean-Claude_Trichet,Alejandro_Serrano,0,1,2.2738401889801025
+3372,John_Archer_(politician),Mompati_Merafhe,0,Can't Decide,2.170811414718628
+3210,Nicolás_Avellaneda,Victorino_de_la_Plaza,0,Can't Decide,2.220548629760742
+2868,Festus_Mogae,Arístides_Crespo,0,Can't Decide,2.273815631866455
+1749,Sadi_Güven,Josep-Lluís_Carod-Rovira,0,Can't Decide,2.5229060649871826
+1932,Valentín_Gómez_Farías,Alexander_Rutskoi,0,Can't Decide,2.221970796585083
+1810,Carlos_Antonio_López,Bakri_Hassan_Saleh,0,Can't Decide,2.2226412296295166
+1055,Blas_Roca_Calderio,Ali_Hassan_Mwinyi,0,Can't Decide,2.3237359523773193
+1835,Julio_María_Sanguinetti,Jope_Seniloli,0,1,2.3235208988189697
+3416,Franklin_Pierce,Ñuflo_Chávez_Ortiz,0,1,2.2232179641723633
+2827,Andrew_Walker_(politician),Shankar_Dayal_Sharma,0,Can't Decide,2.17257022857666
+1000,Paulo_Brossard,Ana_Helena_Chacón_Echeverría,0,Can't Decide,2.2219576835632324
+3567,Jimmy_Morales,Melika_Mahmutbegović,0,Can't Decide,2.1728978157043457
+2802,Manuel_L._Quezon,Mohamed_Mahamud_Jama,0,Can't Decide,2.2719151973724365
+1511,Fuad_Masum,Edward_Burleson,0,Can't Decide,2.223498582839966
+1070,Tomás_Estrada_Palma,Simon_Muzenda,0,Can't Decide,2.2216875553131104
+1918,Idi_Amin,Fernando_López,0,-1,2.2722790241241455
+2953,Bounnhang_Vorachith,Ali_Mohsen_al-Ahmar,0,Can't Decide,2.2210018634796143
+2257,Bounnhang_Vorachith,Ashwin_Adhin,0,Can't Decide,2.2737066745758057
+3799,Taha_al-Hashimi,Jacinto_Peynado_y_Garrigosa,0,Can't Decide,2.2721760272979736
+1585,Salva_Kiir_Mayardit,Nguon_Nhel,0,Can't Decide,2.2235703468322754
+2641,Peterson_Zah,Virgilio_Godoy,0,Can't Decide,2.221971035003662
+1336,Emilio_Aceval,Arnold_Nordmeyer,0,Can't Decide,2.2229108810424805
+2277,Vicente_Ehate_Tomi,Albert_Chau,0,Can't Decide,2.223806381225586
+2007,Eduardo_Zaplana,Mariano_Baptista,0,1,2.226980686187744
+3224,Óscar_Arias,Eduardo_Stein,0,-1,2.2728054523468018
+1339,Pedro_Alcántara_Herrán,Wilhelm_Haferkamp,0,Can't Decide,2.220815896987915
+3741,Chitra_Lekha_Yadav,Mario_Monteforte_Toledo,0,Can't Decide,2.373049736022949
+1775,Chiang_Kai-shek,Kwesi_Amissah-Arthur,0,Can't Decide,2.222295045852661
+1584,Makarios_III,Alejandro_Gómez_(politician),0,Can't Decide,2.3275668621063232
+1140,Taneti_Mamau,Charles_W._Fairbanks,0,Can't Decide,2.2744500637054443
+1549,Carlos_P._Garcia,Jorge_Quiroga,0,Can't Decide,2.2747528553009033
+1098,Zachary_Taylor,Adalberto_Pereira_dos_Santos,0,1,2.2732627391815186
+2233,V._V._Giri,Lien_Chan,0,Can't Decide,2.2743895053863525
+2963,Diego_Noboa,Nathaniel_Brander,0,Can't Decide,2.3218276500701904
+3703,Peter_Tomka,Aaron_Burr,0,Can't Decide,2.423534870147705
+3262,Carlos_Felipe_Morales,Krešo_Beljak,0,Can't Decide,2.271631956100464
+2757,Theodore_Roosevelt,Jejomar_Binay,0,Can't Decide,2.2224009037017822
+1188,Nguyễn_Minh_Triết,Hamengkubuwono_IX,0,Can't Decide,2.221071720123291
+2943,Chandresh_Kumari_Katoch,Sandra_Pierantozzi,0,-1,2.223775625228882
+2686,Central_South_University,Paramananda_Jha,0,Can't Decide,2.222141742706299
+2157,Levy_Mwanawasa,Adlai_Stevenson_I,0,Can't Decide,2.274108648300171
+3114,Alexander_Ankvab,Margarita_Cedeño_de_Fernández,0,1,2.3211169242858887
+1141,Tancredo_Neves,Victoria_Garrón_Orozco,0,Can't Decide,2.1724464893341064
+2473,I-Shou_University,Nurul_Amin,0,Can't Decide,2.2723278999328613
+2875,Thein_Sein,G._Parameshwara,0,Can't Decide,2.1717262268066406
+2852,Živko_Budimir,Mohammed_Waheed_Dean,0,Can't Decide,2.1718804836273193
+1623,Cassam_Uteem,Café_Filho,0,Can't Decide,2.273050546646118
+2814,Óscar_Arias,Monique_Ohsan_Bellepeau,0,Can't Decide,2.172330617904663
+2739,Dwight_D._Eisenhower,Mohammad_Reza_Rahimi,0,Can't Decide,2.221526622772217
+1588,Valentín_Gómez_Farías,Samuel_Schmid,0,Can't Decide,2.172013998031616
+1395,Josefa_Iloilo,Pascal_Couchepin,0,Can't Decide,2.2237319946289062
+1009,Frankfurt_University_of_Music_and_Performing_Arts,Kim_Seong-su,0,1,2.2237484455108643
+1092,Ricardo_Lewandowski,Micheline_Calmy-Rey,0,Can't Decide,2.1731414794921875
+2838,Fernando_Lugo,Joana_Ortega,0,Can't Decide,2.1729111671447754
+2259,Sukarno,Micheline_Calmy-Rey,0,Can't Decide,2.170387029647827
+2906,Joseph_Deiss,Frank_Hough,0,Can't Decide,2.321516990661621
+3151,Megawati_Sukarnoputri,Ana_Vilma_de_Escobar,0,Can't Decide,2.2722601890563965
+1506,France-Albert_René,Rabindranath_Ghurburrun,0,Can't Decide,2.2714920043945312
+1653,Raúl_Cubas_Grau,Mikhail_Logua,0,Can't Decide,2.2229819297790527
+2835,Barack_Obama,Pedro_Ritcher_Prada,0,Can't Decide,2.223850965499878
+2794,Emilio_Aceval,Alex_Ekwueme,0,Can't Decide,2.227447748184204
+2905,René_Barrientos,Fernando_Errázuriz,0,Can't Decide,2.272489309310913
+1633,Juan_José_Flores,Teodoro_Nguema_Obiang_Mangue,0,Can't Decide,2.1731505393981934
+3576,Zhang_Jilong,Itamar_Franco,0,Can't Decide,2.222625494003296
+1622,Vicente_Ehate_Tomi,Nilo_Peçanha,0,Can't Decide,2.222390651702881
+3417,Mario_García_Menocal,Matsudaira_Taro,0,Can't Decide,2.1731581687927246
+1548,Benigno_Ferreira,Carlos_Álvarez_(Vice-president),0,Can't Decide,2.222688913345337
+3086,Garretson_W._Gibson,Mohammed_Waheed_Hassan,0,Can't Decide,2.17325496673584
+1354,Levy_Mwanawasa,Carlos_Julio_Arosemena_Tola,0,Can't Decide,2.220641851425171
+2152,Jimmy_Morales,Carlos_Morales_Troncoso,0,Can't Decide,2.322125196456909
+2847,Yordan_Sokolov,Mamerto_Urriolagoitía,0,Can't Decide,2.272369861602783
+3766,Amoud_University,Tin_Aung_Myint_Oo,0,-1,2.2714264392852783
+1996,José_Félix_Uriburu,Danny_Faure,0,Can't Decide,2.2750909328460693
+2697,Chen_Shui-bian,Luis_Adolfo_Siles_Salinas,0,Can't Decide,2.2723865509033203
+1348,David_Addington,Mariano_González_(politician),0,Can't Decide,2.221229314804077
+2590,Benjamin_Franklin,Rudolf_Gnägi,0,Can't Decide,2.3219919204711914
+3366,Juan_José_Flores,Hubert_Buchberger,0,-1,2.322190046310425
+3208,Laura_Chinchilla,Paramananda_Jha,0,Can't Decide,2.2735304832458496
+3714,Leónidas_Plaza,Alexander_Rutskoy,0,-1,2.2218849658966064

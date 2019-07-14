@@ -1,0 +1,168 @@
+ vicePresident(A,B):-successor(B,A).
+ vicePresident(A,B):-commander(C,A),commander(C,B).
+ vicePresident(A,B):-after(A,B).
+ vicePresident(A,B):-successor(A,C),successor(B,C).
+ vicePresident(A,B):-commander(C,B),commander(C,D),vicePresident(A,D).
+ vicePresident(A,B):-president(C,A),successor(B,C).
+ vicePresident(A,B):-leaderName(C,A),leaderName(C,B).
+ vicePresident(A,B):-successor(A,B),successor(B,C),predecessor(C,B).
+ vicePresident(A,B):-birthPlace(B,C),capital(D,C),birthPlace(A,D).
+ vicePresident(A,B):-successor(B,C),vicePresident(A,C).
+ vicePresident(A,B):-vicePresident(A,C),associate(C,B).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C>C,activeYearsStartDate(A,C).
+ vicePresident(A,B):-president(B,C), successor(C,A).
+ vicePresident(A,B):-leader(C,A),nationality(D,C),successor(D,B).
+ vicePresident(A,B):-primeMinister(A,C) ,primeMinister(B,C).
+ vicePresident(A,B):-before(B,A).
+ vicePresident(A,B):-president(C,A),predecessor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),successor(B,C).
+ vicePresident(A,B):-activeYearsStartDate(A,C),activeYearsStartDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-successor(A,B).
+ vicePresident(A,B):-successor(A,B),successor(B,A).
+ vicePresident(A,B):-president(C,B),successor(A,C).
+ vicePresident(A,B):-child(A,C),residence(C,D),birthPlace(B,D).
+ vicePresident(A,B):-vicePresident(A,C),associate(D,C),associate(D,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(A,C).
+ vicePresident(A,B):-president(A,C),president(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(A,C) ,vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,C),vicePresident(C,B).
+ vicePresident(A,B):-vicePresident(C,B),successor(C,D),successor(A,D).
+ vicePresident(A,B):-vicePresident(A,B).
+ vicePresident(A,B):-president(B,C),successor(A,C).
+ vicePresident(A,B):-president(C,A),vicePresident(C,B).
+ vicePresident(A,B):-president(C,A),president(B,C).
+ vicePresident(A,B):-leader(C,A),party(B,C).
+ vicePresident(A,B):-president(C,A),successor(C,B).
+ vicePresident(A,B):-president(A,C) , successor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),primeMinister(D,C),vicePresident(D,B).
+ vicePresident(A,B):-birthPlace(A,C),leader(C,B).
+ vicePresident(A,B):-vicePresident(A,C),vicePresident(D,C),president(B,D).
+ vicePresident(A,B):-successor(C,A),vicePresident(C,B).
+ vicePresident(A,B):-successor(C,B),almaMater(C,D),almaMater(A,D).
+ vicePresident(A,B):-predecessor(B,A).
+ vicePresident(A,B):-successor(C,A),successor(C,B).
+ vicePresident(A,B):-successor(A,B),birthPlace(B,C),residence(B,C).
+ vicePresident(A,B):-residence(A,C),birthPlace(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(B,A).
+ vicePresident(A,B):-successor(C,A), vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,B).
+ vicePresident(A,B):-president(A,C),president(B,C).
+ vicePresident(A,B):-successor(A,C),vicePresident(C,B).
+ vicePresident(A,B):-predecessor(A,B).
+ vicePresident(A,B):-president(B,C) ,primeMinister(A,C).
+ vicePresident(A,B):-president(C,A), primeMinister(B,C).
+ vicePresident(A,B):-president(C,A),president(C,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(D,C),successor(D,A).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C=D,deathDate(A,D).
+ vicePresident(A,B):-leader(C,B) ,party(A,C).
+ vicePresident(A,B):-birthDate(A,C),birthDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-vicePresident(C,B),child(C,D),predecessor(A,D).
+ vicePresident(A,B):-president(B,A) ,successor(A,B).
+ vicePresident(A,B):-successor(C,A),successor(B,C).
+ vicePresident(A,B):-birthPlace(B,C),country(A,C).
+ vicePresident(A,B):-president(C,B) ,primeMinister(A,C).
+ vicePresident(A,B):-vicePresident(C,B),birthDate(C,D),birthDate(A,D).
+ vicePresident(A,B):-party(A,C),party(B,C).
+
+:- vicePresident(A,B),negvicePresident(A,B).
+
+ negvicePresident(A,B):-secondLeader(C,A),firstLeader(C,D),president(B,D).
+ negvicePresident(A,B):-vicePresident(A,C),B!=C,type(B,"Thing").
+ negvicePresident(A,B):-successor(B,C),president(C,B),president(A,B).
+ negvicePresident(A,B):-almaMater(A,C),almaMater(D,C),appointer(D,B).
+ negvicePresident(A,B):-birthPlace(B,C),isPartOf(C,D),region(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),activeYearsEndDate(C,D),activeYearsStartDate(A,D).
+ negvicePresident(A,B):-birthDate(B,C),C>D,activeYearsStartDate(A,D).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),C<D,birthDate(B,D).
+ negvicePresident(A,B):-successor(A,C),primeMinister(C,B).
+ negvicePresident(A,B):-spouse(A,C),predecessor(C,D),spouse(B,D).
+ negvicePresident(A,B):-birthDate(A,C),C>D,serviceEndYear(B,D).
+ negvicePresident(A,B):-vicePresident(C,B),successor(C,A),president(A,C).
+ negvicePresident(A,B):-president(A,B),president(C,B),vicePresident(A,C).
+ negvicePresident(A,B):-spouse(B,C),spouse(C,B),predecessor(A,B).
+ negvicePresident(A,B):-predecessor(C,B),region(C,D),deathPlace(A,D).
+ negvicePresident(A,B):-vicePresident(A,C),successor(A,C),president(A,B).
+ negvicePresident(A,B):-president(B,C),vicePresident(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-president(B,C),secondLeader(D,C),firstLeader(D,A).
+ negvicePresident(A,B):-deathDate(B,C),C<D,serviceStartYear(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),president(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-successor(A,B),vicePresident(C,B),successor(A,C).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),deathDate(D,C),vicePresident(D,B).
+ negvicePresident(A,B):-primeMinister(A,B),primeMinister(C,B),successor(A,C).
+ negvicePresident(A,B):-successor(B,C),vicePresident(C,A).
+ negvicePresident(A,B):-predecessor(A,B),successor(C,B),president(A,C).
+ negvicePresident(A,B):-president(A,B),successor(B,C),president(A,C).
+ negvicePresident(A,B):-successor(B,A).
+ negvicePresident(A,B):-president(A,B),president(C,B),president(A,C).
+successor("Abraham_Lincoln_and_slavery","Andrew_Johnson").
+president("James_B._Longacre","Abraham_Lincoln").
+president("Francis_E._Spinner","Abraham_Lincoln").
+president("Bibliography_of_Ulysses_S._Grant","Abraham_Lincoln").
+vicePresident("Abraham_Lincoln","Hannibal_Hamlin").
+president("Charles_Francis_Adams_Sr.","Andrew_Johnson").
+successor("Andrew_Johnson","Ulysses_S._Grant").
+predecessor("David_M._Key","Andrew_Johnson").
+president("Andrew_Johnson","Abraham_Lincoln").
+president("James_Speed","Abraham_Lincoln").
+president("Gideon_Welles","Andrew_Johnson").
+president("William_H._Seward","Abraham_Lincoln").
+successor("Andrew_Johnson","Isham_G._Harris").
+successor("Andrew_Johnson","William_Gannaway_Brownlow").
+vicePresident("Presidency_of_Abraham_Lincoln","Andrew_Johnson").
+successor("Andrew_Johnson","Brookins_Campbell").
+president("Edwin_Stanton","Andrew_Johnson").
+vicePresident("Abraham_Lincoln_and_slavery","Andrew_Johnson").
+president("Hannibal_Hamlin","Abraham_Lincoln").
+predecessor("Ulysses_S._Grant","Andrew_Johnson").
+president("Hugh_McCulloch","Abraham_Lincoln").
+successor("Hannibal_Hamlin","Andrew_Johnson").
+predecessor("William_Gannaway_Brownlow","Andrew_Johnson").
+president("John_Palmer_Usher","Andrew_Johnson").
+predecessor("Bibliography_of_Ulysses_S._Grant","Andrew_Johnson").
+president("Henry_Shelton_Sanford","Andrew_Johnson").
+predecessor("David_T._Patterson","Andrew_Johnson").
+successor("Abraham_Lincoln","Andrew_Johnson").
+president("James_Speed","Andrew_Johnson").
+president("Cassius_Marcellus_Clay_(politician)","Abraham_Lincoln").
+president("Abraham_Lincoln","Abraham Lincoln").
+predecessor("Schuyler_Colfax","Andrew_Johnson").
+president("Schuyler_Colfax","Abraham_Lincoln").
+commander("Union_Army","Andrew_Johnson").
+predecessor("Andrew_Johnson","Abraham_Lincoln").
+president("Eliza_McCardle_Johnson","Abraham_Lincoln").
+president("William_H._Seward","Andrew_Johnson").
+president("Edwin_Stanton","Abraham_Lincoln").
+president("Francis_E._Spinner","Andrew_Johnson").
+president("Gideon_Welles","Abraham_Lincoln").
+predecessor("Isham_G._Harris","Andrew_Johnson").
+president("Frederick_W._Seward","Andrew_Johnson").
+president("Cassius_Marcellus_Clay_(politician)","Andrew_Johnson").
+vicePresident("Abraham_Lincoln","Andrew_Johnson").
+president("John_Palmer_Usher","Abraham_Lincoln").
+president("Hugh_McCulloch","Andrew_Johnson").
+president("Eliza_McCardle_Johnson","Andrew_Johnson").
+president("Schuyler_Colfax","Andrew_Johnson").
+president("Charles_Francis_Adams_Sr.","Abraham_Lincoln").
+successor("Andrew_Johnson","David_M._Key").
+president("Presidency_of_Abraham_Lincoln","Abraham Lincoln").
+president("Bibliography_of_Ulysses_S._Grant","Andrew_Johnson").
+president("Ulysses_S._Grant","Abraham_Lincoln").
+president("Henry_Shelton_Sanford","Abraham_Lincoln").
+successor("Andrew_Johnson","David_T._Patterson").
+president("Ulysses_S._Grant","Andrew_Johnson").
+president("William_Dennison_Jr.","Andrew_Johnson").
+president("James_B._Longacre","Andrew_Johnson").
+predecessor("Brookins_Campbell","Andrew_Johnson").
+president("William_Dennison_Jr.","Abraham_Lincoln").
+successor("Andrew_Johnson","Schuyler_Colfax").
+president("Frederick_W._Seward","Abraham_Lincoln").
+commander("Union_Army","Abraham_Lincoln").
+type("Abraham_Lincoln","Person").
+type("Abraham_Lincoln","Agent").
+type("Abraham_Lincoln","OfficeHolder").
+type("Abraham_Lincoln","Thing").
+type("Andrew_Johnson","Person").
+type("Andrew_Johnson","Agent").
+type("Andrew_Johnson","OfficeHolder").
+type("Andrew_Johnson","Thing").
+vicePresident("Abraham_Lincoln","Hannibal_Hamlin").

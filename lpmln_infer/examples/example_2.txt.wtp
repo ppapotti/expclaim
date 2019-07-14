@@ -1,0 +1,89 @@
+0.866973492056  spouse(A,B) :- spouse(B,A).
+0.871380218127  spouse(A,B) :- parent(C,A),parent(C,B),type(A,Royalty),type(B,Royalty).
+0.775940471269  spouse(A,B) :- child(A,C),child(B,C).
+0.248864668483  spouse(A,B) :- predecessor(C,B),spouse(D,C),successor(A,D).
+0.871380218127  spouse(A,B) :- parent(C,B),parent(C,A),type(A,Royalty),type(B,Royalty).
+0.389578163772  spouse(A,B) :- predecessor(C,B),spouse(D,C),successor(A,D),type(A,Royalty),type(B,Royalty).
+0.843156843157  spouse(A,B) :- parent(C,B),parent(C,A).
+0.843156843157  spouse(A,B) :- parent(C,A),parent(C,B).
+0.864020819779  spouse(A,B) :- child(A,C),parent(C,B).
+:- spouse(A,B),negspouse(A,B).
+0.910865051903  negspouse(A,B) :- parent(B,C),spouse(A,C).
+0.452380952381  negspouse(A,B) :- monarch(A,C),parent(C,D),spouse(B,D).
+0.746192893401  negspouse(A,B) :- child(A,B),not type(A,"FictionalCharacter"),not type(B,"FictionalCharacter").
+0.923296808004  negspouse(A,B) :- deathYear(B,C),C<D,activeYearsStartYear(A,D).
+0.832987551867  negspouse(A,B) :- birthPlace(B,C),birthPlace(A,C),child(A,B).
+0.643061006065  negspouse(A,B) :- child(A,B).
+0.798245614035  negspouse(A,B) :- predecessor(A,C),lieutenant(D,C),successor(D,B).
+0.220913107511  negspouse(A,B) :- influencedBy(B,C),deathPlace(C,D),birthPlace(A,D).
+0.148148148148  negspouse(A,B) :- occupation(A,C),occupation(D,C),influenced(D,B).
+0.590341160833  negspouse(A,B) :- parent(C,B),D!=C,parent(D,A).
+0.927330173776  negspouse(A,B) :- influencedBy(C,B),influenced(C,D),influencedBy(D,A),not type(A,"Writer"),not type(B,"Writer").
+0.665697674419  negspouse(A,B) :- successor(C,A),deputy(D,C),primeMinister(B,D).
+0.877442273535  negspouse(A,B) :- influencedBy(C,B),influenced(C,D),influencedBy(D,A).
+0.946047384471  negspouse(A,B) :- successor(C,B),birthPlace(C,D),region(A,D).
+0.928146385004  negspouse(A,B) :- parent(A,C),spouse(B,C).
+0.690582959641  negspouse(A,B) :- successor(A,C),governor(C,B).
+0.53891509434  negspouse(A,B) :- spouse(B,C),relative(D,C),parent(D,A).
+0.173961840629  negspouse(A,B) :- relative(C,B),starring(D,C),starring(D,A).
+0.87030075188  negspouse(A,B) :- spouse(C,B),child(C,A).
+0.656112576957  negspouse(A,B) :- monarch(A,C),predecessor(D,C),monarch(B,D).
+0.869318181818  negspouse(A,B) :- successor(C,B),country(C,D),country(A,D),not type(A,"OfficeHolder"),not type(B,"OfficeHolder").
+0.709171861086  negspouse(A,B) :- successor(B,C),predecessor(C,B),successor(A,B).
+0.932732147209  negspouse(A,B) :- successor(C,A),predecessor(B,C).
+0.843110504775  negspouse(A,B) :- profession(A,C),occupation(D,C),predecessor(B,D).
+0.78624535316  negspouse(A,B) :- deathPlace(B,C),region(C,D),birthPlace(A,D).
+0.876548307184  negspouse(A,B) :- parent(A,C),parent(C,D),spouse(D,B).
+0.445040214477  negspouse(A,B) :- musicalArtist(C,B),album(C,D),producer(D,A).
+0.49863760218  negspouse(A,B) :- deathPlace(A,C),deathPlace(D,C),influenced(D,B).
+0.692214111922  negspouse(A,B) :- successor(A,B).
+0.571018651363  negspouse(A,B) :- successor(C,A),primeMinister(D,C),predecessor(D,B).
+0.95020376974  negspouse(A,B) :- parent(A,B).
+0.866408518877  negspouse(A,B) :- spouse(C,B),parent(D,C),spouse(A,D),type(A,Royalty),type(B,Royalty).
+0.917899031107  negspouse(A,B) :- successor(B,C),successor(C,A).
+0.963081861958  negspouse(A,B) :- influencedBy(C,B),influenced(C,A).
+0.777239709443  negspouse(A,B) :- birthPlace(B,C),birthPlace(A,C),successor(A,B).
+0.889010747971  negspouse(A,B) :- office(B,C),orderInOffice(A,C).
+0.895604395604  negspouse(A,B) :- spouse(C,B),parent(D,C),spouse(D,A).
+0.826633165829  negspouse(A,B) :- award(B,C),award(D,C),influencedBy(A,D).
+0.754368932039  negspouse(A,B) :- successor(C,B),country(C,D),country(A,D).
+0.319526627219  negspouse(A,B) :- party(A,C),splitFromParty(D,C),party(B,D).
+0.943209876543  negspouse(A,B) :- parent(A,C),parent(C,D),spouse(D,B),type(A,Royalty),type(B,Royalty).
+0.754156769596  negspouse(A,B) :- spouse(A,C),child(C,D),relative(B,D),not type(A,"FictionalCharacter"),not type(B,"FictionalCharacter").
+0.928146385004  negspouse(A,B) :- spouse(B,C),parent(A,C).
+0.84464707869  negspouse(A,B) :- spouse(A,C),child(C,B).
+0.957684687235  negspouse(A,B) :- parent(B,A).
+0.590341160833  negspouse(A,B) :- parent(C,A),C!=D,parent(D,B).
+0.617940199336  negspouse(A,B) :- predecessor(C,B),country(C,D),country(A,D).
+0.433555669574  negspouse(A,B) :- country(B,C),deathPlace(D,C),spouse(D,A).
+0.485882352941  negspouse(A,B) :- spouse(A,C),child(C,D),relative(B,D).
+0.871866295265  negspouse(A,B) :- spouse(C,A),child(C,B).
+0.802276951673  negspouse(A,B) :- spouse(C,B),parent(D,C),spouse(A,D).
+0.590341160833  negspouse(A,B) :- parent(C,A),D!=C,parent(D,B).
+0.394736842105  negspouse(A,B) :- successor(C,B),monarch(D,C),predecessor(D,A).
+0.903984819734  negspouse(A,B) :- spouse(C,A),child(C,B),not type(A,"FictionalCharacter"),not type(B,"FictionalCharacter").
+0.593012704174  negspouse(A,B) :- deathPlace(A,C),birthPlace(D,C),influencedBy(D,B).
+0.911433649289  negspouse(A,B) :- spouse(C,B),child(C,A),not type(A,"FictionalCharacter"),not type(B,"FictionalCharacter").
+0.661764705882  negspouse(A,B) :- successor(A,C),commander(D,C),battle(B,D).
+0.322052401747  negspouse(A,B) :- profession(B,C),D!=C,profession(A,D).
+0.716685330347  negspouse(A,B) :- activeYearsStartYear(B,C),C<D,birthYear(A,D).
+0.547752808989  negspouse(A,B) :- successor(A,C),predecessor(D,C),primeMinister(D,B).
+0.885659655832  negspouse(A,B) :- predecessor(C,B),predecessor(A,C).
+parent("Prince_Faisal_bin_Hussein","Hussein_of_Jordan").
+parent("Princess_Raiyah_bint_Hussein","Hussein_of_Jordan").
+parent("Haya_bint_Hussein","Hussein_of_Jordan").
+parent("Princess_Aisha_bint_Hussein","Hussein_of_Jordan").
+parent("Princess_Zein_bint_Hussein","Hussein_of_Jordan").
+parent("Prince_Ali_bin_Hussein","Alia_al-Hussein").
+parent("Prince_Ali_bin_Hussein","Hussein_of_Jordan").
+parent("Haya_bint_Hussein","Alia_al-Hussein").
+parent("Princess_Alia_bint_Hussein","Hussein_of_Jordan").
+spouse("Hussein_of_Jordan","Alia_al-Hussein").
+parent("Prince_Hamzah_bin_Hussein","Hussein_of_Jordan").
+parent("Princess_Iman_bint_Hussein","Hussein_of_Jordan").
+parent("Abdullah_II_of_Jordan","Hussein_of_Jordan").
+parent("Prince_Hashim_bin_Hussein","Hussein_of_Jordan").
+type("Alia_al-Hussein","Agent").
+type("Alia_al-Hussein","Person").
+type("Hussein_of_Jordan","Agent").
+type("Hussein_of_Jordan","Person").

@@ -1,0 +1,14 @@
+True Positives: 56/100
+True Negatives: 44/100
+KilledP: 44/100
+KilledN: 47/100
+Can't Decide Positives: 0
+Non Covered Positives: 
+Can't Decide Negatives: 2
+Non Covered Negatives:  4075, 4144,
+False Positive0,0,0,0,0,0,0,
+False Negative
+Total: 200
+Please remove: Precision :0.9345795003929903
+Recall :0.9174304427243645
+F_score :0.9254971032701973

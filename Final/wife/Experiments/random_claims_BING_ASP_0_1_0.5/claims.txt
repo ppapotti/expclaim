@@ -1,0 +1,10 @@
+4057,Badshah_Begum,Muhammad_Shah,1
+2977,Massoud_Rajavi,Ashraf_Rabiei,1
+236,Evan_Bayh,Susan_Bayh,1
+4423,George_Will,Mari_Maseng,1
+1446,Anne_Homer,William_M._Doerflinger,1
+7434,Bjørn_Bjørnson,Halfdan_Christensen,0
+9294,Princess_Louise_of_Anhalt-Dessau_(1798–1858),Caroline_of_Hesse-Homburg_(1819-1872),0
+7624,Hatice_Halime_Hatun,Wife,0
+8554,Nefermaat,Sneferu,0
+6416,Sondra_Huxtable,Cliff_Huxtable,0

@@ -1,0 +1,141 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+residence("John_Hogg","Queensland").
+headquarter("Big_Sky_Express","Queensland").
+birthPlace("Joshua_Eagle","Toowoomba").
+headquarter("Australian_Counselling_Association","Queensland").
+birthPlace("Ian_Macfarlane_(politician)","Queensland").
+birthPlace("Ross_Case","Queensland").
+residence("Ross_Case","Queensland").
+residence("Ian_Macfarlane_(politician)","Queensland").
+country("Queensland","Australia").
+residence("Lindsay_Stuart_Smith","Queensland").
+residence("John-Patrick_Smith","Queensland").
+headquarter("Lamington_Party","Queensland").
+headquarter("Sunshine_Coast_Daily","Queensland").
+deathPlace("Jim_Sparkes","Queensland").
+headquarter("Sunshine_Express_Airlines","Queensland").
+headquarter("Combined_Independent_Colleges","Queensland").
+birthPlace("Bronwen_Knox","Queensland").
+birthPlace("Fergus_McMaster","Queensland").
+location("Ports_North","Queensland").
+birthPlace("Jim_Sparkes","New_South_Wales").
+headquarter("WaterSecure","Queensland").
+birthPlace("John_Hogg","Queensland").
+headquarter("Seqwater","Queensland").
+headquarter("Football_Queensland","Queensland").
+headquarter("Associated_Independent_Colleges","Queensland").
+headquarter("Pacific_Air_Express","Queensland").
+headquarter("FIBA_Oceania","Queensland").
+occupation("Jim_Sparkes","Stud_farm").
+headquarter("Skytrans_Airlines","Queensland").
+headquarter("Stanthorpe_Border_Post","Queensland").
+headquarter("Eco_Airlines","Queensland").
+birthPlace("Ross_Case","Toowoomba").
+headquarter("Brisbane_Times","Queensland").
+headquarter("Global_Air_(Australian_airline)","Queensland").
+headquarter("Ports_North","Queensland").
+headquarter("Flight_West_Airlines","Queensland").
+residence("Joshua_Eagle","Queensland").
+headquarter("Air_Australia","Queensland").
+location("Seqwater","Queensland").
+headquarter("Daily_Mercury","Queensland").
+residence("Bronwen_Knox","Queensland").
+headquarter("Great_Public_Schools_Association_of_Queensland_Inc.","Queensland").
+headquarter("Alliance_Airlines","Queensland").
+headquarter("Oceania_Athletics_Association","Queensland").
+headquarter("The_Gympie_Times","Queensland").
+deathPlace("Jim_Sparkes","Toowoomba").
+residence("Fergus_McMaster","Queensland").
+headquarter("The_Observer_(Gladstone)","Queensland").
+headquarter("Australian_Motoring_Enthusiast_Party","Queensland").
+headquarter("Palmer_United_Party","Queensland").
+headquarter("West_Wing_Aviation","Queensland").
+headquarter("Queensland_Fire_and_Emergency_Services","Queensland").
+birthPlace("Lindsay_Stuart_Smith","Queensland").
+headquarter("Queensland_Catholic_Schools_&_Colleges_Music_Festival","Queensland").
+birthPlace("John-Patrick_Smith","Queensland").
+birthPlace("Andrew_Bartlett","Queensland").
+headquarter("Fraser_Coast_Chronicle","Queensland").
+headquarter("NewsMail","Queensland").
+headquarter("The_Associated_Schools","Queensland").
+location("WaterSecure","Queensland").
+birthPlace("Jim_Sparkes","Dubbo").
+location("Queensland_Urban_Utilities","Queensland").
+headquarter("Pauline_Hanson's_One_Nation","Queensland").
+country("Dubbo","Australia").
+headquarter("Blue's_Country_Magazine","Queensland").
+headquarter("Queensland_Urban_Utilities","Queensland").
+headquarter("Royal_Society_of_Queensland","Queensland").
+residence("Andrew_Bartlett","Queensland").
+headquarter("BackpackersXpress","Queensland").
+birthPlace("Joshua_Eagle","Queensland").
+country("New_South_Wales","Australia").
+headquarter("V_Australia","Queensland").
+type("Jim_Sparkes","Person").
+type("Jim_Sparkes","Agent").
+type("Jim_Sparkes","OfficeHolder").
+type("Jim_Sparkes","Thing").
+type("Queensland","Place").
+type("Queensland","Location").
+type("Queensland","AdministrativeRegion").
+type("Queensland","PopulatedPlace").
+type("Queensland","Region").
+type("Queensland","Thing").

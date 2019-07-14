@@ -1,0 +1,214 @@
+ almaMater(A,B):-predecessor(C,A),successor(D,C),almaMater(D,B).
+ almaMater(A,B):-successor(C,A),successor(C,D),almaMater(D,B).
+ almaMater(A,B):-successor(C,A),birthPlace(C,D),state(B,D).
+ almaMater(A,B):-almaMater(C,B),predecessor(A,C).
+ almaMater(A,B):-almaMater(C,B),activeYearsEndYear(C,D),deathYear(A,D).
+ almaMater(A,B):-predecessor(C,A),birthPlace(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),deathYear(C,D),activeYearsStartYear(A,D).
+ almaMater(A,B):-state(B,C),birthPlace(D,C),successor(D,A).
+ almaMater(A,B):-successor(A,C),birthPlace(C,D),state(B,D).
+ almaMater(A,B):-city(B,C),birthPlace(A,C).
+ almaMater(A,B):-state(B,C),capital(C,D),birthPlace(A,D).
+ almaMater(A,B):-office(A,C),office(D,C),almaMater(D,B).
+ almaMater(A,B):-birthPlace(A,C),leaderName(C,D),almaMater(D,B).
+ almaMater(A,B):-birthPlace(A,C),state(B,C).
+ almaMater(A,B):-predecessor(C,A),birthPlace(C,D),city(B,D).
+ almaMater(A,B):-almaMater(C,B),office(C,D),orderInOffice(A,D).
+ almaMater(A,B):-almaMater(C,B),successor(C,A).
+ almaMater(A,B):-predecessor(A,C),deathPlace(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),orderInOffice(C,D),office(A,D).
+ almaMater(A,B):-predecessor(A,C),birthPlace(C,D),country(B,D).
+ almaMater(A,B):-predecessor(A,C),birthPlace(C,D),city(B,D).
+ almaMater(A,B):-birthPlace(A,C),city(D,C),owner(D,B).
+ almaMater(A,B):-successor(C,A),nationality(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),otherParty(C,D),party(A,D).
+ almaMater(A,B):-birthPlace(A,C),province(B,C).
+ almaMater(A,B):-almaMater(C,B),region(C,D),birthPlace(A,D).
+ almaMater(A,B):-profession(A,C),occupation(D,C),almaMater(D,B).
+
+:-almaMater(A,B),negalmaMater(A,B).
+
+
+ negalmaMater(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negalmaMater(A,B):-residence(A,C),hometown(D,C),hometown(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),city(B,D).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),country(B,D).
+ negalmaMater(A,B):-residence(A,C),regionServed(D,C),affiliation(B,D).
+ negalmaMater(A,B):-award(A,C),award(D,C),employer(D,B).
+ negalmaMater(A,B):-residence(A,C),deathPlace(D,C),occupation(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),doctoralAdvisor(D,C),almaMater(D,B).
+ negalmaMater(A,B):-field(A,C),genre(D,C),education(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(A,C),deathPlace(C,D),country(B,D).
+ negalmaMater(A,B):-country(B,C),birthPlace(D,C),doctoralAdvisor(A,D).
+ negalmaMater(A,B):-president(B,C),residence(C,D),nationality(A,D).
+ negalmaMater(A,B):-almaMater(A,C),B!=C,type(B,"Thing").
+ negalmaMater(A,B):-doctoralStudent(A,C),birthPlace(C,D),country(B,D).
+ negalmaMater(A,B):-knownFor(A,B).
+ negalmaMater(A,B):-employer(A,B).
+ negalmaMater(A,B):-occupation(A,B).
+ negalmaMater(A,B):-award(A,B).
+ negalmaMater(A,B):-almaMater(C,B),education(C,B),employer(A,B).
+ negalmaMater(A,B):-almaMater(C,B),influencedBy(C,A).
+ negalmaMater(A,B):-doctoralStudent(C,A),deathPlace(C,D),country(B,D).
+ negalmaMater(A,B):-nationality(A,C),birthPlace(D,C),deathPlace(D,B).
+office("Santo_Santoro","Queensland Legislative").
+almaMater("Dianne_Reilly","University_of_Queensland").
+office("Peter_Moore_(Queensland_politician)","Queensland Legislative").
+almaMater("Gilbert_Alison","University_of_Queensland").
+office("Chris_Whiting","Queensland Legislative").
+almaMater("Colin_Lamont_(politician)","University_of_Queensland").
+office("Murray_Watt","Queensland Legislative").
+almaMater("Jim_Madden","University_of_Queensland").
+office("Keith_Wright_(Australian_politician)","Queensland Legislative").
+office("Mike_Ahern_(Australian_politician)","Queensland Legislative").
+office("Steven_Miles_(politician)","Queensland Legislative").
+office("Denver_Beanland","Queensland Legislative").
+almaMater("David_Dunworth","University_of_Queensland").
+office("Wendy_Edmond","Queensland Legislative").
+otherParty("Colin_McCathie","Australian_Labor_Party").
+office("Terry_Gygar","Queensland Legislative").
+almaMater("Phil_Gray_(politician)","University_of_Queensland").
+office("Frank_Roberts_(Australian_politician)","Queensland Legislative").
+almaMater("Lex_Bell","University_of_Queensland").
+almaMater("Thomas_Ahearn_(Australian_politician)","University_of_Queensland").
+office("Phil_Gray_(politician)","Queensland Legislative").
+office("Terry_White","Queensland Legislative").
+almaMater("Guelfi_Scassola","University_of_Queensland").
+almaMater("Douglas_Tooth","University_of_Queensland").
+office("Mike_Horan","Queensland Legislative").
+office("Evan_Moorhead","Queensland Legislative").
+almaMater("Denver_Beanland","University_of_Queensland").
+office("Di_McCauley","Queensland Legislative").
+almaMater("Thomas_Hiley","University_of_Queensland").
+office("Beryce_Nelson","Queensland Legislative").
+office("Douglas_Tooth","Queensland Legislative").
+almaMater("Vicky_Kippin","University_of_Queensland").
+office("Peter_Connolly_(Australian_judge)","Queensland Legislative").
+almaMater("Evan_Moorhead","University_of_Queensland").
+office("Michael_Choi_(politician)","Queensland Legislative").
+office("Bill_Price_(politician)","Queensland Legislative").
+successor("Sean_Choat","Jim_Madden").
+office("Thomas_Ahearn_(Australian_politician)","Queensland Legislative").
+almaMater("Felix_Dittmer","University_of_Queensland").
+almaMater("Rod_Welford","University_of_Queensland").
+almaMater("Alan_Sherlock","University_of_Queensland").
+office("John_Herbert_(Queensland_politician)","Queensland Legislative").
+almaMater("Angus_Innes","University_of_Queensland").
+almaMater("David_Watson_(Queensland_politician)","University_of_Queensland").
+almaMater("Ian_Henderson_(politician)","University_of_Queensland").
+office("David_Byrne_(Australian_politician)","Queensland Legislative").
+office("John_Flynn_(Australian_politician)","Queensland Legislative").
+office("Mark_Ryan_(Australian_politician)","Queensland Legislative").
+almaMater("Arthur_Crawford_(Australian_politician)","University_of_Queensland").
+office("Rob_Akers","Queensland Legislative").
+office("Rod_Welford","Queensland Legislative").
+office("Lyle_Schuntner","Queensland Legislative").
+office("Joan_Sheldon","Queensland Legislative").
+office("Bill_Wood_(politician)","Queensland Legislative").
+almaMater("Colin_McCathie","University_of_Queensland").
+office("Vicky_Kippin","Queensland Legislative").
+office("Gilbert_Alison","Queensland Legislative").
+office("Mike_Kaiser","Queensland Legislative").
+almaMater("Frank_Roberts_(Australian_politician)","University_of_Queensland").
+almaMater("Martin_Hanson","University_of_Queensland").
+office("Dianne_Reilly","Queensland Legislative").
+office("Karen_Struthers","Queensland Legislative").
+office("Bill_Lickiss","Queensland Legislative").
+almaMater("Terry_Gygar","University_of_Queensland").
+office("Lex_Bell","Queensland Legislative").
+office("Felix_Dittmer","Queensland Legislative").
+almaMater("Angelo_Bertoni","University_of_Queensland").
+almaMater("Murray_Watt","University_of_Queensland").
+almaMater("Bill_Wood_(politician)","University_of_Queensland").
+almaMater("Frank_Carroll_(politician)","University_of_Queensland").
+almaMater("Peter_Beard_(politician)","University_of_Queensland").
+office("Brian_Austin","Queensland Legislative").
+office("Frank_Carroll_(politician)","Queensland Legislative").
+almaMater("Steven_Miles_(politician)","University_of_Queensland").
+office("Angelo_Bertoni","Queensland Legislative").
+almaMater("Lyle_Schuntner","University_of_Queensland").
+office("Keith_De_Lacy","Queensland Legislative").
+office("Llewellyn_Edwards","Queensland Legislative").
+office("Ian_Prentice","Queensland Legislative").
+almaMater("John_Greenwood_(politician)","University_of_Queensland").
+office("Matt_Foley_(Australian_politician)","Queensland Legislative").
+almaMater("Karen_Struthers","University_of_Queensland").
+almaMater("Keith_Wright_(Australian_politician)","University_of_Queensland").
+office("Ray_Smith_(Queensland_politician)","Queensland Legislative").
+almaMater("Peter_Connolly_(Australian_judge)","University_of_Queensland").
+almaMater("Mike_Horan","University_of_Queensland").
+office("Tony_Bourke_(Australian_politician)","Queensland Legislative").
+office("Ted_Baldwin_(Queensland_politician)","Queensland Legislative").
+office("Col_Bennett","Queensland Legislative").
+office("Paul_Clauson","Queensland Legislative").
+almaMater("Craig_Sherrin","University_of_Queensland").
+almaMater("Santo_Santoro","University_of_Queensland").
+almaMater("Denis_Murphy_(Australian_politician)","University_of_Queensland").
+almaMater("Brian_Austin","University_of_Queensland").
+almaMater("Bill_Price_(politician)","University_of_Queensland").
+office("Colin_McCathie","Queensland Legislative").
+office("Winston_Noble","Queensland Legislative").
+office("David_Dunworth","Queensland Legislative").
+office("Jack_Pizzey","Queensland Legislative").
+almaMater("Llewellyn_Edwards","University_of_Queensland").
+almaMater("Di_McCauley","University_of_Queensland").
+almaMater("Peter_Moore_(Queensland_politician)","University_of_Queensland").
+almaMater("Chris_Whiting","University_of_Queensland").
+almaMater("Ted_Baldwin_(Queensland_politician)","University_of_Queensland").
+office("John_Lockwood_(Australian_politician)","Queensland Legislative").
+almaMater("Paul_Clauson","University_of_Queensland").
+office("Ian_Henderson_(politician)","Queensland Legislative").
+office("Thomas_Hiley","Queensland Legislative").
+almaMater("Mark_Ryan_(Australian_politician)","University_of_Queensland").
+almaMater("Matt_Foley_(Australian_politician)","University_of_Queensland").
+office("Brian_Lindsay","Queensland Legislative").
+almaMater("John_Flynn_(Australian_politician)","University_of_Queensland").
+office("Martin_Hanson","Queensland Legislative").
+almaMater("Keith_De_Lacy","University_of_Queensland").
+almaMater("Tony_Bourke_(Australian_politician)","University_of_Queensland").
+almaMater("John_Lockwood_(Australian_politician)","University_of_Queensland").
+office("Arthur_Crawford_(Australian_politician)","Queensland Legislative").
+almaMater("Wendy_Edmond","University_of_Queensland").
+office("Kerry_Shine","Queensland Legislative").
+almaMater("David_Hamill","University_of_Queensland").
+office("David_Watson_(Queensland_politician)","Queensland Legislative").
+office("Guelfi_Scassola","Queensland Legislative").
+almaMater("Winston_Noble","University_of_Queensland").
+office("Angus_Innes","Queensland Legislative").
+almaMater("Michael_Choi_(politician)","University_of_Queensland").
+office("Craig_Sherrin","Queensland Legislative").
+almaMater("Mike_Ahern_(Australian_politician)","University_of_Queensland").
+office("Jim_Madden","Queensland Legislative").
+almaMater("Col_Bennett","University_of_Queensland").
+almaMater("Mike_Kaiser","University_of_Queensland").
+almaMater("Joan_Sheldon","University_of_Queensland").
+almaMater("Brian_Lindsay","University_of_Queensland").
+almaMater("Jack_Pizzey","University_of_Queensland").
+office("Peter_Beard_(politician)","Queensland Legislative").
+almaMater("David_Byrne_(Australian_politician)","University_of_Queensland").
+office("Andrew_McNamara","Queensland Legislative").
+almaMater("Kerry_Shine","University_of_Queensland").
+almaMater("Andrew_McNamara","University_of_Queensland").
+office("Alan_Sherlock","Queensland Legislative").
+office("David_Hamill","Queensland Legislative").
+almaMater("Ray_Smith_(Queensland_politician)","University_of_Queensland").
+office("John_Greenwood_(politician)","Queensland Legislative").
+almaMater("Terry_White","University_of_Queensland").
+almaMater("Bill_Lickiss","University_of_Queensland").
+almaMater("John_Herbert_(Queensland_politician)","University_of_Queensland").
+almaMater("Rob_Akers","University_of_Queensland").
+almaMater("Ian_Prentice","University_of_Queensland").
+office("Colin_Lamont_(politician)","Queensland Legislative").
+party("Jim_Madden","Australian_Labor_Party").
+office("Denis_Murphy_(Australian_politician)","Queensland Legislative").
+almaMater("Beryce_Nelson","University_of_Queensland").
+type("Jim_Madden","Person").
+type("Jim_Madden","Agent").
+type("Jim_Madden","OfficeHolder").
+type("Jim_Madden","Thing").
+type("University_of_Queensland","Agent").
+type("University_of_Queensland","EducationalInstitution").
+type("University_of_Queensland","Organisation").
+type("University_of_Queensland","University").
+type("University_of_Queensland","Thing").
+almaMater("Jim_Madden","University_of_Queensland").

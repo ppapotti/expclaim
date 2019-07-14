@@ -1,0 +1,14 @@
+True Positives: 25/43
+True Negatives: 18/58
+KilledP: 0/43
+KilledN: 0/58
+Can't Decide Positives: 18
+Non Covered Positives:  3005, 13, 4703, 4598, 3341, 1499, 4630, 93, 661, 2745, 4133, 4682, 3658, 4725, 1862, 3097, 2988, 4775,
+Can't Decide Negatives: 40
+Non Covered Negatives:  6902, 8948, 7515, 9765, 9327, 6579, 8511, 6448, 5081, 6469, 9958, 8755, 9692, 9366, 7120, 8564, 8973, 8374, 8941, 6253, 8610, 7113, 5522, 5235, 5788, 7312, 9595, 9262, 9934, 6002, 5400, 9068, 8135, 6453, 6529, 6910, 6690, 7084, 6887, 9990,
+False Positive
+False Negative
+Total: 101
+Please remove: Precision :1.0
+Recall :0.4257422517403448
+F_score :0.5970436211355723

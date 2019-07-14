@@ -1,0 +1,94 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:-deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+birthPlace("Henry_Abbot_(martyr)","East_Riding_of_Yorkshire").
+birthPlace("Jeremiah_Horrocks","Kingdom_of_England").
+birthPlace("Nathaniel_Bacon_(Virginia_colonist_and_rebel)","Kingdom_of_England").
+deathPlace("Roger_Bacon","Kingdom_of_England").
+nationality("Nathaniel_Bacon_(Virginia_colonist_and_rebel)","Kingdom_of_England").
+birthPlace("Henry_Abbot_(martyr)","Kingdom_of_England").
+residence("Christopher_Wren","Kingdom_of_England").
+deathPlace("Henry_Abbot_(martyr)","York").
+deathPlace("John_Oldcastle","Kingdom_of_England").
+residence("Jeremiah_Horrocks","Kingdom_of_England").
+nationality("John_Oldcastle","Kingdom_of_England").
+deathPlace("Richard_Tylman_of_Faversham","Kingdom_of_England").
+birthPlace("Lady_Anne_Monson","Kingdom_of_England").
+nationality("Christopher_Wren","Kingdom_of_England").
+nationality("Roger_Bacon","Kingdom_of_England").
+birthPlace("John_Oldcastle","Kingdom_of_England").
+birthPlace("Roger_Bacon","Kingdom_of_England").
+birthPlace("Richard_Tylman_of_Faversham","Kingdom_of_England").
+birthPlace("Robert_Walpole","Kingdom_of_England").
+nationality("Lady_Anne_Monson","Kingdom_of_England").
+birthPlace("Henry_Abbot_(martyr)","Howden").
+nationality("Richard_Tylman_of_Faversham","Kingdom_of_England").
+deathPlace("Henry_Abbot_(martyr)","Kingdom_of_England").
+nationality("Robert_Walpole","Kingdom_of_England").
+birthPlace("Christopher_Wren","Kingdom_of_England").
+type("Henry_Abbot_(martyr)","Person").
+type("Henry_Abbot_(martyr)","Agent").
+type("Henry_Abbot_(martyr)","Cleric").
+type("Henry_Abbot_(martyr)","Saint").
+type("Henry_Abbot_(martyr)","Thing").
+type("Kingdom_of_England","Place").
+type("Kingdom_of_England","Location").
+type("Kingdom_of_England","Country").
+type("Kingdom_of_England","PopulatedPlace").
+type("Kingdom_of_England","Thing").
