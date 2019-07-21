@@ -1,0 +1,144 @@
+ vicePresident(A,B):-successor(B,A).
+ vicePresident(A,B):-commander(C,A),commander(C,B).
+ vicePresident(A,B):-after(A,B).
+ vicePresident(A,B):-successor(A,C),successor(B,C).
+ vicePresident(A,B):-commander(C,B),commander(C,D),vicePresident(A,D).
+ vicePresident(A,B):-president(C,A),successor(B,C).
+ vicePresident(A,B):-leaderName(C,A),leaderName(C,B).
+ vicePresident(A,B):-successor(A,B),successor(B,C),predecessor(C,B).
+ vicePresident(A,B):-birthPlace(B,C),capital(D,C),birthPlace(A,D).
+ vicePresident(A,B):-successor(B,C),vicePresident(A,C).
+ vicePresident(A,B):-vicePresident(A,C),associate(C,B).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C>C,activeYearsStartDate(A,C).
+ vicePresident(A,B):-president(B,C), successor(C,A).
+ vicePresident(A,B):-leader(C,A),nationality(D,C),successor(D,B).
+ vicePresident(A,B):-primeMinister(A,C) ,primeMinister(B,C).
+ vicePresident(A,B):-before(B,A).
+ vicePresident(A,B):-president(C,A),predecessor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),successor(B,C).
+ vicePresident(A,B):-activeYearsStartDate(A,C),activeYearsStartDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-successor(A,B).
+ vicePresident(A,B):-successor(A,B),successor(B,A).
+ vicePresident(A,B):-president(C,B),successor(A,C).
+ vicePresident(A,B):-child(A,C),residence(C,D),birthPlace(B,D).
+ vicePresident(A,B):-vicePresident(A,C),associate(D,C),associate(D,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(A,C).
+ vicePresident(A,B):-president(A,C),president(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(A,C) ,vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,C),vicePresident(C,B).
+ vicePresident(A,B):-vicePresident(C,B),successor(C,D),successor(A,D).
+ vicePresident(A,B):-vicePresident(A,B).
+ vicePresident(A,B):-president(B,C),successor(A,C).
+ vicePresident(A,B):-president(C,A),vicePresident(C,B).
+ vicePresident(A,B):-president(C,A),president(B,C).
+ vicePresident(A,B):-leader(C,A),party(B,C).
+ vicePresident(A,B):-president(C,A),successor(C,B).
+ vicePresident(A,B):-president(A,C) , successor(C,B).
+ vicePresident(A,B):-primeMinister(A,C),primeMinister(D,C),vicePresident(D,B).
+ vicePresident(A,B):-birthPlace(A,C),leader(C,B).
+ vicePresident(A,B):-vicePresident(A,C),vicePresident(D,C),president(B,D).
+ vicePresident(A,B):-successor(C,A),vicePresident(C,B).
+ vicePresident(A,B):-successor(C,B),almaMater(C,D),almaMater(A,D).
+ vicePresident(A,B):-predecessor(B,A).
+ vicePresident(A,B):-successor(C,A),successor(C,B).
+ vicePresident(A,B):-successor(A,B),birthPlace(B,C),residence(B,C).
+ vicePresident(A,B):-residence(A,C),birthPlace(D,C),vicePresident(D,B).
+ vicePresident(A,B):-president(B,A).
+ vicePresident(A,B):-successor(C,A), vicePresident(C,B).
+ vicePresident(A,B):-primeMinister(A,B).
+ vicePresident(A,B):-president(A,C),president(B,C).
+ vicePresident(A,B):-successor(A,C),vicePresident(C,B).
+ vicePresident(A,B):-predecessor(A,B).
+ vicePresident(A,B):-president(B,C) ,primeMinister(A,C).
+ vicePresident(A,B):-president(C,A), primeMinister(B,C).
+ vicePresident(A,B):-president(C,A),president(C,B).
+ vicePresident(A,B):-successor(C,B),vicePresident(D,C),successor(D,A).
+ vicePresident(A,B):-activeYearsStartDate(B,C),C=D,deathDate(A,D).
+ vicePresident(A,B):-leader(C,B) ,party(A,C).
+ vicePresident(A,B):-birthDate(A,C),birthDate(D,C),vicePresident(D,B).
+ vicePresident(A,B):-vicePresident(C,B),child(C,D),predecessor(A,D).
+ vicePresident(A,B):-president(B,A) ,successor(A,B).
+ vicePresident(A,B):-successor(C,A),successor(B,C).
+ vicePresident(A,B):-birthPlace(B,C),country(A,C).
+ vicePresident(A,B):-president(C,B) ,primeMinister(A,C).
+ vicePresident(A,B):-vicePresident(C,B),birthDate(C,D),birthDate(A,D).
+ vicePresident(A,B):-party(A,C),party(B,C).
+
+:- vicePresident(A,B),negvicePresident(A,B).
+
+ negvicePresident(A,B):-secondLeader(C,A),firstLeader(C,D),president(B,D).
+ negvicePresident(A,B):-successor(B,C),president(C,B),president(A,B).
+ negvicePresident(A,B):-almaMater(A,C),almaMater(D,C),appointer(D,B).
+ negvicePresident(A,B):-birthPlace(B,C),isPartOf(C,D),region(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),activeYearsEndDate(C,D),activeYearsStartDate(A,D).
+ negvicePresident(A,B):-birthDate(B,C),C>D,activeYearsStartDate(A,D).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),C<D,birthDate(B,D).
+ negvicePresident(A,B):-successor(A,C),primeMinister(C,B).
+ negvicePresident(A,B):-spouse(A,C),predecessor(C,D),spouse(B,D).
+ negvicePresident(A,B):-birthDate(A,C),C>D,serviceEndYear(B,D).
+ negvicePresident(A,B):-vicePresident(C,B),successor(C,A),president(A,C).
+ negvicePresident(A,B):-president(A,B),president(C,B),vicePresident(A,C).
+ negvicePresident(A,B):-spouse(B,C),spouse(C,B),predecessor(A,B).
+ negvicePresident(A,B):-activeYearsStartDate(A,C),deathDate(D,C),vicePresident(D,B).
+ negvicePresident(A,B):-vicePresident(A,C),successor(A,C),president(A,B).
+ negvicePresident(A,B):-president(B,C),vicePresident(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-vicePresident(A,C),B!=C,type(B,"Thing").
+ negvicePresident(A,B):-president(B,C),secondLeader(D,C),firstLeader(D,A).
+ negvicePresident(A,B):-deathDate(B,C),C<D,serviceStartYear(A,D).
+ negvicePresident(A,B):-vicePresident(B,C),president(D,C),vicePresident(A,D).
+ negvicePresident(A,B):-successor(A,B),vicePresident(C,B),successor(A,C).
+ negvicePresident(A,B):-primeMinister(A,B),primeMinister(C,B),successor(A,C).
+ negvicePresident(A,B):-successor(B,C),vicePresident(C,A).
+ negvicePresident(A,B):-predecessor(C,B),region(C,D),deathPlace(A,D).
+ negvicePresident(A,B):-predecessor(A,B),successor(C,B),president(A,C).
+ negvicePresident(A,B):-president(A,B),successor(B,C),president(A,C).
+ negvicePresident(A,B):-successor(B,A).
+ negvicePresident(A,B):-president(A,B),president(C,B),president(A,C).
+almaMater("James_A._Garfield","Williams_College").
+predecessor("Grover_Cleveland","Chester_A._Arthur").
+successor("James_A._Garfield","Chester_A._Arthur").
+successor("William_A._Wheeler","Chester_A._Arthur").
+president("Josiah_Dent","Chester_A._Arthur").
+president("James_Gilfillan","Chester_A._Arthur").
+president("John_Eaton_(general)","James_A._Garfield").
+vicePresident("James_A._Garfield","Chester_A._Arthur").
+president("James_A._Garfield","James A. Garfield").
+successor("Rutherford_B._Hayes","James_A._Garfield").
+president("James_G._Blaine","James_A._Garfield").
+president("James_G._Blaine","Chester_A._Arthur").
+president("Oliver_Bosbyshell","James_A._Garfield").
+successor("James_A._Garfield","Samuel_Hooper").
+party("James_A._Garfield","Republican_Party_(United_States)").
+predecessor("Chester_A._Arthur","James_A._Garfield").
+successor("Chester_A._Arthur","Grover_Cleveland").
+president("William_H._Hunt","James_A._Garfield").
+successor("James_A._Garfield","John_A._Logan").
+president("Thomas_Lemuel_James","Chester_A._Arthur").
+president("Oliver_Bosbyshell","Chester_A._Arthur").
+almaMater("James_A._Garfield","Hiram_College").
+successor("Chester_A._Arthur","Thomas_A._Hendricks").
+president("Samuel_J._Kirkwood","James_A._Garfield").
+president("Wayne_MacVeagh","Chester_A._Arthur").
+president("Josiah_Dent","James_A._Garfield").
+president("John_Eaton_(general)","Chester_A._Arthur").
+president("Wayne_MacVeagh","James_A._Garfield").
+successor("James_A._Garfield","Samuel_J._Randall").
+vicePresident("Rutherford_B._Hayes","William_A._Wheeler").
+president("Thomas_Lemuel_James","James_A._Garfield").
+president("James_Gilfillan","James_A._Garfield").
+predecessor("Thomas_A._Hendricks","Chester_A._Arthur").
+president("William_Windom","Chester_A._Arthur").
+party("Chester_A._Arthur","Republican_Party_(United_States)").
+president("Samuel_J._Kirkwood","Chester_A._Arthur").
+president("William_H._Hunt","Chester_A._Arthur").
+successor("James_A._Garfield","Ezra_B._Taylor").
+president("William_Windom","James_A._Garfield").
+president("Chester_A._Arthur","James_A._Garfield").
+type("James_A._Garfield","Person").
+type("James_A._Garfield","Agent").
+type("James_A._Garfield","OfficeHolder").
+type("James_A._Garfield","Thing").
+type("Chester_A._Arthur","Person").
+type("Chester_A._Arthur","Agent").
+type("Chester_A._Arthur","OfficeHolder").
+type("Chester_A._Arthur","Thing").

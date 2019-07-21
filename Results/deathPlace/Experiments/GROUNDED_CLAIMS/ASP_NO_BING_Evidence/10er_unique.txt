@@ -1,0 +1,171 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+deathPlace("Walter_Inglis_Anderson","New_Orleans").
+headquarter("Association_of_Community_Organizations_for_Reform_Now","New_Orleans").
+deathPlace("David_Ferrie","New_Orleans").
+nationality("Guy_Banister","United_States").
+birthPlace("Louis_Prima","New_Orleans,_Louisiana").
+residence("Cedric_Richmond","New_Orleans").
+headquarter("The_Roots_of_Music","New_Orleans").
+nationality("John_McCrady","United_States").
+birthPlace("Jacob_Haight_Morrison","United_States").
+nationality("Walter_Inglis_Anderson","United_States").
+nationality("Lewis_Strong_Clarke","United_States").
+birthPlace("Harnett_Kane","New_Orleans").
+nationality("Algernon_Sidney_Badger","United_States").
+birthPlace("George_Eustis_Jr.","United_States").
+residence("Jacob_Haight_Morrison","New_Orleans").
+nationality("Joseph_Seligman","United_States").
+deathPlace("George_R._Swift","New_Orleans").
+deathPlace("Louis_Prima","New_Orleans").
+deathPlace("John_McCrady","New_Orleans").
+nationality("Jackie_Moreland","United_States").
+birthPlace("Louis_Prima","United_States").
+birthPlace("Louis_Prima","New_Orleans").
+residence("Abhay_Patel","New_Orleans").
+nationality("Aristides_Agramonte","United_States").
+nationality("Clay_Shaw","United_States").
+residence("Theodore_M._Hickey","New_Orleans").
+birthPlace("George_W._Reese_Jr.","New_Orleans").
+birthPlace("Edward_S._Bopp","New_Orleans").
+headquarter("The_New_Orleans_Bee","New_Orleans").
+deathPlace("Lewis_Strong_Clarke","New_Orleans").
+occupation("Louis_Prima","Bandleader").
+deathPlace("Joseph_Seligman","New_Orleans").
+birthPlace("Abhay_Patel","United_States").
+deathPlace("Olaf_Fink","New_Orleans").
+residence("Peter_J._Fos","New_Orleans").
+birthPlace("Owen_Brennan","New_Orleans").
+nationality("George_R._Swift","United_States").
+headquarter("Louisiana_State_Bar_Association","New_Orleans").
+nationality("Angela_Gregory","United_States").
+deathPlace("Leon_C._Weiss","New_Orleans").
+nationality("Leon_C._Weiss","United_States").
+residence("Edward_S._Bopp","New_Orleans").
+deathPlace("William_C._Micou","New_Orleans").
+residence("J._Minos_Simon","New_Orleans").
+birthPlace("Tom_Benson","New_Orleans").
+headquarter("The_Louisiana_Weekly","New_Orleans").
+deathPlace("George_Cooke_(painter)","New_Orleans").
+deathPlace("Clay_Shaw","New_Orleans").
+birthPlace("Austin_Badon","New_Orleans").
+birthPlace("Dorothy_Mae_Taylor","New_Orleans").
+birthPlace("Theodore_M._Hickey","New_Orleans").
+location("The_Roots_of_Music","United_States").
+deathPlace("Algernon_Sidney_Badger","New_Orleans").
+nationality("Olaf_Fink","United_States").
+deathPlace("Angela_Gregory","New_Orleans").
+nationality("Bianca_Halstead","United_States").
+deathPlace("Benjamin_Morgan_Harrod","New_Orleans").
+deathPlace("Robert_Ewing_(newspaper_publisher)","New_Orleans").
+deathPlace("Louis_Prima","United_States").
+deathPlace("Bianca_Halstead","New_Orleans").
+deathPlace("Guy_Banister","New_Orleans").
+birthPlace("Cedric_Richmond","New_Orleans").
+headquarter("Pride_Air","New_Orleans").
+nationality("George_Cooke_(painter)","United_States").
+deathPlace("Jackie_Moreland","New_Orleans").
+deathPlace("Henry_Lehman","New_Orleans").
+nationality("William_C._Micou","United_States").
+nationality("Robert_Ewing_(newspaper_publisher)","United_States").
+nationality("Benjamin_Morgan_Harrod","United_States").
+residence("Harnett_Kane","New_Orleans").
+birthPlace("Peter_J._Fos","New_Orleans").
+residence("Austin_Badon","New_Orleans").
+headquarter("World_Trade_Center_New_Orleans","New_Orleans").
+occupation("Louis_Prima","Singing").
+residence("George_Eustis_Jr.","New_Orleans").
+residence("Owen_Brennan","New_Orleans").
+nationality("Harry_Lee_(sheriff)","United_States").
+nationality("Percy_Saint","United_States").
+headquarter("NewsWatch_15","New_Orleans").
+headquarter("The_New_Orleans_Tribune","New_Orleans").
+residence("Richard_Brennan_(restaurateur)","New_Orleans").
+residence("George_W._Reese_Jr.","New_Orleans").
+birthPlace("Richard_Brennan_(restaurateur)","New_Orleans").
+nationality("David_Ferrie","United_States").
+headquarter("Fox_Sports_New_Orleans","New_Orleans").
+birthPlace("Edward_S._Bopp","United_States").
+birthPlace("Solange_Knowles","United_States").
+nationality("Henry_Lehman","United_States").
+residence("Solange_Knowles","New_Orleans").
+birthPlace("John_Albert_Morris","United_States").
+residence("Tom_Benson","New_Orleans").
+residence("Dorothy_Mae_Taylor","New_Orleans").
+residence("John_Albert_Morris","New_Orleans").
+birthPlace("J._Minos_Simon","United_States").
+deathPlace("Percy_Saint","New_Orleans").
+occupation("Louis_Prima","Entertainer").
+occupation("Louis_Prima","Trumpeter").
+deathPlace("Harry_Lee_(sheriff)","New_Orleans").
+occupation("Clay_Shaw","New_Orleans").
+birthPlace("George_Eustis_Jr.","New_Orleans").
+deathPlace("Aristides_Agramonte","New_Orleans").
+type("Louis_Prima","Person").
+type("Louis_Prima","Agent").
+type("Louis_Prima","Artist").
+type("Louis_Prima","MusicalArtist").
+type("Louis_Prima","Thing").
+type("New_Orleans","Place").
+type("New_Orleans","Location").
+type("New_Orleans","City").
+type("New_Orleans","PopulatedPlace").
+type("New_Orleans","Settlement").
+type("New_Orleans","Thing").

@@ -1,0 +1,4 @@
+2003,Peter_Arno,Lois_Long,1
+4184,Jürgen_Kuczynski,Marguerite_Kuczynski,1
+9869,Emine_Gülbahar_Hatun,Hafsa_Sultan_(wife_of_Selim_I),0
+8773,Philip_I_of_Castile,Eleanor_of_Austria,0

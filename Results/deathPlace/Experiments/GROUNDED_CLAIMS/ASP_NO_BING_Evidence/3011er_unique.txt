@@ -1,0 +1,103 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:- deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+nationality("Audrey_Erskine_Lindop","United_Kingdom").
+nationality("David_Gascoyne","England").
+occupation("Guy_Newall","Film_actor").
+birthPlace("Guy_Newall","England").
+occupation("Guy_Newall","Guy_Newall__1").
+deathPlace("Guy_Newall","United_Kingdom").
+deathPlace("George_Wightwick_Rendel","Isle_of_Wight").
+deathPlace("Guy_Newall","London").
+nationality("Sir_Benjamin_Collins_Brodie,_2nd_Baronet","United_Kingdom").
+nationality("John_Hamilton_Reynolds","United_Kingdom").
+deathPlace("Sir_Benjamin_Collins_Brodie,_2nd_Baronet","Isle_of_Wight").
+birthPlace("Guy_Newall","Isle_of_Wight").
+deathPlace("John_Hamilton_Reynolds","Isle_of_Wight").
+deathPlace("Maurice_Brennan","Isle_of_Wight").
+nationality("Alfred_Noyes","England").
+deathPlace("Guy_Newall","England").
+occupation("Guy_Newall","Film_director").
+country("Isle_of_Wight","United_Kingdom").
+deathPlace("Alfred_Noyes","Isle_of_Wight").
+occupation("Guy_Newall","Screenwriter").
+deathPlace("Augustus_George_Vernon_Harcourt","Isle_of_Wight").
+nationality("Frederick_Richard_Pickersgill","England").
+birthPlace("Guy_Newall","United_Kingdom").
+nationality("George_Wightwick_Rendel","United_Kingdom").
+deathPlace("Frederick_Richard_Pickersgill","Isle_of_Wight").
+nationality("Tommy_Wood","United_Kingdom").
+nationality("Maurice_Brennan","United_Kingdom").
+deathPlace("Guy_Newall","Hampstead").
+deathPlace("David_Gascoyne","Isle_of_Wight").
+headquarter("Isle_of_Wight_County_Press","Isle_of_Wight").
+deathPlace("Audrey_Erskine_Lindop","Isle_of_Wight").
+deathPlace("Tommy_Wood","Isle_of_Wight").
+nationality("Augustus_George_Vernon_Harcourt","United_Kingdom").
+type("Guy_Newall","Person").
+type("Guy_Newall","Actor").
+type("Guy_Newall","Agent").
+type("Guy_Newall","Artist").
+type("Guy_Newall","Thing").
+type("Isle_of_Wight","Place").
+type("Isle_of_Wight","Location").
+type("Isle_of_Wight","AdministrativeRegion").
+type("Isle_of_Wight","PopulatedPlace").
+type("Isle_of_Wight","Region").
+type("Isle_of_Wight","Thing").

@@ -1,0 +1,14 @@
+True Positives: 13/21
+True Negatives: 90/99
+KilledP: 0/21
+KilledN: 0/99
+Can't Decide Positives: 4
+Non Covered Positives:  487, 2263, 16, 62,
+Can't Decide Negatives: 9
+Non Covered Negatives:  6241, 8378, 8727, 5981, 5406, 6302, 5567, 6765, 5069,
+False Positive
+False Negative1454,3205,3867,3725,
+Total: 120
+Please remove: Precision :0.962616857367423
+Recall :0.8583327013894155
+F_score :0.9070770680387978

@@ -1,9 +1,11 @@
-clingo version 5.3.1
-Reading from ...H_BING_EVID_Evidence/5002er_unique.txt
+clingo version 5.4.0
+Reading from ...O_BING_EVID_Evidence/8874er_unique.txt
 Solving...
-UNSATISFIABLE
+Answer: 1
+spouse("Dominik_Mikołaj_Radziwiłł","Anna_Krystyna_Lubomirska_(XVII-1701)") spouse("Anna_Krystyna_Lubomirska_(XVII-1701)","Dominik_Mikołaj_Radziwiłł") type("Dominik_Mikołaj_Radziwiłł","Person") type("Dominik_Mikołaj_Radziwiłł","Agent") type("Dominik_Mikołaj_Radziwiłł","Thing") negspouse("Dominik_Mikołaj_Radziwiłł","Dominik_Mikołaj_Radziwiłł")
+SATISFIABLE
 
-Models       : 0
+Models       : 1
 Calls        : 1
-Time         : 0.007s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.007s
+Time         : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.008s

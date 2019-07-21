@@ -1,0 +1,201 @@
+Id,Subject,Object,Label,Predicted Label,Execution Time (mins)
+296,Quintin_McMillan,Transvaal_Province,1,1,2.073101282119751
+1452,Asen_Peshev,Sofia_(disambiguation),1,1,2.072723388671875
+153,Tito_Livio_Burattini,Kraków,1,-1,2.1218810081481934
+540,Willem_van_den_Hout,The_Hague,1,1,2.3693361282348633
+1801,Dermot_Healy,Sligo,1,1,2.425842523574829
+93,Władysław_Mieczysław_Kozłowski,http://wikidata.dbpedia.org/resource/Q20032559,1,Can't Decide,2.0722830295562744
+1006,Karl_U._Smith,Florida,1,Can't Decide,2.0713579654693604
+2635,Gurgen_Askaryan,Moscow,1,Killed,60.00724697113037
+1728,Arthur_Bacon,Derby,1,1,2.4794762134552
+1277,Francisco_Javier_de_Morales_y_Castejón_de_Arroyo,Lima,1,-1,2.1234171390533447
+572,Amiraslan_Aliyev,Azerbaijan,1,Killed,60.009262561798096
+1471,Edmund_von_Hellmer,Vienna,1,Can't Decide,2.1723177433013916
+167,Haji_Mastan,Maharashtra,1,Killed,60.00369668006897
+1953,Trần_Nhật_Duật,Hanoi,1,Can't Decide,2.4261999130249023
+283,Billie_Fleming,Devon,1,1,2.12776255607605
+2247,Hans_Schabschneider,Ybbs_an_der_Donau,1,1,2.123863697052002
+941,Geoffrey_Orme,East_Sussex,1,1,2.2849767208099365
+239,Talbot_Mundy,United_States,1,-1,2.1715431213378906
+1764,Grim_Natwick,Los_Angeles,1,-1,2.121492385864258
+1344,Cecil_Allenby,Mannamead,1,1,2.1261627674102783
+1152,George_Lyttleton-Rogers,Los_Angeles,1,Killed,60.006168365478516
+1610,Louis-Félix_Pinault,Ottawa,1,-1,2.5276825428009033
+2003,William_Arthur_Dunn,North_Adelaide,1,1,2.1772704124450684
+2384,Cyril_Coote,Cottenham,1,1,2.0778560638427734
+139,Louis_Gauffier,Livorno,1,1,2.1221916675567627
+2125,Michael_Gannon_(Australian_politician),Queensland,1,Killed,60.00756096839905
+1011,Giovan_Battista_di_Crollalanza,Pisa,1,1,2.278198003768921
+1675,Marie-Eugène_de_l'Enfant-Jésus,Venasque,1,-1,2.121981143951416
+2839,Domenico_Manetti,Siena,1,1,2.0710933208465576
+978,Maciej_Radziwiłł,Dobrut,1,Can't Decide,2.1728837490081787
+720,Jean-François_Regnard,Dourdan,1,Can't Decide,2.273073434829712
+1832,Rose_Cleveland,Kingdom_of_Italy,1,1,2.3228039741516113
+2619,William_John_Codrington,London,1,-1,2.0728707313537598
+1177,Edward_Boxer,Balaklava,1,1,2.2239277362823486
+2796,Charles_Maurras,Tours,1,-1,2.4789540767669678
+1730,Purushottam_K._Chauhan,Dhanbad,1,1,2.4228384494781494
+1686,Francis_Dhanis,Belgium,1,Can't Decide,2.171377420425415
+287,Bandsman_Jack_Blake,Great_Yarmouth,1,1,2.273031234741211
+1529,Claiborne_Williams,United_States,1,Can't Decide,2.171886920928955
+1111,Gérald_Martineau,Quebec,1,-1,2.2227187156677246
+1811,Gustavus_Woodson_Smith,New_York_City,1,-1,2.1743862628936768
+1706,Susan_of_Albania,Tirana,1,-1,2.3270325660705566
+1447,Louisa_Ulrika_of_Prussia,Svartsjö_Palace,1,-1,2.3245208263397217
+1510,Benedetto_Giustiniani,Rome,1,-1,2.1733901500701904
+649,Folke_Wassén,Västra_Frölunda,1,Can't Decide,2.1208748817443848
+441,André_Kempster,Skikda,1,-1,2.3216731548309326
+398,Eudoxia_Laskarina,Zaragoza,1,1,2.1223642826080322
+1138,Adolf_Schreiber,Liechtenstein,1,1,2.2226665019989014
+1439,Sergei_Yesenin,Saint_Petersburg,1,Can't Decide,2.173718214035034
+2216,Reginald_Baker_(film_producer),Australia,1,Can't Decide,2.175396680831909
+1682,Alfred_Dunlop,Melbourne,1,-1,2.524120569229126
+2811,Jean-Louis_Pezant,France,1,-1,2.2233409881591797
+1943,Iya_Savvina,Moscow,1,-1,2.2222366333007812
+505,Luigi_Bilio,Rome,1,Can't Decide,2.0715835094451904
+663,Gustave_Ador,Geneva,1,-1,2.1713767051696777
+2285,Kenichi_Fukui,Kyoto,1,Can't Decide,2.024003505706787
+968,Thomas_J._Barratt,Margate,1,1,2.122795820236206
+883,Luigi_Legnani,Ravenna,1,1,2.2237370014190674
+12,Albrecht_Feez,Germany,1,-1,2.221660614013672
+1909,Miriam_Shomer_Zunser,New_York_City,1,-1,2.12294864654541
+3000,Anne_de_Rohan-Chabot,Paris,1,-1,2.1234731674194336
+1847,Ward_Hunt,United_States,1,-1,2.1724627017974854
+1199,Alfred_Andersch,Ticino,1,1,2.223788022994995
+2055,Butch_Ballard,Philadelphia,1,-1,2.1217517852783203
+712,June_Keithley,Philippines,1,-1,2.122377634048462
+1285,Louise_Glaum,Los_Angeles,1,-1,2.2723169326782227
+2005,Constantine_Hering,Philadelphia,1,Can't Decide,2.0731799602508545
+1136,Zoran_Đinđić,Serbia_and_Montenegro,1,Can't Decide,2.1731832027435303
+1164,Grigory_Romanov,Moscow,1,Killed,60.00578474998474
+1500,Stanisław_Grochowiak,Warsaw,1,-1,2.5293052196502686
+1772,Puig_Aubert,Carcassonne,1,1,2.1784489154815674
+862,Richard_Wordsworth,Kendal,1,1,2.125018835067749
+548,Carl_Hayden,Arizona,1,1,2.2591633796691895
+1482,Henry_Gallop,Bitton,1,1,2.128452777862549
+2920,Anna_Ancher,Skagen,1,1,2.129361629486084
+248,Abe_Reles,New_York_(state),1,-1,2.1298630237579346
+233,Nanabhai_Bhatt_(Lokbharti),Gujarat,1,1,3.6855967044830322
+1189,Lujo_Brentano,München,1,Can't Decide,2.171740770339966
+2323,Umberto_Tupini,Rome,1,Can't Decide,2.0714714527130127
+2100,Oscar_Gelbfuhs,Austrian_Silesia,1,-1,2.070817708969116
+958,Dinshaw_Maneckji_Petit,Bombay,1,1,2.0714588165283203
+178,Nahum_Levin,Israel,1,Killed,60.00325322151184
+817,Venus_Xtravaganza,New_York_City,1,Can't Decide,2.024169683456421
+1079,Eglantyne_Jebb,Geneva,1,-1,2.022365093231201
+116,Alfred_Noble_(footballer),Norwich,1,1,2.0211215019226074
+2168,Harold_Edge,Cheshire,1,1,2.1878113746643066
+698,Gustave_Albitte,Neuilly-sur-Seine,1,1,2.072313070297241
+1411,Giulio_Pontedera,Lonigo,1,1,2.1212832927703857
+980,Johann_Alexander_Thiele,Dresden,1,-1,2.1240484714508057
+1378,Emilio_Prados,Mexico_City,1,Can't Decide,2.1214044094085693
+204,Llukë_Bogdani,Kaçanik,1,Can't Decide,2.0756425857543945
+1640,Henry_Enfield,England,1,Can't Decide,2.122288227081299
+1220,Suzanne_Briet,France,1,-1,2.072383165359497
+62,Saint_Almus,Scotland,1,Killed,60.002509117126465
+1463,Eugene_Emond,Pittsburgh,1,1,2.6649208068847656
+462,Arthur_Wigglesworth,Kingston_upon_Hull,1,1,2.223036527633667
+2421,André_Calmettes,16th_arrondissement_of_Paris,1,Can't Decide,2.022003412246704
+39,János_Rajz,Budapest,1,Can't Decide,2.0211236476898193
+1654,Manuel_Parera,Barcelona,1,Can't Decide,2.121286392211914
+422,Johannes_Sejersted_Bødtker,Oslo,1,-1,2.021955728530884
+4843,Theoderic_the_Great,Pannonia,0,-1,2.1232523918151855
+5915,Eric_Robinson_(conductor),Leeds,0,-1,2.1250128746032715
+3813,Gabrielle_Renaudot_Flammarion,Meudon,0,-1,2.1241414546966553
+5393,Dita_Parlo,Szczecin,0,-1,2.0218968391418457
+3793,Alberto_Rivera_(activist),Gran_Canaria,0,-1,2.071531295776367
+5321,Hans_Vermeer,Iserlohn,0,-1,2.022077798843384
+5402,Hendrick_Andriessen,Antwerp,0,-1,2.0721516609191895
+3381,Emilio_Lussu,Lazio,0,Can't Decide,2.0706167221069336
+3102,Grand_Duchess_Olga_Nikolaevna_of_Russia,Alexander_Palace,0,-1,2.0714681148529053
+4913,Giuseppe_Castiglione_(1829–1908),Naples,0,-1,2.0218963623046875
+4626,George_Mason_II,English_people,0,-1,2.0725481510162354
+5472,Michael_Graves,Indianapolis,0,-1,2.071413040161133
+3606,Jack_London,San_Francisco,0,-1,2.1756131649017334
+5314,Sofonisba_Anguissola,Cremona,0,-1,2.071322202682495
+5358,Don_Barry_(Canadian_football),Alberta,0,-1,2.1230247020721436
+4223,Candi_Kubeck,Hollywood,0,-1,2.1220779418945312
+5535,William_IV_of_the_United_Kingdom,Buckingham_Palace,0,-1,2.1226093769073486
+3512,Raman_Lamba,Ireland_national_cricket_team,0,-1,2.173234701156616
+3416,Charles_Brun_(France),France,0,-1,2.0710997581481934
+3655,Ashok_Kumar_(cinematographer),Allahabad,0,-1,2.1295742988586426
+4139,L._Sprague_de_Camp,New_York_City,0,-1,2.07137131690979
+3777,Charles_Scott_(governor),Colony_of_Virginia,0,-1,2.0722105503082275
+3218,Archduke_John_of_Austria,Florence,0,-1,2.8766393661499023
+4730,Ignacio_Zuloaga,Spain,0,-1,2.121891498565674
+5654,Thomas_Nast,Kingdom_of_Bavaria,0,-1,2.1232082843780518
+5464,George_Llewelyn_Davies,London,0,-1,2.0723726749420166
+4962,Brian_Horrocks,British_Raj,0,-1,2.0736730098724365
+5176,Bipan_Chandra,Stanford_University,0,Can't Decide,2.0720436573028564
+4129,Arthur_Robertson_(athlete),Great_Britain,0,-1,2.074922561645508
+3498,Anne_Claude_de_Caylus,France,0,-1,2.1218457221984863
+5188,Henry_Thomas_(boxer),Birmingham,0,-1,2.121763229370117
+3930,Grand_Duchess_Olga_Alexandrovna_of_Russia,Russian_Empire,0,-1,2.072252035140991
+5155,Laxmi_Raman_Acharya,Rajasthan,0,-1,2.0712344646453857
+4132,Urho_Kekkonen,Grand_Duchy_of_Finland,0,-1,2.020489454269409
+3395,Strom_Thurmond,United_States_of_America,0,-1,2.1222434043884277
+3190,Pope_Paul_IV,Kingdom_of_Naples,0,-1,2.0711770057678223
+3369,Hildegard_Knef,Ulm,0,-1,2.0225300788879395
+3577,Thomas_McKean,Province_of_Pennsylvania,0,-1,2.0733561515808105
+3602,Han_van_Meegeren,Heart_attack,0,Can't Decide,2.020747423171997
+3108,Abraham_de_Moivre,Vitry-le-François,0,-1,2.0709617137908936
+5150,Fabian_Gottlieb_von_Bellingshausen,Saaremaa,0,-1,2.1222293376922607
+4449,Kenzō_Tange,Osaka,0,Can't Decide,2.2230050563812256
+5159,Tony_Hancock,Birmingham,0,Can't Decide,2.0709853172302246
+5795,Henry_Williams_(Massachusetts),Massachusetts's_10th_congressional_district,0,-1,2.123474597930908
+4846,William_Radcliffe_Birt,London,0,-1,2.177295446395874
+4498,Bernardo_Soto_Alfaro,Alajuela,0,Can't Decide,2.072288751602173
+3847,Bagrat_III_of_Georgia,Kutaisi,0,-1,2.1244051456451416
+4728,Elvira_Quintana,Second_Spanish_Republic,0,-1,2.122030019760132
+5725,Francis_McClean,Westminster,0,-1,2.1226983070373535
+3422,Lloyd_Alexander,Philadelphia,0,Can't Decide,2.182187080383301
+5737,Trofim_Lysenko,Poltava_Governorate,0,-1,2.07236385345459
+4271,Francisco_Noronha,Seville,0,-1,2.0714685916900635
+5707,Georg_Lindemann,Osterburg_(Altmark),0,-1,2.172757863998413
+5461,Ulugh_Beg,Soltaniyeh,0,-1,2.1724274158477783
+3236,Dash_Snow,United_States,0,Can't Decide,2.0725295543670654
+4512,Robert_Travers_Atkin,County_Cork,0,-1,2.1721479892730713
+4121,David_Lloyd_George,Chorlton-on-Medlock,0,Can't Decide,2.071007490158081
+5577,Xerxes_I,Iran,0,Killed,60.002363204956055
+4310,Hem_Vejakorn,Phra_Nakhon_District,0,-1,2.4259045124053955
+3620,Vitus_Bering,Denmark,0,-1,2.0225400924682617
+5430,Saul_Bellow,Boston_University,0,-1,2.1210439205169678
+4177,William_Hartnell,Actor,0,-1,2.1235246658325195
+3307,Oswald_of_Northumbria,Northumbria,0,Can't Decide,2.1733319759368896
+5623,Derek_Roy_(comedian),London,0,-1,2.0780189037323
+3671,Sun_Tzu,Shandong,0,-1,2.0720598697662354
+3281,James_Kerr_(Pennsylvania),Pennsylvania,0,-1,2.1277027130126953
+3305,Henry_Daniell,London,0,-1,2.0238516330718994
+5220,Daniel_Bernoulli,Switzerland,0,-1,2.1233327388763428
+4552,Ian_Curtis,Lancashire,0,-1,2.1719653606414795
+3801,Arthur_Watkin,Forward_(association_football),0,Can't Decide,2.1234848499298096
+4986,Ignaz_Brüll,Prostějov,0,Can't Decide,2.070901870727539
+3130,Carl_H._Eigenmann,Germany,0,-1,2.121419668197632
+4216,Casimir_IV_Jagiellon,Poland,0,Can't Decide,2.0711610317230225
+4534,Alfred_Rosenberg,Russian_Empire,0,Can't Decide,2.07265567779541
+5569,Utah_Phillips,Cleveland,0,-1,2.2338428497314453
+3448,Nicolas_Freeling,London,0,-1,2.2728700637817383
+3474,Peter_Walker_(racing_driver),Leeds,0,-1,2.1225717067718506
+5572,Alexander_King_(scientist),Glasgow,0,-1,2.0712356567382812
+3466,Antonio_Gramsci,Sardinia,0,-1,2.073263168334961
+5955,Wojciech_Kilar,Poles,0,-1,2.020909070968628
+5639,George_Mason_III,Virginia,0,-1,2.1416640281677246
+4779,George_Mills_(RAF_officer),London,0,-1,2.1240837574005127
+4259,Alfred_Richard_Orage,West_Riding_of_Yorkshire,0,1,2.172417402267456
+3389,John_Herschel,Westminster_Abbey,0,-1,2.1241891384124756
+3374,George_Barnes_(Australian_politician),Victoria_(Australia),0,Can't Decide,2.122745990753174
+5349,Louis_I_of_Hungary,Visegrád,0,-1,2.1236698627471924
+4297,George_Cheyne_(physician),Aberdeenshire,0,-1,2.1213009357452393
+5817,Hedd_Wyn,Wales,0,-1,2.1213700771331787
+5010,Peter_Minuit,Holy_Roman_Empire,0,Can't Decide,2.177253246307373
+3802,Saddam_Hussein,Coalition_Provisional_Authority,0,-1,2.073406934738159
+5893,Sigrid_Undset,Kalundborg,0,-1,2.123969793319702
+4937,Edward_Higgins_White,Texas,0,Can't Decide,2.0716378688812256
+3886,Karl_Friedrich_von_Steinmetz,Thuringia,0,-1,2.121213912963867
+4546,Adalbert_of_Magdeburg,Lorraine,0,-1,2.072960615158081
+5770,Trofim_Lysenko,Russian_Empire,0,Can't Decide,2.122467517852783
+3015,Vasco_da_Gama,Alentejo,0,-1,2.0717716217041016
+5908,Abdol_Hossein_Sardari,Tehran,0,-1,2.070897340774536
+4978,Henri-Joseph_Rigel,Wertheim_am_Main,0,-1,2.1213314533233643
+5657,Charles_Yerkes,Philadelphia,0,-1,2.1225388050079346
+5726,Norman_Granz,Los_Angeles,0,-1,2.121983051300049

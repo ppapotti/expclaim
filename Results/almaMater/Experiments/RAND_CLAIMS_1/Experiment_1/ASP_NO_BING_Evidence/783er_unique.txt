@@ -1,0 +1,78 @@
+ almaMater(A,B):-predecessor(C,A),successor(D,C),almaMater(D,B).
+ almaMater(A,B):-successor(C,A),successor(C,D),almaMater(D,B).
+ almaMater(A,B):-successor(C,A),birthPlace(C,D),state(B,D).
+ almaMater(A,B):-almaMater(C,B),predecessor(A,C).
+ almaMater(A,B):-almaMater(C,B),activeYearsEndYear(C,D),deathYear(A,D).
+ almaMater(A,B):-predecessor(C,A),birthPlace(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),deathYear(C,D),activeYearsStartYear(A,D).
+ almaMater(A,B):-state(B,C),birthPlace(D,C),successor(D,A).
+ almaMater(A,B):-successor(A,C),birthPlace(C,D),state(B,D).
+ almaMater(A,B):-city(B,C),birthPlace(A,C).
+ almaMater(A,B):-state(B,C),capital(C,D),birthPlace(A,D).
+ almaMater(A,B):-office(A,C),office(D,C),almaMater(D,B).
+ almaMater(A,B):-birthPlace(A,C),leaderName(C,D),almaMater(D,B).
+ almaMater(A,B):-birthPlace(A,C),state(B,C).
+ almaMater(A,B):-predecessor(C,A),birthPlace(C,D),city(B,D).
+ almaMater(A,B):-almaMater(C,B),office(C,D),orderInOffice(A,D).
+ almaMater(A,B):-almaMater(C,B),successor(C,A).
+ almaMater(A,B):-predecessor(A,C),deathPlace(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),orderInOffice(C,D),office(A,D).
+ almaMater(A,B):-predecessor(A,C),birthPlace(C,D),country(B,D).
+ almaMater(A,B):-predecessor(A,C),birthPlace(C,D),city(B,D).
+ almaMater(A,B):-birthPlace(A,C),city(D,C),owner(D,B).
+ almaMater(A,B):-successor(C,A),nationality(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),otherParty(C,D),party(A,D).
+ almaMater(A,B):-birthPlace(A,C),province(B,C).
+ almaMater(A,B):-almaMater(C,B),region(C,D),birthPlace(A,D).
+ almaMater(A,B):-profession(A,C),occupation(D,C),almaMater(D,B).
+
+:-almaMater(A,B),negalmaMater(A,B).
+
+
+ negalmaMater(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negalmaMater(A,B):-residence(A,C),hometown(D,C),hometown(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),city(B,D).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),country(B,D).
+ negalmaMater(A,B):-residence(A,C),regionServed(D,C),affiliation(B,D).
+ negalmaMater(A,B):-award(A,C),award(D,C),employer(D,B).
+ negalmaMater(A,B):-residence(A,C),deathPlace(D,C),occupation(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),doctoralAdvisor(D,C),almaMater(D,B).
+ negalmaMater(A,B):-field(A,C),genre(D,C),education(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(A,C),deathPlace(C,D),country(B,D).
+ negalmaMater(A,B):-country(B,C),birthPlace(D,C),doctoralAdvisor(A,D).
+ negalmaMater(A,B):-president(B,C),residence(C,D),nationality(A,D).
+ negalmaMater(A,B):-negalmaMater(A,C),B!=C,type(B,"Thing").
+ negalmaMater(A,B):-doctoralStudent(A,C),birthPlace(C,D),country(B,D).
+ negalmaMater(A,B):-knownFor(A,B).
+ negalmaMater(A,B):-employer(A,B).
+ negalmaMater(A,B):-occupation(A,B).
+ negalmaMater(A,B):-award(A,B).
+ negalmaMater(A,B):-almaMater(C,B),education(C,B),employer(A,B).
+ negalmaMater(A,B):-almaMater(C,B),influencedBy(C,A).
+ negalmaMater(A,B):-doctoralStudent(C,A),deathPlace(C,D),country(B,D).
+ negalmaMater(A,B):-nationality(A,C),birthPlace(D,C),deathPlace(D,B).
+office("Liu_Ching-chung","Political Deputy Minister ofHakka Affairs Councilof theRepublic of China").
+office("Liu_Ching-chung","Minister ofHakka Affairs Councilof theRepublic of China(acting)").
+birthPlace("Chung_Wan-mei","Taiwan").
+predecessor("Chung_Wan-mei","Liu_Ching-chung").
+office("Liu_Ching-chung","Minister ofHakka Affairs Councilof theRepublic of China").
+successor("Lee_Chao-ming","Liu_Ching-chung").
+successor("Huang_Yu-cheng","Liu_Ching-chung").
+almaMater("Liu_Ching-chung","National_Chung_Hsing_University").
+country("National_Chung_Hsing_University","Taiwan").
+successor("Liu_Ching-chung","Chung_Wan-mei").
+type("Liu_Ching-chung","Person").
+type("Liu_Ching-chung","Agent").
+type("Liu_Ching-chung","OfficeHolder").
+type("Liu_Ching-chung","Thing").
+type("National_Chung_Hsing_University","Agent").
+type("National_Chung_Hsing_University","EducationalInstitution").
+type("National_Chung_Hsing_University","Organisation").
+type("National_Chung_Hsing_University","University").
+type("National_Chung_Hsing_University","Thing").
+
+
+
+
+almaMater("Liu_Ching-chung","Illinois_State_University").
+almaMater("Liu_Ching-chung","National_Chung_Hsing_University").

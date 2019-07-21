@@ -1,0 +1,11 @@
+clingo version 5.3.1
+Reading from ..._1/ASP_BING_Evidence/6014er_unique.txt
+Solving...
+Answer: 1
+almaMater("Charles_Richmond_Mitchell","University_of_King's_College") almaMater("Charles_Richmond_Mitchell","University_of_New_Brunswick") deathPlace("Charles_Richmond_Mitchell","Edmonton") deathPlace("Charles_Richmond_Mitchell","Alberta") negalmaMater("Charles_Richmond_Mitchell","Charles_Richmond_Mitchell") negalmaMater("Charles_Richmond_Mitchell","Alberta") location("Calgary_Catholic_Immigration_Society","Alberta") location("Elections_Alberta","Edmonton") location("Energy_Resources_Conservation_Board","Edmonton") location("Energy_Resources_Conservation_Board","Alberta") location("CTV_Two_Alberta","Alberta") location("Law_Society_of_Alberta","Alberta") location("CTV_Two_Alberta","Edmonton") location("New_Democratic_Youth_of_Alberta","Alberta") location("Elections_Alberta","Alberta") headquarter("CTV_Two_Alberta","Alberta") headquarter("Calgary_Catholic_Immigration_Society","Alberta") headquarter("Energy_Resources_Conservation_Board","Alberta") headquarter("New_Democratic_Youth_of_Alberta","Alberta") headquarter("Elections_Alberta","Alberta") headquarter("Law_Society_of_Alberta","Alberta") type("Charles_Richmond_Mitchell","Person") type("Charles_Richmond_Mitchell","Agent") type("Charles_Richmond_Mitchell","OfficeHolder") type("Charles_Richmond_Mitchell","Thing") type("Alberta","Settlement") type("Alberta","Thing")
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.008s

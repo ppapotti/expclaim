@@ -1,0 +1,11 @@
+clingo version 5.3.1
+Reading from ...iment_1/ASP_Evidence/5726er_unique.txt
+Solving...
+Answer: 1
+
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.010s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.008s

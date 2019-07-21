@@ -1,0 +1,13 @@
+-1.4656181919347486  deathPlace(A,B):-restingPlace(A,B).
+-2.0051271911265314  deathPlace(A,B):-deathplace(A,B).
+-1.277633109760059  deathPlace(A,B):-placeOfDeath(A,B).
+
+:-deathPlace(A,B),negdeathPlace(A,B).
+
+5.277815903573769  negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+1.7263316639055983  negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+-0.5946519338108446  negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+1.3660916538023726  negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+1.7191887763932157  negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+-1.9703678899013504  negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+-1.9367305922198355  negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).

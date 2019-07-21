@@ -1,0 +1,207 @@
+ almaMater(A,B):-predecessor(C,A),successor(D,C),almaMater(D,B).
+ almaMater(A,B):-successor(C,A),successor(C,D),almaMater(D,B).
+ almaMater(A,B):-successor(C,A),birthPlace(C,D),state(B,D).
+ almaMater(A,B):-almaMater(C,B),predecessor(A,C).
+ almaMater(A,B):-almaMater(C,B),activeYearsEndYear(C,D),deathYear(A,D).
+ almaMater(A,B):-predecessor(C,A),birthPlace(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),deathYear(C,D),activeYearsStartYear(A,D).
+ almaMater(A,B):-state(B,C),birthPlace(D,C),successor(D,A).
+ almaMater(A,B):-successor(A,C),birthPlace(C,D),state(B,D).
+ almaMater(A,B):-city(B,C),birthPlace(A,C).
+ almaMater(A,B):-state(B,C),capital(C,D),birthPlace(A,D).
+ almaMater(A,B):-office(A,C),office(D,C),almaMater(D,B).
+ almaMater(A,B):-birthPlace(A,C),leaderName(C,D),almaMater(D,B).
+ almaMater(A,B):-birthPlace(A,C),state(B,C).
+ almaMater(A,B):-predecessor(C,A),birthPlace(C,D),city(B,D).
+ almaMater(A,B):-almaMater(C,B),office(C,D),orderInOffice(A,D).
+ almaMater(A,B):-almaMater(C,B),successor(C,A).
+ almaMater(A,B):-predecessor(A,C),deathPlace(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),orderInOffice(C,D),office(A,D).
+ almaMater(A,B):-predecessor(A,C),birthPlace(C,D),country(B,D).
+ almaMater(A,B):-predecessor(A,C),birthPlace(C,D),city(B,D).
+ almaMater(A,B):-birthPlace(A,C),city(D,C),owner(D,B).
+ almaMater(A,B):-successor(C,A),nationality(C,D),country(B,D).
+ almaMater(A,B):-almaMater(C,B),otherParty(C,D),party(A,D).
+ almaMater(A,B):-birthPlace(A,C),province(B,C).
+ almaMater(A,B):-almaMater(C,B),region(C,D),birthPlace(A,D).
+ almaMater(A,B):-profession(A,C),occupation(D,C),almaMater(D,B).
+
+:-almaMater(A,B),negalmaMater(A,B).
+
+ negalmaMater(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negalmaMater(A,B):-residence(A,C),hometown(D,C),hometown(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),city(B,D).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),country(B,D).
+ negalmaMater(A,B):-residence(A,C),regionServed(D,C),affiliation(B,D).
+ negalmaMater(A,B):-almaMater(A,C),B!=C,type(B,"Thing").
+ negalmaMater(A,B):-award(A,C),award(D,C),employer(D,B).
+ negalmaMater(A,B):-residence(A,C),deathPlace(D,C),occupation(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(C,A),doctoralAdvisor(D,C),almaMater(D,B).
+ negalmaMater(A,B):-field(A,C),genre(D,C),education(D,B).
+ negalmaMater(A,B):-doctoralAdvisor(A,C),deathPlace(C,D),country(B,D).
+ negalmaMater(A,B):-country(B,C),birthPlace(D,C),doctoralAdvisor(A,D).
+ negalmaMater(A,B):-president(B,C),residence(C,D),nationality(A,D).
+ negalmaMater(A,B):-doctoralStudent(A,C),birthPlace(C,D),country(B,D).
+ negalmaMater(A,B):-knownFor(A,B).
+ negalmaMater(A,B):-employer(A,B).
+ negalmaMater(A,B):-occupation(A,B).
+ negalmaMater(A,B):-award(A,B).
+ negalmaMater(A,B):-almaMater(C,B),education(C,B),employer(A,B).
+ negalmaMater(A,B):-almaMater(C,B),influencedBy(C,A).
+ negalmaMater(A,B):-doctoralStudent(C,A),deathPlace(C,D),country(B,D).
+ negalmaMater(A,B):-nationality(A,C),birthPlace(D,C),deathPlace(D,B).
+occupation("George_Washington_Bolton","Business").
+deathPlace("Calhoun_Allen","Louisiana").
+occupation("Eddie_Doucet","Business").
+occupation("U._T._Downs","Business").
+deathPlace("E._W._Gravolet","Louisiana").
+deathPlace("John_J._Doles","Louisiana").
+deathPlace("W._K._Henderson","Louisiana").
+occupation("Edward_Ripoll","Business").
+occupation("Joe_Waggonner","Business").
+deathPlace("John_Henry_Baker","Louisiana").
+deathPlace("Peter_Youree","Louisiana").
+occupation("H._Foster_Pettit","Business").
+deathPlace("Arnold_Jack_Rosenthal","Louisiana").
+occupation("Arnold_Jack_Rosenthal","Business").
+deathPlace("William_Denis_Brown_III","Louisiana").
+deathPlace("Robert_DeBlieux","Louisiana").
+deathPlace("Alfred_Goodwill","Louisiana").
+deathPlace("Charlton_Lyons","Louisiana").
+occupation("Riemer_Calhoun","Business").
+occupation("Eugene_Eason","Business").
+deathPlace("Ed_Rand","Louisiana").
+occupation("Peter_Youree","Business").
+occupation("O._H._Haynes_Jr.","Business").
+occupation("Chris_Faser_Jr.","Business").
+deathPlace("E._Holman_Jones","Louisiana").
+occupation("Samuel_Dunbar","Business").
+occupation("Edwards_Barham","Business").
+deathPlace("William_%22Billy%22_Nungesser","Louisiana").
+occupation("Ralph_Perlman","Business").
+deathPlace("O._H._Haynes_Jr.","Louisiana").
+occupation("William_F._Cotton","Business").
+deathPlace("Edward_Ripoll","Louisiana").
+deathPlace("Otto_Passman","Louisiana").
+deathPlace("Eugene_Eason","Louisiana").
+occupation("Charles_E._McKenzie","Business").
+deathPlace("Charles_E._Roemer,_II","Louisiana").
+occupation("William_Denis_Brown_III","Business").
+deathPlace("Charles_E._McKenzie","Louisiana").
+occupation("J._D._Batton","Business").
+deathPlace("Jack_Breaux","Louisiana").
+occupation("Elton_C._Pody","Business").
+residence("Malinda_Brumfield_White","Louisiana").
+deathPlace("Floyd_Smith_(Louisiana_politician)","Louisiana").
+deathPlace("Simon_W._Tudor","Louisiana").
+occupation("Fred_Preaus","Business").
+deathPlace("Bob_Reese","Louisiana").
+occupation("Floyd_Smith_(Louisiana_politician)","Business").
+occupation("W._K._Henderson","Business").
+occupation("Simon_W._Tudor","Business").
+occupation("Alexander_Fulton_(Louisiana)","Business").
+deathPlace("Riemer_Calhoun","Louisiana").
+deathPlace("Dayton_Waller","Louisiana").
+deathPlace("Lonnie_O._Aulds","Louisiana").
+deathPlace("George_Nattin_Jr.","Louisiana").
+occupation("E._Holman_Jones","Business").
+deathPlace("George_Washington_Bolton","Louisiana").
+deathPlace("Walter_L._Cohen","Louisiana").
+occupation("Jack_Breaux","Business").
+occupation("Ed_Rand","Business").
+occupation("David_Theophilus_Stafford","Business").
+deathPlace("W._Scott_Wilkinson","Louisiana").
+deathPlace("Chris_Faser_Jr.","Louisiana").
+occupation("Henry_L._Bridges","Business").
+occupation("Emmitt_Douglas","Business").
+occupation("Forrest_Dunn","Business").
+occupation("Robert_DeBlieux","Business").
+occupation("Larry_Parker_(Louisiana_politician)","Business").
+deathPlace("H._Foster_Pettit","Louisiana").
+occupation("Ed_Scogin","Business").
+deathPlace("Forrest_Dunn","Louisiana").
+occupation("Jake_W._Cameron","Business").
+deathPlace("Claude_Kirkpatrick","Louisiana").
+occupation("William_Derwood_Cann_Jr.","Business").
+deathPlace("Eddie_Doucet","Louisiana").
+occupation("Otto_Passman","Business").
+occupation("George_Nattin_Jr.","Business").
+deathPlace("David_Theophilus_Stafford","Louisiana").
+deathPlace("Bryan_A._Poston","Louisiana").
+deathPlace("Cecil_K._Carter_Jr.","Louisiana").
+occupation("Bob_Reese","Business").
+deathPlace("Emmitt_Douglas","Louisiana").
+deathPlace("Ralph_Perlman","Louisiana").
+deathPlace("Leopold_Caspari","Louisiana").
+occupation("John_J._Doles","Business").
+deathPlace("H._O._West","Louisiana").
+deathPlace("U._T._Downs","Louisiana").
+occupation("Jasper_Goodwill","Business").
+occupation("Chris_Ullo","Business").
+almaMater("Malinda_Brumfield_White","Southeastern_Louisiana_University").
+occupation("H._O._West","Business").
+occupation("Allison_Kolb","Business").
+occupation("Bryan_A._Poston","Business").
+deathPlace("J._D._Batton","Louisiana").
+deathPlace("Samuel_Dunbar","Louisiana").
+deathPlace("James_T._McCalman","Louisiana").
+deathPlace("Drayton_Boucher","Louisiana").
+deathPlace("William_Derwood_Cann_Jr.","Louisiana").
+deathPlace("Joe_T._Cawthorn","Louisiana").
+occupation("Newt_V._Mills","Business").
+occupation("Joe_T._Cawthorn","Business").
+occupation("Clyde_Fant","Business").
+occupation("John_Henry_Baker","Business").
+deathPlace("George_Despot","Louisiana").
+occupation("Herman_%22Wimpy%22_Jones","Business").
+occupation("Charlton_Lyons","Business").
+deathPlace("Alexander_Fulton_(Louisiana)","Louisiana").
+occupation("Ernie_Alexander","Business").
+deathPlace("Ernie_Alexander","Louisiana").
+occupation("Dayton_Waller","Business").
+deathPlace("Carl_W._Bauer","Louisiana").
+occupation("Leopold_Caspari","Business").
+deathPlace("Fred_Preaus","Louisiana").
+deathPlace("Edwards_Barham","Louisiana").
+occupation("Drayton_Boucher","Business").
+occupation("Alfred_Goodwill","Business").
+occupation("W._Scott_Wilkinson","Business").
+deathPlace("Herman_%22Wimpy%22_Jones","Louisiana").
+deathPlace("William_F._Cotton","Louisiana").
+deathPlace("Newt_V._Mills","Louisiana").
+occupation("James_T._McCalman","Business").
+occupation("Lonnie_O._Aulds","Business").
+occupation("Calhoun_Allen","Business").
+deathPlace("Larry_Parker_(Louisiana_politician)","Louisiana").
+deathPlace("Joe_Waggonner","Louisiana").
+occupation("Carl_W._Bauer","Business").
+deathPlace("J._E._Jumonville_Sr.","Louisiana").
+deathPlace("Elton_C._Pody","Louisiana").
+deathPlace("Elward_Thomas_Brady_Jr.","Louisiana").
+deathPlace("John_Sidney_Garrett","Louisiana").
+occupation("Malinda_Brumfield_White","Business").
+deathPlace("Clyde_Fant","Louisiana").
+occupation("J._E._Jumonville_Sr.","Business").
+occupation("William_%22Billy%22_Nungesser","Business").
+deathPlace("Henry_L._Bridges","Louisiana").
+deathPlace("Ed_Scogin","Louisiana").
+occupation("Charles_E._Roemer,_II","Business").
+deathPlace("Chris_Ullo","Louisiana").
+occupation("George_Despot","Business").
+occupation("Walter_L._Cohen","Business").
+occupation("John_Sidney_Garrett","Business").
+occupation("E._W._Gravolet","Business").
+deathPlace("Jake_W._Cameron","Louisiana").
+deathPlace("J.E._%22Pat%22_Patterson","Louisiana").
+deathPlace("Allison_Kolb","Louisiana").
+deathPlace("Jasper_Goodwill","Louisiana").
+occupation("J.E._%22Pat%22_Patterson","Business").
+occupation("Elward_Thomas_Brady_Jr.","Business").
+occupation("Cecil_K._Carter_Jr.","Business").
+occupation("Claude_Kirkpatrick","Business").
+type("Malinda_Brumfield_White","Person").
+type("Malinda_Brumfield_White","Agent").
+type("Malinda_Brumfield_White","OfficeHolder").
+type("Malinda_Brumfield_White","Thing").
+type("Business","Organisation").
+type("Business","Thing").

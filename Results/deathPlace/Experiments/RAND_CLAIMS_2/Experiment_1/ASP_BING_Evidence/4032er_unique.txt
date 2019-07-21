@@ -1,0 +1,195 @@
+ deathPlace(A,B):-deathPlace(C,B),birthDate(C,D),birthDate(A,D).
+ deathPlace(A,B):-occupation(A,C),C!=D,headquarter(D,B).
+ deathPlace(A,B):-deathPlace(A,C),country(C,B).
+ deathPlace(A,B):-country(A,B).
+ deathPlace(A,B):-placeOfBirth(A,B).
+ deathPlace(A,B):-country(B,C),country(D,C),birthPlace(A,D).
+ deathPlace(A,B):-deathPlace(C,B),nationality(C,D),birthPlace(A,D).
+ deathPlace(A,B):-deathDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-nationality(A,B).
+ deathPlace(A,B):-placeOfDeath(A,B).
+ deathPlace(A,B):-serviceStartYear(A,C),deathYear(D,C),deathPlace(D,B).
+ deathPlace(A,B):-residence(C,B),birthPlace(C,D),deathPlace(A,D).
+ deathPlace(A,B):-birthDate(A,C),C<D,foundingYear(B,D).
+ deathPlace(A,B):-birthDate(A,C),C>D,foundingDate(B,D).
+ deathPlace(A,B):-deathPlace(C,B),restingPlace(C,D),restingPlace(A,D).
+ deathPlace(A,B):-type(B,C),C!=D,birthPlace(A,D).
+ deathPlace(A,B):-birthPlace(A,B).
+ deathPlace(A,B):-deathplace(A,B).
+ deathPlace(A,B):-deathPlace(C,B),field(C,D),field(A,D).
+ deathPlace(A,B):-restingPlace(A,B).
+ deathPlace(A,B):-residence(A,B).
+ deathPlace(A,B):-deathPlace(C,B),deathDate(C,D),deathDate(A,D).
+
+:-deathPlace(A,B),negdeathPlace(A,B).
+
+ negdeathPlace(A,B):-almaMater(C,B),militaryBranch(C,D),militaryBranch(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),restingPlace(D,C),education(D,B).
+ negdeathPlace(A,B):-education(C,B),restingPlace(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-militaryBranch(A,C),militaryBranch(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),country(B,C),birthPlace(A,C).
+ negdeathPlace(A,B):-birthPlace(A,C),part(D,C),country(D,B).
+ negdeathPlace(A,B):-employer(C,B),citizenship(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-deathYear(A,C),activeYearsStartYear(D,C),education(D,B).
+ negdeathPlace(A,B):-deathDate(A,C),C>D,dissolutionYear(B,D).
+ negdeathPlace(A,B):-activeYearsEndYear(A,C),serviceEndYear(D,C),nationality(D,B).
+ negdeathPlace(A,B):-nationality(A,C),almaMater(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),employer(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-location(C,B),region(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-birthPlace(A,C),nationality(D,C),occupation(D,B).
+ negdeathPlace(A,B):-almaMater(A,C),almaMater(D,C),employer(D,B).
+ negdeathPlace(A,B):-birthPlace(A,B),birthPlace(C,B),nationality(C,B).
+ negdeathPlace(A,B):-height(A,C),C<D,areaTotal(B,D).
+ negdeathPlace(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-employer(C,B),residence(C,D),birthPlace(A,D).
+ negdeathPlace(A,B):-deathPlace(A,C),B!=C,type(B,"Thing").
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),spouse(C,C).
+ negdeathPlace(A,B):-formerTeam(C,B),position(C,D),position(A,D).
+ negdeathPlace(A,B):-affiliation(B,C),location(C,D),deathPlace(A,D).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),award(C,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),child(C,C).
+ negdeathPlace(A,B):-deathPlace(A,C),largestCity(C,D),isPartOf(D,B).
+ negdeathPlace(A,B):-team(A,C),debutTeam(D,C),team(D,B).
+ negdeathPlace(A,B):-almaMater(A,B),almaMater(C,B),employer(C,B).
+ negdeathPlace(A,B):-team(A,B),team(C,B),chairman(C,C).
+ negdeathPlace(A,B):-occupation(A,C),profession(D,C),almaMater(D,B).
+ negdeathPlace(A,B):-deathPlace(A,C),birthPlace(A,C),almaMater(A,B).
+ negdeathPlace(A,B):-birthPlace(A,C),region(C,D),country(D,B).
+ negdeathPlace(A,B):-almaMater(C,B),education(C,D),nationality(A,D).
+residence("Gogi_Alauddin","Lahore").
+deathPlace("Nur_Jahan","Lahore").
+birthPlace("Parvez_Ahmed_Shahid","Lahore").
+restingPlace("Munawar_Zarif","Lahore").
+residence("Kalsoom_Nawaz_Sharif","Lahore").
+deathPlace("Sayyid_Mir_Jan","Lahore").
+birthPlace("Aisam-ul-Haq_Qureshi","Lahore").
+location("Iqbal_Academy_Pakistan","Lahore").
+residence("Fiza_Ali","Lahore").
+restingPlace("Nasreddin_Murat-Khan","Lahore").
+birthPlace("Tayyab_Aslam","Lahore").
+residence("Farrukh_Shahbaz_Warraich","Lahore").
+birthPlace("Tasneem_Zehra_Husain","Lahore").
+headquarter("Evacuee_Trust_Property_Board","Lahore").
+residence("Pappu_Samrat","Lahore").
+residence("Khalid_Saeed_Khan","Lahore").
+birthPlace("Qavi_Khan","Lahore").
+deathPlace("Javed_Iqbal_(judge)","Lahore").
+birthPlace("Farrukh_Shahbaz_Warraich","Lahore").
+residence("Hamza_Shahbaz_Sharif","Lahore").
+restingPlace("Chacha_Pakistani","Pakistan").
+residence("Adnan_Sarwar","Lahore").
+birthPlace("Basit_Ashfaq","Lahore").
+residence("Muhammad_Saqib_Yousaf","Lahore").
+birthPlace("Hamza_Shahbaz_Sharif","Lahore").
+restingPlace("William_Vousden","Pakistan").
+deathPlace("Bamba_Sutherland","Lahore").
+restingPlace("Hazrat_Ishaan","Lahore").
+headquarter("Water_and_Power_Development_Authority","Lahore").
+birthPlace("Raja_Zulqarnain","Lahore").
+headquarter("Iqbal_Academy_Pakistan","Lahore").
+location("Board_of_Intermediate_and_Secondary_Education,_Lahore","Lahore").
+birthPlace("Ali_Sajid","Lahore").
+residence("Vasay_Chaudhry","Lahore").
+restingPlace("Sayyid_Mahmud_Agha","Lahore").
+birthPlace("Khalid_Saeed_Khan","Lahore").
+residence("Ali_Sajid","Lahore").
+birthPlace("Adnan_Sarwar","Lahore").
+restingPlace("Hakim_Ahmad_Shuja","Lahore").
+residence("Mian_Amer_Mahmood","Lahore").
+residence("Amjad_Islam_Amjad","Lahore").
+birthPlace("Syed_Hamzah_Shah_Bukhari","Lahore").
+residence("Samina_Khalid_Ghurki","Lahore").
+birthPlace("Seemi_Pasha","Lahore").
+residence("Syed_Ali_Mujtaba_Shah_Bokhari","Lahore").
+restingPlace("Munawar_Zarif","Pakistan").
+headquarter("Punjab_Forensic_Science_Agency","Lahore").
+deathPlace("Hakim_Ahmad_Shuja","Lahore").
+residence("Sana_Zulfiqar","Lahore").
+residence("Raja_Zulqarnain","Lahore").
+birthPlace("Sana_Zulfiqar","Lahore").
+restingPlace("Sayyid_Mir_Jan","Lahore").
+birthPlace("Amjad_Islam_Amjad","Lahore").
+residence("Meera_(actress)","Lahore").
+deathPlace("Nasreddin_Murat-Khan","Lahore").
+restingPlace("Nur_Jahan","Lahore").
+birthPlace("Fouzia_Bhatti","Lahore").
+location("Lahore_Development_Authority","Lahore").
+deathPlace("Bakhtiar_Rana","Lahore, Pakistan 1999").
+birthPlace("Mian_Muhammad_Aslam_Iqbal","Lahore").
+residence("Anis_Ahmed_(military_officer)","Lahore").
+deathPlace("Hazrat_Ishaan","Lahore").
+headquarter("Lahore_Development_Authority","Lahore").
+birthPlace("Fiza_Ali","Lahore").
+residence("Basit_Ashfaq","Lahore").
+birthPlace("Ejaz_Chaudhary","Lahore").
+residence("Syed_Hamzah_Shah_Bukhari","Lahore").
+residence("Ejaz_Chaudhary","Lahore").
+headquarter("Nazaria-i-Pakistan_Trust","Lahore").
+birthPlace("Pappu_Samrat","Lahore").
+restingPlace("Sahib-i-Jamal_Begum","Lahore").
+birthPlace("Farjad_Nabi","Lahore").
+location("Nazaria-i-Pakistan_Trust","Lahore").
+birthPlace("Mian_Amer_Mahmood","Lahore").
+residence("Saman_Hasnain","Lahore").
+location("Water_and_Power_Development_Authority","Lahore").
+birthPlace("Samina_Peerzada","Lahore").
+residence("Shahid_Hussain_Bokhari","Lahore").
+restingPlace("Javed_Iqbal_(judge)","Lahore").
+residence("Shehnaz_Sheikh","Lahore").
+residence("Tayyab_Aslam","Lahore").
+birthPlace("Shahid_Hussain_Bokhari","Lahore").
+deathPlace("Bakhtiar_Rana","Lahore").
+birthPlace("Muhammad_Saqib_Yousaf","Lahore").
+restingPlace("Bakhtiar_Rana","Pakistan").
+restingPlace("Bakhtiar_Rana","Lahore").
+residence("Qavi_Khan","Lahore").
+birthPlace("Gogi_Alauddin","Lahore").
+birthPlace("Saman_Hasnain","Lahore").
+residence("Mian_Muhammad_Aslam_Iqbal","Lahore").
+deathPlace("Chacha_Pakistani","Lahore").
+birthPlace("Syed_Ali_Mujtaba_Shah_Bokhari","Lahore").
+deathPlace("Meena_Shorey","Lahore").
+birthPlace("Anis_Ahmed_(military_officer)","Lahore").
+location("Evacuee_Trust_Property_Board","Lahore").
+birthPlace("Samina_Khalid_Ghurki","Lahore").
+deathPlace("Sahib-i-Jamal_Begum","Lahore").
+birthPlace("Mohd_Shoaib_Hassan","Lahore").
+residence("Parvez_Ahmed_Shahid","Lahore").
+birthPlace("Meera_(actress)","Lahore").
+restingPlace("Javed_Iqbal_(judge)","Pakistan").
+deathPlace("Sayyid_Mahmud_Agha","Lahore").
+residence("Aisam-ul-Haq_Qureshi","Lahore").
+deathPlace("Munawar_Zarif","Lahore").
+residence("Farjad_Nabi","Lahore").
+location("Punjab_Forensic_Science_Agency","Lahore").
+headquarter("Board_of_Intermediate_and_Secondary_Education,_Lahore","Lahore").
+restingPlace("Bamba_Sutherland","Lahore").
+residence("Samina_Peerzada","Lahore").
+birthPlace("Vasay_Chaudhry","Lahore").
+residence("Tasneem_Zehra_Husain","Lahore").
+residence("Mohd_Shoaib_Hassan","Lahore").
+residence("Fouzia_Bhatti","Lahore").
+birthPlace("Kalsoom_Nawaz_Sharif","Lahore").
+birthPlace("Shehnaz_Sheikh","Lahore").
+residence("Seemi_Pasha","Lahore").
+restingPlace("Hakim_Ahmad_Shuja","Pakistan").
+deathPlace("William_Vousden","Lahore").
+restingPlace("Meena_Shorey","Lahore").
+type("Bakhtiar_Rana","Person").
+type("Bakhtiar_Rana","Agent").
+type("Bakhtiar_Rana","MilitaryPerson").
+type("Bakhtiar_Rana","Thing").
+type("Lahore","Place").
+type("Lahore","Location").
+type("Lahore","City").
+type("Lahore","PopulatedPlace").
+type("Lahore","Settlement").
+type("Lahore","Thing").
+ placeOfDeath("Bakhtiar_Rana","Lahore").
+ placeOfBirth("Bakhtiar_Rana","Lahore").
+ country("Bakhtiar_Rana","Lahore").
+ residence("Bakhtiar_Rana","Lahore").
+ nationality("Bakhtiar_Rana","Lahore").
+ birthPlace("Bakhtiar_Rana","Lahore").
+ deathplace("Bakhtiar_Rana","Lahore").

@@ -1,0 +1,44 @@
+-0.453137238654386  almaMater(A,B):-predecessor(C,A),successor(D,C),almaMater(D,B).
+-0.4951335746894171  almaMater(A,B):-successor(C,A),successor(C,D),almaMater(D,B).
+-0.46403746226723147  almaMater(A,B):-office(A,C),office(D,C),almaMater(D,B).
+-1.933645666235334  almaMater(A,B):-birthPlace(A,C),leaderName(C,D),almaMater(D,B).
+-1.6821161379320848  almaMater(A,B):-birthPlace(A,C),state(B,C).
+-1.3920710138973473  almaMater(A,B):-almaMater(C,B),region(C,D),birthPlace(A,D).
+-1.5142186458531668  almaMater(A,B):-city(B,C),birthPlace(A,C).
+-1.8545714816399292  almaMater(A,B):-almaMater(C,B),otherParty(C,D),party(A,D).
+
+:-almaMater(A,B),negalmaMater(A,B).
+
+-1.3851882537147118  negalmaMater(A,B):-almaMater(C,B),influencedBy(C,A).
+0.7903384966546982  negalmaMater(A,B):-doctoralStudent(A,C),birthPlace(C,D),country(B,D).
+0.3189150921417121  negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),city(B,D).
+-0.6835162874989849  negalmaMater(A,B):-headquarter(C,B),location(C,D),deathPlace(A,D).
+-0.4717991796759737  negalmaMater(A,B):-award(A,C),award(D,C),employer(D,B).
+-1.5477443434287637  negalmaMater(A,B):-almaMater(C,B),education(C,B),employer(A,B).
+-1.2572428085660199  negalmaMater(A,B):-residence(A,C),hometown(D,C),hometown(D,B).
+0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).
+-2.079935490813119  negalmaMater(A,B):-doctoralAdvisor(C,A),doctoralAdvisor(D,C),almaMater(D,B).
+-0.19271600371931774  negalmaMater(A,B):-doctoralAdvisor(A,C),deathPlace(C,D),country(B,D).
+0.6779676166530254  negalmaMater(A,B):-field(A,C),genre(D,C),education(D,B).
+0.36077762752233233  negalmaMater(A,B):-occupation(A,B).
+-0.1201802729321677  negalmaMater(A,B):-award(A,B).
+0.6114803476912647  negalmaMater(A,B):-doctoralAdvisor(C,A),birthPlace(C,D),country(B,D).
+-0.4682200967189177  negalmaMater(A,B):-employer(A,B).
+-0.6393869487190024  negalmaMater(A,B):-country(B,C),birthPlace(D,C),doctoralAdvisor(A,D).
+-0.47953325033566707  negalmaMater(A,B):-nationality(A,C),birthPlace(D,C),deathPlace(D,B).
+-0.8440190311014107  negalmaMater(A,B):-president(B,C),residence(C,D),nationality(A,D).
+2.404786900935917  negalmaMater(A,B):-negalmaMater(A,C),B!=C,type(B,"Thing").
+0.6036737198230541  negalmaMater(A,B):-doctoralStudent(C,A),deathPlace(C,D),country(B,D).
+office("Lee_Ming-kwai","Commissioner of Police").
+city("New_Asia_College","Hong_Kong").
+almaMater("Lee_Ming-kwai","New_Asia_College").
+birthPlace("Lee_Ming-kwai","Hong_Kong").
+type("Lee_Ming-kwai","Person").
+type("Lee_Ming-kwai","Agent").
+type("Lee_Ming-kwai","OfficeHolder").
+type("Lee_Ming-kwai","Thing").
+type("New_Asia_College","Agent").
+type("New_Asia_College","EducationalInstitution").
+type("New_Asia_College","Organisation").
+type("New_Asia_College","University").
+type("New_Asia_College","Thing").
