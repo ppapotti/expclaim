@@ -1,13 +1,7 @@
 # ExpClaim
 
 
-<<<<<<< HEAD
 ExpClaim tackles the problem of fact checking for facts (claims) passed as triples.
-=======
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-ExpClaim tackles the problem of fact checking for facts (claims) passed as triples.
->>>>>>> 9938a9c24343345a8ffff15ba674c83d7af34bb2
 It uses external resources and logical rules to create interpretable explanations of its assessement of an input claim.
 
 This repository contains the code used for the experiments in the paper [Explainable Fact Checking with Probabilistic Answer Set Programming](https://arxiv.org/abs/1906.09198)
