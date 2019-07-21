@@ -37,9 +37,9 @@ Inside each experiment directory, you will have a csv file containing the result
 
 ### Contacts
 
-For any inquiries, please contact: 
-
-
+For any inquiries, please contact any of
+<saeedm@eurecom.fr>
+[Click Here]:(mailto:ahmadi@eurecom.fr,paolo.papotti@eurecom.fr)
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
