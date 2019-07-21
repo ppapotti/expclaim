@@ -44,12 +44,13 @@ def infer(relation,rule_thresh=0,MF=1,claim_gen_mode='random',num_claims=5,bing_
 
 
     claims_file='claims/'+relation+'_claims.txt'
+    timestr = time.strftime("%Y%m%d-%H%M%S")
 
     if(bing_evidence==1):
-        dir=prefix+'Experiments/'+pre+'_claims_BING_'+inference_mode+'_'+str(rule_thresh)+'_'+str(MF)+'_'+str(bing_evid_thresh)+'/'
+        dir=prefix+'Experiments/'+pre+'_claims_BING_'+inference_mode+'_'+str(rule_thresh)+'_'+str(MF)+'_'+str(bing_evid_thresh)+'_'+timestr+'/'
         print(dir)
     else:
-        dir=prefix+'Experiments/'+pre+'_claims_NO_BING_'+inference_mode+'_'+str(rule_thresh)+'_'+str(MF)+'/'
+        dir=prefix+'Experiments/'+pre+'_claims_NO_BING_'+inference_mode+'_'+str(rule_thresh)+'_'+str(MF)+'_'+timestr+'/'
 
 
 

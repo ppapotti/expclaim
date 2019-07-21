@@ -1,4 +1,0 @@
-4244,Joanna_David,Edward_Fox_(actor),1
-4721,Marga_Barbu,Eugen_Barbu,1
-7133,David_Forsyth_(computer_scientist),Scientist,0
-6504,Sibylle_of_Cleves,Maria_of_Jülich-Berg,0

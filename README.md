@@ -1,18 +1,24 @@
-# Expclaim
+# ExpClaim
 
 
-Expclaim tackles the problem of fact checking for facts (claims) passed as triples.
+<<<<<<< HEAD
+ExpClaim tackles the problem of fact checking for facts (claims) passed as triples.
+=======
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+ExpClaim tackles the problem of fact checking for facts (claims) passed as triples.
+>>>>>>> 9938a9c24343345a8ffff15ba674c83d7af34bb2
 It uses external resources and logical rules to create interpretable explanations of its assessement of an input claim.
 
 This repository contains the code used for the experiments in the paper [Explainable Fact Checking with Probabilistic Answer Set Programming](https://arxiv.org/abs/1906.09198)
 
 ### Installation
 
-Expclaim requires python 3 to run.
+ExpClaim requires python 3 to run.
 
 
 ```sh
-$ git clone https://github.com/ppapotti/expclaim.git
+$ git clone https://github.com/ppapotti/ExpClaim.git
 $ bash install.sh
 ```
 The reasoner uses Clingo 5 and its Python interface to solve the given programs. As the result, user needs to install addtional Clingo Python support. Please consult: https://potassco.org/clingo/ for how to install Clingo Python support.
@@ -22,7 +28,7 @@ The reasoner uses Clingo 5 and its Python interface to solve the given programs.
 
 ### Running the test
 ```sh
-$ python scripts/test.py --relation wife  --num_claims 2 --bing_evidence 0 --inference_mode 'ASP'
+$ python scripts/test.py --relation spouse  --num_claims 2 --bing_evidence 0 --inference_mode 'ASP'
 ```
 * --relation: specifies which predicate to use
 * --rule_threshold: specifies the threshold for the weights of the rules
@@ -33,6 +39,7 @@ $ python scripts/test.py --relation wife  --num_claims 2 --bing_evidence 0 --inf
 * --bing_evid_thresh: specifies the threshold for the weights of the bing evidence
 * --inference_mode: specifies the onference algorithm used.('ASP' or 'MAP')
 
+Inside each experiment directory, you will have a csv file containing the result for each claim and another csv file showing the F_score.
 
 ### Contacts
 
