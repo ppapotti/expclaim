@@ -1,5 +1,0 @@
-Claim: Sofía Reca successor Tomás Yankelevich
-Sun Jul 21 01:37:04 CEST 2019 loading exception data for lemmatiser...
-Sun Jul 21 01:37:04 CEST 2019 loading done
-Firing as query: sof+reca+successor+tom+s+yankelevich
-Search scope: op_web

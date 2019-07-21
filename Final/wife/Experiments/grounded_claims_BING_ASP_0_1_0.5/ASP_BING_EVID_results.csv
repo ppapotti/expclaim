@@ -1,5 +1,0 @@
-Id,Subject,Object,Label,Predicted Label,Execution Time (mins)
-1,Vani_Ganapathy,Kamal_Haasan,1,UNSATISFIABLE,0.9736130237579346
-2,BillyBoy*,Jean_Pierre_Lestrade,1,UNSATISFIABLE,0.06960439682006836
-5001,H._Wesley_Kenney,Betty_Corday,0,UNSATISFIABLE,0.017163515090942383
-5002,Mariana_of_Austria,Charles_II_of_Spain,0,UNSATISFIABLE,0.01999354362487793
