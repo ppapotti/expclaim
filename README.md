@@ -9,13 +9,12 @@ This repository contains the code used for the experiments in the paper [Explain
 ### Installation
 
 ExpClaim requires python 3 to run.
-
+[Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) should also be installed.
 
 ```sh
 $ git clone https://github.com/ppapotti/ExpClaim.git
 $ bash install.sh
 ```
-The reasoner uses Clingo 5 and its Python interface to solve the given programs. As the result, user needs to install addtional Clingo Python support. Please consult: https://potassco.org/clingo/ for how to install Clingo Python support.
 
 
 
@@ -34,6 +33,14 @@ $ python scripts/test.py --relation spouse  --num_claims 2 --bing_evidence 0 --i
 * --inference_mode: specifies the onference algorithm used.('ASP' or 'MAP')
 
 Inside each experiment directory, you will have a csv file containing the result for each claim and another csv file showing the F_score.
+
+
+
+### Using Web Evidence
+
+To use web evidence, you will need to subscribe to the [Bing Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/).
+Once you do, you will get a key that is should be inserted in "config.properties".
+
 
 ### Contacts
 

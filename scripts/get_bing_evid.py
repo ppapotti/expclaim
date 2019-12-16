@@ -41,11 +41,11 @@ def get_bing_evid(json_file,cache_file,relation):
 
 
             else:
-                cmd="java -jar modified_scripts/Bing/FactCheck.jar -c "+c.replace('_',' ')+" -o modified_scripts/Bing/trial.json -p modified_scripts/Bing/config.properties >out.txt"
+                cmd="java -jar scripts/Bing/FactCheck.jar -c "+c.replace('_',' ')+" -o scripts/Bing/trial.json -p scripts/Bing/config.properties >out.txt"
                 print(cmd)
                 subprocess.call(cmd,shell=True)
 
-                with open('modified_scripts/Bing/trial.json','r') as f:
+                with open('scripts/Bing/trial.json','r') as f:
                     try:
                         result=json.load(f)
 

@@ -1,0 +1,200 @@
+1,Gregory_W._Carman,St._Lawrence_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3,Jusuf_Kalla,University_of_Indonesia,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+4,J._E._%22Buster%22_Brown,Texas_State_University,[]
+6,Tom_Hawk,Kansas_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+8,William_James_Wallace,Syracuse_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+13,Jack_Duncan-Hughes,University_of_Adelaide,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+16,John_R._Hargrove_Sr.,Morgan_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+18,Anne_Doherty,Saint_Mary-of-the-Woods_College,[]
+19,Rajat_Gupta,Harvard_Business_School,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+20,Garr_King,University_of_Utah,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+24,Harold_R._DeMoss_Jr.,Rice_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+25,Stephen_E._Cross,Air_Force_Institute_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+28,Mumtaz_Kahloon,University_of_the_Punjab,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+29,Hsu_Chun-yat,National_Cheng_Kung_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+30,Jessica_Harper,Sarah_Lawrence_College,[]
+31,Gillian_Lester,University_of_Toronto,[]
+33,Barry_Finegold,Franklin_&_Marshall_College,[]
+34,Susan_Roosevelt_Weld,Harvard_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+36,Thad_Altman,Rollins_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+37,Richard_T._Schulze,Temple_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+38,Nicola_Renzi,University_of_Bologna,[]
+43,Foysol_Choudhury,University_of_Edinburgh,[]
+44,Robert_Biscup,Case_Western_Reserve_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+45,Ann_Clemmer,Arkansas_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n']"
+50,Alexander_Guchkov,Moscow_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+52,Mildred_Dresselhaus,University_of_Chicago,[]
+53,Rashid_Khalidi,Yale_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+55,William_S._Patout_III,Louisiana_State_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+56,Joyce_O'Connor,University_College_Dublin,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+57,Grenfell_Price,University_of_Adelaide,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+60,Sue_K._Hicks,Hiwassee_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+61,Hasina_Momtaz,London_School_of_Economics,[]
+62,Mohammad_Rizwan_(politician),Kedar_Nath_Girdharilal_Khatri_PG_College_Moradabad,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+65,Wang_Kemin_(born_1957),ETH_Zurich,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+66,Glen_E._Baxter,University_of_Minnesota,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+67,Zakir_Husain_(politician),University_of_Delhi,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+68,John_Negroponte,Yale_University,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+71,Michael_P._O'Connor,Fordham_University,[]
+73,Carl_Heastie,Stony_Brook_University,[]
+75,Gleb_Pavlovsky,Odessa_University,[]
+78,John_Paul_Stevens,University_of_Chicago,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+81,Khalid_A._Al-Falih,King_Fahd_University_of_Petroleum_and_Minerals,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+82,Robert_B._Lawton,Fordham_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+83,Steve_Chabot,College_of_William_&_Mary,[]
+84,Hans_Kosterlitz,Humboldt_University_of_Berlin,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+86,Cherry_Chevapravatdumrong,Yale_University,[]
+89,Steve_Whan,University_of_Canberra,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+90,Neil_H._McElroy,Harvard_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+91,Paul_Brandon_Barringer,University_of_Virginia,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+93,H._C._Baldridge,Illinois_Wesleyan_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+94,Elizabeth_Metayer,Harvard_University,[]
+95,Stephen_Kappes,Ohio_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+96,Tom_Lantos,University_of_Washington,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+100,Andy_Dawkins,Hamline_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+104,Barry_Mazur,Princeton_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+105,Subramanian_Swamy,Harvard_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+107,Larry_Liston,Colorado_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+108,Gurdial_Singh_Dhillon,Punjab_University_Law_College,[]
+109,Cathy_Song,Boston_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+112,Andrew_Napolitano,Princeton_University,[]
+115,Phil_Boyle,Albany_Law_School,[]
+118,Charles_Nagel,Humboldt_University_of_Berlin,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+123,Norihisa_Satake,Tohoku_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+128,Dava_Newman,University_of_Notre_Dame,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+131,Clarence_Thomas,College_of_the_Holy_Cross,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+132,E._Melvin_Porter,Vanderbilt_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+133,Kurt_D._Engelhardt,Louisiana_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+135,John_Augustine_Smith,College_of_William_&_Mary,[]
+137,Rocco_Landesman,Colby_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+140,William_Drea_Adams,Colorado_College,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+142,Bill_Lowery_(politician),San_Diego_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+146,James_S._Golden,University_of_Kentucky,[]
+150,Joe_Nixon,Texas_A&M_University,[]
+152,William_A._Noyes,Johns_Hopkins_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+153,Li_Daqiu,Zhongnan_University_of_Economics_and_Law,[]
+160,Gianni_Pittella,University_of_Naples_Federico_II,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+161,Sarah_Liao,University_of_Birmingham,[]
+164,David_Petraeus,Woodrow_Wilson_School_of_Public_and_International_Affairs,[]
+166,G._S._Paramashivaiah,University_Visvesvaraya_College_of_Engineering,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+168,Hassan_Wirajuda,Harvard_University,[]
+169,Alfred_Tarski,University_of_Warsaw,[]
+171,Danny_Dark,Drury_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+174,Ann_Walsh_Bradley,Webster_University,[]
+175,James_E._Gritzner,University_of_Northern_Iowa,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+181,Henry_Shoemaker_Conard,University_of_Pennsylvania,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+182,Yoshihiro_Murai,National_Defense_Academy_of_Japan,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+183,Patch_Adams,George_Washington_University,[]
+184,Pan_Halippa,University_of_Tartu,[]
+188,Simon_Thurley,University_of_Bath,[]
+193,Edita_Tahiri,University_of_Essex,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+194,Cenk_Uygur,University_of_Pennsylvania,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+195,William_Cox_(Nova_Scotia_lawyer),Acadia_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+198,Sara_Duterte,San_Pedro_College,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+199,Cherian_Philip,Mar_Ivanios_College,[]
+200,Sheldon_B._Vance,Carleton_College,[]
+203,Timo_Hannay,Imperial_College_London,[]
+206,William_Lukuvi,Open_University_of_Tanzania,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+207,William_Bennett,Williams_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+209,Nishita_Goswami,Handique_Girls_College,[]
+211,Greg_Aghazarian,University_of_the_Pacific_(United_States),"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3002,Herbert_Goldstein,Columbia_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3005,Robert_J._Gaffney,Dowling_College,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+3014,Lindy_Elkins-Tanton,Arizona_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n']"
+3017,Trajal_Harrell,City_College_of_San_Francisco,[]
+3029,William_Boyd_(pathologist),University_of_Manitoba,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3031,Howard_Townsend,Albany_Medical_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3041,Omar_Lizardo,University_of_Notre_Dame,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3052,Charles_Coulson,King's_College_London,[]
+3058,Johan_Galtung,Columbia_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3062,Mikio_Sato,Kyoto_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3064,Cecilia_Galante,Wilkes_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3068,James_A._Field,University_of_Chicago,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3078,James_Franck,University_of_Chicago,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3084,Randy_Woodson,North_Carolina_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3092,Michael_R._Licona,Houston_Baptist_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3104,A._Bartlett_Giamatti,Yale_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3105,Ayesha_Jalal,Harvard_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3108,Neil_Shubin,University_of_Chicago,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3110,Phillip_Griffiths,Harvard_University,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3119,Jess_H._Davis,Stevens_Institute_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3122,Juda_Bennett,The_College_of_New_Jersey,"['0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3124,Mark_Boslough,University_of_New_Mexico,[]
+3127,John_Burn_(geneticist),Royal_College_of_Physicians_of_Edinburgh,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3128,Irving_Schwartz,Dalhousie_University,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3162,George_Zinkhan,University_of_Pittsburgh,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3164,Vikram_Sarabhai,Physical_Research_Laboratory,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3166,Joan_Birman,Columbia_University,[]
+3168,Lawrence_B._Glickman,Cornell_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3175,Paul_Krugman,London_School_of_Economics,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n']"
+3178,Wallace_Lambert,McGill_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3190,Michael_Tinkham,Harvard_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3195,Koo_Tsai_Kee,Nanyang_Technological_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3205,Bjorn_Poonen,Massachusetts_Institute_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3207,Henry_Friesen,McGill_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3208,Abu_Ammaar_Yasir_Qadhi,Bachelor_of_Science,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+3211,Joseph_A._McCahery,Tilburg_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+3215,Francis_Simon,University_of_Oxford,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+3217,Wassily_Leontief,Harvard_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3223,Brigid_Hogan,Duke_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3224,Noureddine_Melikechi,Miami_University,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3233,Jeremiah_P._Ostriker,Columbia_University,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3242,E._O._E._Pereira,University_of_Ceylon,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3247,Arthur_Kornberg,Stanford_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3249,Glenn_W._Ferguson,Clark_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n']"
+3262,Sergey_Nikolsky,Moscow_Institute_of_Physics_and_Technology,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3266,Christopher_Zeeman,University_of_Cambridge,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3267,Daniel_Kahneman,University_of_Louisville,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3269,Paco_Lagerstrom,California_Institute_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3271,Robert_R._Wilson,Cornell_University,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3273,Seymour_Papert,Massachusetts_Institute_of_Technology,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+3278,Frederick_G._Donnan,University_College_London,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3284,Shamit_Kachru,Stanford_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3296,Gary_Botting,University_of_Washington,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+3300,Anwara_Ali,Doctor_of_Medicine,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3301,Mehrdad_Abedi,Amirkabir_University_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3309,Jeff_Thompson_(coach),Pennsylvania_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3321,Elmer_Ivan_Applegate,Honorary_degree,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3327,Keith_J._Laidler,University_of_Ottawa,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3331,Antony_Galione,University_College_London,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3332,Noga_Alon,Tel_Aviv_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3335,Karl_Weierstrass,Technical_University_of_Berlin,[]
+3341,Gordon_L._Kane,University_of_Michigan,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3345,Melvin_Konner,Emory_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3356,Wolfgang_Rindler,University_of_Texas_at_Dallas,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3362,Peter_Horrocks,Open_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3363,Sebastian_Shaw_(actor),Slade_School_of_Fine_Art,[]
+3364,R._Tyrrell_Rockafellar,University_of_Groningen,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3367,Robert_V._Kohn,Courant_Institute_of_Mathematical_Sciences,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3372,Timothy_Gowers,University_of_Cambridge,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3375,J._Michael_Brady,University_of_Oxford,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3376,Dave_Holmes_(researcher),Bachelor_of_Science,[]
+3384,William_Jasper_Kerr,Utah_State_University,[]
+3389,Jagdish_Bhagwati,Columbia_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+3390,Kimberly_Wright_Cassidy,Bryn_Mawr_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n']"
+3391,Asker_Jeukendrup,Free_University_of_Brussels,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3392,He_Jifeng,Shanghai_Jiao_Tong_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+3395,Raymond_Lemieux,Harvard_University,"['-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3397,George_Erik_Rupp,Columbia_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3398,Donald_C._Spencer,Princeton_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3407,George_Michael_(professor),Westfield_State_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3410,Joseph_Thornton_(biologist),University_of_Chicago,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3414,Donald_Michie,University_of_Edinburgh,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n']"
+3420,George_Dantzig,Stanford_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3424,Ted_Snyder_(economist),University_of_Michigan,[]
+3433,Denis_Pelli,New_York_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3436,Mary_Jo_Nye,University_of_Oklahoma,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3443,Robert_W._Boyd,University_of_Ottawa,[]
+3451,Na'im_Akbar,Morehouse_College,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3455,Bruno_Zumino,New_York_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
+3466,Sidney_Coleman,Harvard_University,"['-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3469,Mary_Logan_Reddick,Morehouse_College,[]
+3482,Richard_M._Durbin,University_of_Cambridge,[]
+3487,L._Michael_White,University_of_Texas_at_Austin,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3491,Geoffrey_G._Eichholz,Georgia_Institute_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3493,William_Baumol,New_York_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3495,James_M._Buchanan,Virginia_Tech,[]
+3501,Rick_Atkinson,Long_Island_University,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3510,Alfred_Sturtevant,California_Institute_of_Technology,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n', '0.36077762752233233  negalmaMater(A,B):-occupation(A,B).\n', '-0.1201802729321677  negalmaMater(A,B):-award(A,B).\n']"
+3518,Mitchel_B._Wallerstein,Baruch_College,[]
+3521,E._C._George_Sudarshan,Tata_Institute_of_Fundamental_Research,"['0.6597759921955553  negalmaMater(A,B):-knownFor(A,B).\n', '-0.4682200967189177  negalmaMater(A,B):-employer(A,B).\n']"
