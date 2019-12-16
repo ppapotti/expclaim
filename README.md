@@ -43,7 +43,7 @@ Inside each experiment directory, you will have a csv file containing the result
 ### Using Web Evidence
 
 To use web evidence, you will need to subscribe to the [Bing Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/).
-Once you do, you will get a key that is should be inserted in "config.properties".
+Once you do, you will get a key that should be inserted in "config.properties".
 
 
 ### Contacts
