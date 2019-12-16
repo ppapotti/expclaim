@@ -13,7 +13,11 @@ ExpClaim requires python 3 to run.
 
 ```sh
 $ git clone https://github.com/ppapotti/ExpClaim.git
-$ bash install.sh
+$ cd expclaim
+$ conda create -y -n expclaim python=3.6
+$ conda activate expclaim
+
+$(expclaim) bash install.sh
 ```
 
 
